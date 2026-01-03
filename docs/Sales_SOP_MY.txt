@@ -1,0 +1,13 @@
+Sales SOP (Sample) — Malaysia Retail Chain
+Version: 1.0
+
+Daily Close:
+1) Close sales at 10:00 PM.
+2) Export sales transactions (CSV) for each branch.
+3) Verify Total Sales by State/Branch/Product/Channel.
+4) Submit KPI summary to management the next morning.
+
+Management KPI Examples:
+- “Sales bulan ni berapa?”
+- “Banding sales bulan ni vs bulan lepas”
+- “Top 3 product bulan 2024-06”

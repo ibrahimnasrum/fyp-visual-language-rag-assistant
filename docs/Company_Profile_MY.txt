@@ -1,0 +1,9 @@
+Company Profile (Sample) — MY Retail Chain
+------------------------------------------
+This sample company operates 12 branches across Malaysia (Selangor, Kuala Lumpur, Penang, Johor, Sabah, Sarawak).
+Operational data is exported daily as CSV files (offline demo).
+
+Key Cities:
+- Shah Alam, Bukit Bintang (KL), George Town, Johor Bahru, Kota Kinabalu, Kuching.
+
+This document is synthetic and created for an academic FYP prototype.

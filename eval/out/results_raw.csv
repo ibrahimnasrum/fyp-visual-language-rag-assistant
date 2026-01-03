@@ -1,0 +1,1038 @@
+run_id,qid,category,model,repeat_i,start_ms,latency_ms,route_fn,question,image_path,answer,error
+run_1766661268056,S01,sales_kpi,llama3:latest,1,1766661268056,4,rag_query_ui,sales bulan 2024-06 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S01,sales_kpi,mistral:latest,1,1766661268060,3,rag_query_ui,sales bulan 2024-06 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S01,sales_kpi,qwen2.5:7b,1,1766661268063,3,rag_query_ui,sales bulan 2024-06 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S02,sales_kpi,llama3:latest,1,1766661268067,9,rag_query_ui,banding sales bulan 2024-06 vs 2024-05,,"✅ **Source: structured KPI**
+📊 **Total Sales (RM) (MoM)**
+- 2024-06: **99,852.83**
+- 2024-05: **106,995.11**
+- Change: **-7,142.28** (-6.68%)
+- Rows used (current month): 4,981
+- Dataset months available: 2024-01 → 2024-06
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S02,sales_kpi,mistral:latest,1,1766661268077,8,rag_query_ui,banding sales bulan 2024-06 vs 2024-05,,"✅ **Source: structured KPI**
+📊 **Total Sales (RM) (MoM)**
+- 2024-06: **99,852.83**
+- 2024-05: **106,995.11**
+- Change: **-7,142.28** (-6.68%)
+- Rows used (current month): 4,981
+- Dataset months available: 2024-01 → 2024-06
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S02,sales_kpi,qwen2.5:7b,1,1766661268085,8,rag_query_ui,banding sales bulan 2024-06 vs 2024-05,,"✅ **Source: structured KPI**
+📊 **Total Sales (RM) (MoM)**
+- 2024-06: **99,852.83**
+- 2024-05: **106,995.11**
+- Change: **-7,142.28** (-6.68%)
+- Rows used (current month): 4,981
+- Dataset months available: 2024-01 → 2024-06
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S03,sales_kpi,llama3:latest,1,1766661268095,8,rag_query_ui,top 3 product bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 3 Product by Total Sales (RM)**
+- Month: **2024-06**
+
+| Product        | Total Sales (RM)   |
+|:---------------|:-------------------|
+| Cheese Burger  | RM 20,250.99       |
+| Beef Burger    | RM 19,705.96       |
+| Chicken Burger | RM 18,916.92       |
+
+Rows used: 4,981",
+run_1766661268056,S03,sales_kpi,mistral:latest,1,1766661268103,6,rag_query_ui,top 3 product bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 3 Product by Total Sales (RM)**
+- Month: **2024-06**
+
+| Product        | Total Sales (RM)   |
+|:---------------|:-------------------|
+| Cheese Burger  | RM 20,250.99       |
+| Beef Burger    | RM 19,705.96       |
+| Chicken Burger | RM 18,916.92       |
+
+Rows used: 4,981",
+run_1766661268056,S03,sales_kpi,qwen2.5:7b,1,1766661268109,6,rag_query_ui,top 3 product bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 3 Product by Total Sales (RM)**
+- Month: **2024-06**
+
+| Product        | Total Sales (RM)   |
+|:---------------|:-------------------|
+| Cheese Burger  | RM 20,250.99       |
+| Beef Burger    | RM 19,705.96       |
+| Chicken Burger | RM 18,916.92       |
+
+Rows used: 4,981",
+run_1766661268056,S04,sales_kpi,llama3:latest,1,1766661268115,6,rag_query_ui,top 5 branch by sales bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 5 Branch by Total Sales (RM)**
+- Month: **2024-06**
+
+| Branch                 | Total Sales (RM)   |
+|:-----------------------|:-------------------|
+| Johor Bahru Branch 2   | RM 9,834.18        |
+| Kota Kinabalu Branch 2 | RM 9,618.72        |
+| George Town Branch 2   | RM 9,225.09        |
+| Bukit Bintang Branch 2 | RM 9,159.57        |
+| Shah Alam Branch 2     | RM 8,506.74        |
+
+Rows used: 4,981",
+run_1766661268056,S04,sales_kpi,mistral:latest,1,1766661268123,5,rag_query_ui,top 5 branch by sales bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 5 Branch by Total Sales (RM)**
+- Month: **2024-06**
+
+| Branch                 | Total Sales (RM)   |
+|:-----------------------|:-------------------|
+| Johor Bahru Branch 2   | RM 9,834.18        |
+| Kota Kinabalu Branch 2 | RM 9,618.72        |
+| George Town Branch 2   | RM 9,225.09        |
+| Bukit Bintang Branch 2 | RM 9,159.57        |
+| Shah Alam Branch 2     | RM 8,506.74        |
+
+Rows used: 4,981",
+run_1766661268056,S04,sales_kpi,qwen2.5:7b,1,1766661268128,4,rag_query_ui,top 5 branch by sales bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 5 Branch by Total Sales (RM)**
+- Month: **2024-06**
+
+| Branch                 | Total Sales (RM)   |
+|:-----------------------|:-------------------|
+| Johor Bahru Branch 2   | RM 9,834.18        |
+| Kota Kinabalu Branch 2 | RM 9,618.72        |
+| George Town Branch 2   | RM 9,225.09        |
+| Bukit Bintang Branch 2 | RM 9,159.57        |
+| Shah Alam Branch 2     | RM 8,506.74        |
+
+Rows used: 4,981",
+run_1766661268056,S05,sales_kpi,llama3:latest,1,1766661268130,3,rag_query_ui,sales ikut state bulan 2024-06,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S05,sales_kpi,mistral:latest,1,1766661268135,2,rag_query_ui,sales ikut state bulan 2024-06,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S05,sales_kpi,qwen2.5:7b,1,1766661268135,2,rag_query_ui,sales ikut state bulan 2024-06,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S06,sales_kpi,llama3:latest,1,1766661268135,2,rag_query_ui,sales ikut channel bulan 2024-06,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S06,sales_kpi,mistral:latest,1,1766661268143,2,rag_query_ui,sales ikut channel bulan 2024-06,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S06,sales_kpi,qwen2.5:7b,1,1766661268143,2,rag_query_ui,sales ikut channel bulan 2024-06,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S07,sales_kpi,llama3:latest,1,1766661268143,2,rag_query_ui,quantity terjual bulan 2024-06 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Quantity**
+- Month: **2024-06**
+- Value: **9932**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S07,sales_kpi,mistral:latest,1,1766661268143,2,rag_query_ui,quantity terjual bulan 2024-06 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Quantity**
+- Month: **2024-06**
+- Value: **9932**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S07,sales_kpi,qwen2.5:7b,1,1766661268143,2,rag_query_ui,quantity terjual bulan 2024-06 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Quantity**
+- Month: **2024-06**
+- Value: **9932**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S08,sales_kpi,llama3:latest,1,1766661268158,5,rag_query_ui,top 3 state by quantity bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 3 State by Total Quantity**
+- Month: **2024-06**
+
+| State        |   Total Quantity |
+|:-------------|-----------------:|
+| Sabah        |             1762 |
+| Kuala Lumpur |             1715 |
+| Penang       |             1695 |
+
+Rows used: 4,981",
+run_1766661268056,S08,sales_kpi,mistral:latest,1,1766661268163,4,rag_query_ui,top 3 state by quantity bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 3 State by Total Quantity**
+- Month: **2024-06**
+
+| State        |   Total Quantity |
+|:-------------|-----------------:|
+| Sabah        |             1762 |
+| Kuala Lumpur |             1715 |
+| Penang       |             1695 |
+
+Rows used: 4,981",
+run_1766661268056,S08,sales_kpi,qwen2.5:7b,1,1766661268165,4,rag_query_ui,top 3 state by quantity bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 3 State by Total Quantity**
+- Month: **2024-06**
+
+| State        |   Total Quantity |
+|:-------------|-----------------:|
+| Sabah        |             1762 |
+| Kuala Lumpur |             1715 |
+| Penang       |             1695 |
+
+Rows used: 4,981",
+run_1766661268056,S09,sales_kpi,llama3:latest,1,1766661268171,2,rag_query_ui,sales bulan 2024-01 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-01**
+- Value: **RM 100,167.83**
+- Rows used: 5,004
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S09,sales_kpi,mistral:latest,1,1766661268174,2,rag_query_ui,sales bulan 2024-01 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-01**
+- Value: **RM 100,167.83**
+- Rows used: 5,004
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S09,sales_kpi,qwen2.5:7b,1,1766661268174,2,rag_query_ui,sales bulan 2024-01 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-01**
+- Value: **RM 100,167.83**
+- Rows used: 5,004
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S10,sales_kpi,llama3:latest,1,1766661268174,5,rag_query_ui,banding quantity bulan 2024-04 vs 2024-03,,"✅ **Source: structured KPI**
+📊 **Total Quantity (MoM)**
+- 2024-04: **9,651**
+- 2024-03: **9,564**
+- Change: **87** (+0.91%)
+- Rows used (current month): 4,813
+- Dataset months available: 2024-01 → 2024-06
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S10,sales_kpi,mistral:latest,1,1766661268174,6,rag_query_ui,banding quantity bulan 2024-04 vs 2024-03,,"✅ **Source: structured KPI**
+📊 **Total Quantity (MoM)**
+- 2024-04: **9,651**
+- 2024-03: **9,564**
+- Change: **87** (+0.91%)
+- Rows used (current month): 4,813
+- Dataset months available: 2024-01 → 2024-06
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S10,sales_kpi,qwen2.5:7b,1,1766661268190,5,rag_query_ui,banding quantity bulan 2024-04 vs 2024-03,,"✅ **Source: structured KPI**
+📊 **Total Quantity (MoM)**
+- 2024-04: **9,651**
+- 2024-03: **9,564**
+- Change: **87** (+0.91%)
+- Rows used (current month): 4,813
+- Dataset months available: 2024-01 → 2024-06
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S11,sales_kpi,llama3:latest,1,1766661268190,3,rag_query_ui,sales state Selangor bulan 2024-06 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 16,421.18**
+- Rows used: 805
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S11,sales_kpi,mistral:latest,1,1766661268190,3,rag_query_ui,sales state Selangor bulan 2024-06 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 16,421.18**
+- Rows used: 805
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S11,sales_kpi,qwen2.5:7b,1,1766661268206,3,rag_query_ui,sales state Selangor bulan 2024-06 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 16,421.18**
+- Rows used: 805
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S12,sales_kpi,llama3:latest,1,1766661268207,4,rag_query_ui,top 3 product di Selangor bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 3 Product by Total Sales (RM)**
+- Month: **2024-06**
+
+| Product        | Total Sales (RM)   |
+|:---------------|:-------------------|
+| Cheese Burger  | RM 3,447.90        |
+| Beef Burger    | RM 3,203.03        |
+| Chicken Burger | RM 2,711.36        |
+
+Rows used: 805",
+run_1766661268056,S12,sales_kpi,mistral:latest,1,1766661268212,4,rag_query_ui,top 3 product di Selangor bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 3 Product by Total Sales (RM)**
+- Month: **2024-06**
+
+| Product        | Total Sales (RM)   |
+|:---------------|:-------------------|
+| Cheese Burger  | RM 3,447.90        |
+| Beef Burger    | RM 3,203.03        |
+| Chicken Burger | RM 2,711.36        |
+
+Rows used: 805",
+run_1766661268056,S12,sales_kpi,qwen2.5:7b,1,1766661268219,4,rag_query_ui,top 3 product di Selangor bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 3 Product by Total Sales (RM)**
+- Month: **2024-06**
+
+| Product        | Total Sales (RM)   |
+|:---------------|:-------------------|
+| Cheese Burger  | RM 3,447.90        |
+| Beef Burger    | RM 3,203.03        |
+| Chicken Burger | RM 2,711.36        |
+
+Rows used: 805",
+run_1766661268056,S13,sales_kpi,llama3:latest,1,1766661268223,3,rag_query_ui,sales channel Delivery bulan 2024-05 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-05**
+- Value: **RM 16,252.78**
+- Rows used: 797
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S13,sales_kpi,mistral:latest,1,1766661268227,3,rag_query_ui,sales channel Delivery bulan 2024-05 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-05**
+- Value: **RM 16,252.78**
+- Rows used: 797
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S13,sales_kpi,qwen2.5:7b,1,1766661268227,3,rag_query_ui,sales channel Delivery bulan 2024-05 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-05**
+- Value: **RM 16,252.78**
+- Rows used: 797
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S14,sales_kpi,llama3:latest,1,1766661268235,3,rag_query_ui,sales product Classic Beef Burger bulan 2024-06 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 19,705.96**
+- Rows used: 790
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S14,sales_kpi,mistral:latest,1,1766661268237,3,rag_query_ui,sales product Classic Beef Burger bulan 2024-06 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 19,705.96**
+- Rows used: 790
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S14,sales_kpi,qwen2.5:7b,1,1766661268238,2,rag_query_ui,sales product Classic Beef Burger bulan 2024-06 berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 19,705.96**
+- Rows used: 790
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,S15,sales_kpi,llama3:latest,1,1766661268238,4,rag_query_ui,top 3 employee by sales bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 3 Employee by Total Sales (RM)**
+- Month: **2024-06**
+
+| Employee    | Total Sales (RM)   |
+|:------------|:-------------------|
+| SalesRep_04 | RM 9,113.04        |
+| SalesRep_09 | RM 8,729.20        |
+| SalesRep_08 | RM 8,603.68        |
+
+Rows used: 4,981",
+run_1766661268056,S15,sales_kpi,mistral:latest,1,1766661268246,4,rag_query_ui,top 3 employee by sales bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 3 Employee by Total Sales (RM)**
+- Month: **2024-06**
+
+| Employee    | Total Sales (RM)   |
+|:------------|:-------------------|
+| SalesRep_04 | RM 9,113.04        |
+| SalesRep_09 | RM 8,729.20        |
+| SalesRep_08 | RM 8,603.68        |
+
+Rows used: 4,981",
+run_1766661268056,S15,sales_kpi,qwen2.5:7b,1,1766661268253,4,rag_query_ui,top 3 employee by sales bulan 2024-06,,"✅ **Source: structured KPI**
+🏆 **Top 3 Employee by Total Sales (RM)**
+- Month: **2024-06**
+
+| Employee    | Total Sales (RM)   |
+|:------------|:-------------------|
+| SalesRep_04 | RM 9,113.04        |
+| SalesRep_09 | RM 8,729.20        |
+| SalesRep_08 | RM 8,603.68        |
+
+Rows used: 4,981",
+run_1766661268056,H01,hr_kpi,llama3:latest,1,1766661268255,20352,rag_query_ui,total employees berapa?,,"📄 **Source: RAG + LLM**
+Based on the provided data:
+
+• Total employees: 14",
+run_1766661268056,H01,hr_kpi,mistral:latest,1,1766661288610,46734,rag_query_ui,total employees berapa?,,"📄 **Source: RAG + LLM**
+Total employees = 13 (provided data only includes Kota Kinabalu Branch 2 and Branch 1)
+
+- EMP00622 (Kitchen Crew, Age 53)
+- EMP00766 (Cashier, Age 37)
+- EMP00274 (Kitchen Crew, Age 32)
+- EMP00706 (Kitchen Crew, Age 39)
+- EMP00542 (Kitchen Crew, Age 26)
+- EMP00600 (Kitchen Crew, Age 46)
+- EMP00021 (Assistant Manager, Age 53 - Branch 1)
+- EMP00495 (Kitchen Crew, Age 51)
+- EMP00744 (Kitchen Crew, Age 54)
+- EMP00052 (HR Executive, Age 45 - Department HR)
+- EMP00792 (Kitchen Crew, Age 21)
+- EMP00740 (Kitchen Crew, Age 36)",
+run_1766661268056,H01,hr_kpi,qwen2.5:7b,1,1766661335344,18728,rag_query_ui,total employees berapa?,,"📄 **Source: RAG + LLM**
+- not available in the provided data",
+run_1766661268056,H02,hr_kpi,llama3:latest,1,1766661354072,3,rag_query_ui,how many employees work in the Sales department?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,H02,hr_kpi,mistral:latest,1,1766661354077,2,rag_query_ui,how many employees work in the Sales department?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,H02,hr_kpi,qwen2.5:7b,1,1766661354078,2,rag_query_ui,how many employees work in the Sales department?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,H03,hr_kpi,llama3:latest,1,1766661354078,2,rag_query_ui,headcount ikut state,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,H03,hr_kpi,mistral:latest,1,1766661354082,2,rag_query_ui,headcount ikut state,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,H03,hr_kpi,qwen2.5:7b,1,1766661354086,1,rag_query_ui,headcount ikut state,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,H04,hr_kpi,llama3:latest,1,1766661354088,4,rag_query_ui,which age group has highest attrition?,,"✅ **Source: structured HR**
+📌 Highest attrition by AgeGroup: **26-35** (count=43)",
+run_1766661268056,H04,hr_kpi,mistral:latest,1,1766661354093,1,rag_query_ui,which age group has highest attrition?,,"✅ **Source: structured HR**
+📌 Highest attrition by AgeGroup: **26-35** (count=43)",
+run_1766661268056,H04,hr_kpi,qwen2.5:7b,1,1766661354094,1,rag_query_ui,which age group has highest attrition?,,"✅ **Source: structured HR**
+📌 Highest attrition by AgeGroup: **26-35** (count=43)",
+run_1766661268056,H05,hr_kpi,llama3:latest,1,1766661354096,2,rag_query_ui,which state has highest attrition?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,H05,hr_kpi,mistral:latest,1,1766661354097,2,rag_query_ui,which state has highest attrition?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,H05,hr_kpi,qwen2.5:7b,1,1766661354101,2,rag_query_ui,which state has highest attrition?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,H06,hr_kpi,llama3:latest,1,1766661354102,1,rag_query_ui,which department has highest attrition?,,"✅ **Source: structured HR**
+📌 Highest attrition by Department: **Operations** (count=73)",
+run_1766661268056,H06,hr_kpi,mistral:latest,1,1766661354104,1,rag_query_ui,which department has highest attrition?,,"✅ **Source: structured HR**
+📌 Highest attrition by Department: **Operations** (count=73)",
+run_1766661268056,H06,hr_kpi,qwen2.5:7b,1,1766661354105,1,rag_query_ui,which department has highest attrition?,,"✅ **Source: structured HR**
+📌 Highest attrition by Department: **Operations** (count=73)",
+run_1766661268056,H07,hr_kpi,llama3:latest,1,1766661354107,2,rag_query_ui,average salary for Sales department,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,H07,hr_kpi,mistral:latest,1,1766661354109,2,rag_query_ui,average salary for Sales department,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,H07,hr_kpi,qwen2.5:7b,1,1766661354111,2,rag_query_ui,average salary for Sales department,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,H08,hr_kpi,llama3:latest,1,1766661354114,0,rag_query_ui,purata gaji semua pekerja berapa?,,"✅ **Source: structured HR**
+💰 Avg MonthlyIncome (all): **RM 3,016.82**",
+run_1766661268056,H08,hr_kpi,mistral:latest,1,1766661354114,0,rag_query_ui,purata gaji semua pekerja berapa?,,"✅ **Source: structured HR**
+💰 Avg MonthlyIncome (all): **RM 3,016.82**",
+run_1766661268056,H08,hr_kpi,qwen2.5:7b,1,1766661354115,0,rag_query_ui,purata gaji semua pekerja berapa?,,"✅ **Source: structured HR**
+💰 Avg MonthlyIncome (all): **RM 3,016.82**",
+run_1766661268056,H09,hr_kpi,llama3:latest,1,1766661354115,0,rag_query_ui,how many employees in Kuala Lumpur?,,"✅ **Source: structured HR**
+👥 Headcount State **Kuala Lumpur**: **126**",
+run_1766661268056,H09,hr_kpi,mistral:latest,1,1766661354117,0,rag_query_ui,how many employees in Kuala Lumpur?,,"✅ **Source: structured HR**
+👥 Headcount State **Kuala Lumpur**: **126**",
+run_1766661268056,H09,hr_kpi,qwen2.5:7b,1,1766661354117,0,rag_query_ui,how many employees in Kuala Lumpur?,,"✅ **Source: structured HR**
+👥 Headcount State **Kuala Lumpur**: **126**",
+run_1766661268056,H10,hr_kpi,llama3:latest,1,1766661354118,0,rag_query_ui,headcount department Operations,,"✅ **Source: structured HR**
+👥 Headcount Department **Operations**: **509**",
+run_1766661268056,H10,hr_kpi,mistral:latest,1,1766661354119,0,rag_query_ui,headcount department Operations,,"✅ **Source: structured HR**
+👥 Headcount Department **Operations**: **509**",
+run_1766661268056,H10,hr_kpi,qwen2.5:7b,1,1766661354119,0,rag_query_ui,headcount department Operations,,"✅ **Source: structured HR**
+👥 Headcount Department **Operations**: **509**",
+run_1766661268056,D01,rag_docs,llama3:latest,1,1766661354119,43565,rag_query_ui,Ringkaskan polisi cuti tahunan berdasarkan dokumen syarikat.,,"📄 **Source: RAG + LLM**
+Based on the provided data, here are the policies for annual leave:
+
+• **Eligibility**: All employees with more than 1 year of service are eligible for annual leave. This is based on the data where EMP00355 has 1 year of service and is eligible for annual leave.
+• **Leave duration**: The duration of annual leave varies among employees, ranging from 9 days (EMP00606) to 15 years (EMP00476). There is no specific policy mentioned in the provided data regarding the minimum or maximum number of days for annual leave.
+• **Over-time work and annual leave**: Some employees have over-time work (e.g., EMP00787, EMP00552), but it does not seem to affect their eligibility for annual leave. However, this information is not explicitly stated in the provided data.
+• **Attrition**: There is no mention of attrition affecting annual leave in the provided data.
+
+Note: The provided data does not contain specific policies or rules regarding annual leave, so these points are based on observations and inferences from the available data.",
+run_1766661268056,D01,rag_docs,mistral:latest,1,1766661397686,55131,rag_query_ui,Ringkaskan polisi cuti tahunan berdasarkan dokumen syarikat.,,"📄 **Source: RAG + LLM**
+Based on the provided data, here's a summary of annual leave policies for each department in Kota Kinabalu Branch 1 and Branch 2:
+
+1. HR Department (Kota Kinabalu Branch 1 & 2)
+   - HR Executive: Not available (only ages are given, no specific leave policy).
+
+2. Sales Department (Kota Kinabalu Branch 1)
+   - Sales Executive (Age Group: 26-35): 34, 36, 37, 51 years old; No overtime work.
+   - Sales Executive (Age Group: 46-60): Not available (only one employee in this age group).
+
+3. Sales Department (Kota Kinabalu Branch 2)
+   - Sales Executive: 37, 48, 49 years old; No overtime work.
+   - Sales Executive (Age Group: 26-35): 28, 34 years old; No overtime work.
+
+4. Finance Department (Kota Kinabalu Branch 1)
+   - Finance Executive: 26 years old; No overtime work.
+
+5. Operations Department (Kota Kinabalu Branch 2)
+   - Branch Manager: 47 years old; No overtime work.
+
+6. HR Department (Kota Kinabalu Branch 2)
+   - HR Executive: 31, 45 years old; One with overtime work.",
+run_1766661268056,D01,rag_docs,qwen2.5:7b,1,1766661452816,19504,rag_query_ui,Ringkaskan polisi cuti tahunan berdasarkan dokumen syarikat.,,"📄 **Source: RAG + LLM**
+- Not available in the provided data.",
+run_1766661268056,D02,rag_docs,llama3:latest,1,1766661472322,27230,rag_query_ui,Apakah polisi refund pelanggan?,,"📄 **Source: RAG + LLM**
+Based on the provided data, here is the answer:
+
+• There are no records of refunds or returns in the sales data. Therefore, it can be concluded that there is no policy for refunding customers.
+
+Note: The data only contains sales transactions and does not include any information about returns or refunds.",
+run_1766661268056,D02,rag_docs,mistral:latest,1,1766661499554,30553,rag_query_ui,Apakah polisi refund pelanggan?,,"📄 **Source: RAG + LLM**
+Apakah polisi refund pelanggan?
+
+- Tidak ada data yang menunjukkan polisi refund pelanggan dalam data yang diberikan.
+- Jika pelanggan mempunyai masalah atau pertanyaan mengenai pembatalan transaksi, mereka dapat menghubungi kasir atau tim layanan pelanggan yang tersedia.",
+run_1766661268056,D02,rag_docs,qwen2.5:7b,1,1766661530108,19357,rag_query_ui,Apakah polisi refund pelanggan?,,"📄 **Source: RAG + LLM**
+- Not available in the provided data.",
+run_1766661268056,D03,rag_docs,llama3:latest,1,1766661549465,24052,rag_query_ui,SOP: langkah-langkah tutup kedai (closing procedure) apa?,,"📄 **Source: RAG + LLM**
+Based on the provided DATA, here are the steps for closing procedure:
+
+• Close sales at 10:00 PM.
+• Export sales transactions (CSV) for each branch.
+
+These steps are outlined in the [DOC:Sales_SOP_MY.txt] Daily Close section.",
+run_1766661268056,D03,rag_docs,mistral:latest,1,1766661573518,25122,rag_query_ui,SOP: langkah-langkah tutup kedai (closing procedure) apa?,,"📄 **Source: RAG + LLM**
+SOP for closing the store (closing procedure):
+- Close sales at 10:00 PM.
+- Export sales transactions (CSV) for each branch.
+- Verify Total Sales by State/Branch/Product/Channel.
+- Submit KPI summary to management the next morning.",
+run_1766661268056,D03,rag_docs,qwen2.5:7b,1,1766661598640,22272,rag_query_ui,SOP: langkah-langkah tutup kedai (closing procedure) apa?,,"📄 **Source: RAG + LLM**
+- Close sales at 10:00 PM.
+- Export sales transactions (CSV) for each branch.
+- Verify Total Sales by State/Branch/Product/Channel.
+- Submit KPI summary to management the next morning.",
+run_1766661268056,D04,rag_docs,llama3:latest,1,1766661620913,29972,rag_query_ui,Apakah waktu operasi dan cut-off time untuk delivery?,,"📄 **Source: RAG + LLM**
+Based on the provided data, here is the answer:
+
+• Waktu operasi: Not available in the provided data
+• Cut-off time for delivery: Not available in the provided data
+
+Note that there is no information about operating hours or cut-off times for delivery in the provided data. The data only contains sales transactions and an incident report related to a platform outage, but does not provide details on operational timings.",
+run_1766661268056,D04,rag_docs,mistral:latest,1,1766661650886,29727,rag_query_ui,Apakah waktu operasi dan cut-off time untuk delivery?,,"📄 **Source: RAG + LLM**
+Based on the provided data, the operation times for the Delivery channel are not explicitly stated. However, since the sales transactions are recorded with specific dates, it can be inferred that the delivery operations might occur during business hours on those dates.
+
+As for cut-off time, it is also not available in the provided data. The last transaction for each day is recorded, but the exact cut-off time before which orders cannot be placed is not specified.",
+run_1766661268056,D04,rag_docs,qwen2.5:7b,1,1766661680613,18870,rag_query_ui,Apakah waktu operasi dan cut-off time untuk delivery?,,"📄 **Source: RAG + LLM**
+- Not available in the provided data.",
+run_1766661268056,D05,rag_docs,llama3:latest,1,1766661699484,20513,rag_query_ui,What is the escalation process for customer complaints?,,"📄 **Source: RAG + LLM**
+Based on the provided data, I did not find any information about the escalation process for customer complaints. Therefore, my answer is:
+
+* Not available in the provided data.",
+run_1766661268056,D05,rag_docs,mistral:latest,1,1766661719997,23858,rag_query_ui,What is the escalation process for customer complaints?,,"📄 **Source: RAG + LLM**
+Based on the provided data, there is no information about the escalation process for customer complaints. The data only includes operational incident reports, sales records, and management KPIs examples, but not the company's complaint handling procedures. Therefore, it is not available in the provided data.",
+run_1766661268056,D05,rag_docs,qwen2.5:7b,1,1766661743856,17240,rag_query_ui,What is the escalation process for customer complaints?,,"📄 **Source: RAG + LLM**
+- Not available in the provided data.",
+run_1766661268056,D06,rag_docs,llama3:latest,1,1766661761097,38,rag_query_ui,"Berdasarkan dokumen, senaraikan 3 KPI utama untuk branch manager.",,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,D06,rag_docs,mistral:latest,1,1766661761136,2,rag_query_ui,"Berdasarkan dokumen, senaraikan 3 KPI utama untuk branch manager.",,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,D06,rag_docs,qwen2.5:7b,1,1766661761138,2,rag_query_ui,"Berdasarkan dokumen, senaraikan 3 KPI utama untuk branch manager.",,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,D07,rag_docs,llama3:latest,1,1766661761141,47106,rag_query_ui,Apa guideline untuk diskaun/promosi?,,"📄 **Source: RAG + LLM**
+Based on the provided data, here are some guidelines for discounts/promotions:
+
+• **Top-selling products**: Fries is the top-selling product, with multiple sales recorded throughout 2024. Consider offering promotions or discounts on this item to drive sales.
+• **Price points**: The average price point of Fries is around RM5-6 (based on UnitPrice values). Discounts could be offered at these price points to incentivize customers.
+• **Sales patterns**: There are no clear patterns in the data that suggest specific days or times when promotions would be most effective. However, considering the sales dates and quantities sold, it may be worth offering promotions during peak sales periods (e.g., weekends).
+• **Employee performance**: SalesRep_11 and SalesRep_12 have both contributed to Fries sales. Consider recognizing their efforts with incentives or rewards.
+• **Not available in the provided data**: There is no information on customer demographics, purchase frequency, or loyalty program participation that could inform targeted promotions.
+
+These guidelines are based solely on the provided data and may not be comprehensive or definitive.",
+run_1766661268056,D07,rag_docs,mistral:latest,1,1766661808248,36946,rag_query_ui,Apa guideline untuk diskaun/promosi?,,"📄 **Source: RAG + LLM**
+Based on the provided data, there is no clear guideline for discounts or promotions as the sales records do not include any information about discounts or promotional offers. However, it can be observed that:
+
+- Discounted unit price is possible as there are instances where the unit price of Fries varies (5.02 and 5.9).
+- No specific employee seems to be associated with a particular promotion or discount.
+- Promotions might not be branch-specific, as both Shah Alam Branch 1 and 2 have recorded sales for the same product (Fries).
+- The data does not provide information about the frequency or duration of any potential promotional events.
+
+To get a comprehensive understanding of the discount/promotion guidelines, more detailed data is required.",
+run_1766661268056,D07,rag_docs,qwen2.5:7b,1,1766661845195,18870,rag_query_ui,Apa guideline untuk diskaun/promosi?,,"📄 **Source: RAG + LLM**
+- Not available in the provided data.",
+run_1766661268056,D08,rag_docs,llama3:latest,1,1766661864056,22538,rag_query_ui,Explain the employee overtime policy.,,"📄 **Source: RAG + LLM**
+Based on the provided data, here is an explanation of the employee overtime policy:
+
+• Overtime requires supervisor approval.
+• OT allowance is paid according to company guidelines.
+
+Note: These rules are explicitly stated in the [DOC:HR_Policy_MY.txt] document.",
+run_1766661268056,D08,rag_docs,mistral:latest,1,1766661886605,30922,rag_query_ui,Explain the employee overtime policy.,,"📄 **Source: RAG + LLM**
+Based on the provided data from the HR Policy document for the Malaysia Retail Chain, the following rules apply to employee overtime:
+
+1. Overtime is allowed for some employees, but approval must be obtained from their supervisors.
+2. The overtime allowance is paid according to company guidelines, which are not specified in the provided data.
+3. As of the given data, only one employee (EMP00619) is recorded as having overtime, working at the Shah Alam Branch 2. However, the specifics of their overtime arrangement are not available in the provided data.",
+run_1766661268056,D08,rag_docs,qwen2.5:7b,1,1766661917527,18530,rag_query_ui,Explain the employee overtime policy.,,"📄 **Source: RAG + LLM**
+- Overtime requires supervisor approval.
+- OT allowance is paid according to company guidelines.",
+run_1766661268056,D09,rag_docs,llama3:latest,1,1766661936058,39550,rag_query_ui,"Berdasarkan dokumen, bagaimana proses onboarding staff baru?",,"📄 **Source: RAG + LLM**
+Based on the provided data, here is how the onboarding process for new staff appears to work:
+
+• **No specific information**: There is no explicit mention of an onboarding process or any steps involved in the provided data.
+• **Assumed standardization**: Given that all employees have similar job roles (Kitchen Crew) and departments (Operations), it can be assumed that the onboarding process might involve standardized procedures for new staff, regardless of branch or age group.
+• **No mention of training or orientation**: There is no indication of any specific training or orientation programs for new staff in the provided data.
+
+Please note that these observations are based solely on the available data and may not reflect the actual onboarding process used by the company.",
+run_1766661268056,D09,rag_docs,mistral:latest,1,1766661975609,42469,rag_query_ui,"Berdasarkan dokumen, bagaimana proses onboarding staff baru?",,"📄 **Source: RAG + LLM**
+Based on the provided data, the onboarding process for new staff is not explicitly stated. However, we can infer some steps from the employee records:
+
+1. Assign an Employee ID (EmpID) upon hiring.
+2. Record the state, branch, department, job role, age, age group, monthly income, overtime status, attrition status, and years at the company for each employee.
+3. New employees are either Kitchen Crew or Branch Manager in the Operations Department.
+4. The onboarding process may include orientation sessions, training programs, and paperwork completion (e.g., tax forms, employment contracts).
+5. Overtime status is determined during the hiring process or later based on job requirements.
+6. Employees are notified of their monthly income before starting work.
+7. The length of service (YearsAtCompany) starts from the employee's first day at the company.
+8. Attrition status is updated if an employee leaves the company.",
+run_1766661268056,D09,rag_docs,qwen2.5:7b,1,1766662018079,19732,rag_query_ui,"Berdasarkan dokumen, bagaimana proses onboarding staff baru?",,"📄 **Source: RAG + LLM**
+- Not available in the provided data.",
+run_1766661268056,D10,rag_docs,llama3:latest,1,1766662037811,29923,rag_query_ui,What is the data privacy policy for customer data?,,"📄 **Source: RAG + LLM**
+Based on the provided data, here is the information regarding the data privacy policy for customer data:
+
+• **Not available in the provided data**: There is no specific mention of a data privacy policy for customer data in the provided documents (HR Policy, Company Profile, Ops Incident Report, Sales SOP, and FAQ).
+
+However, it's worth noting that as a retail chain operating in Malaysia, there may be existing regulations and laws governing the handling of customer data, such as the Personal Data Protection Act 2010.",
+run_1766661268056,D10,rag_docs,mistral:latest,1,1766662067735,18009,rag_query_ui,What is the data privacy policy for customer data?,,"📄 **Source: RAG + LLM**
+Not available in the provided data. The HR policies and company profile do not contain information regarding the data privacy policy for customer data.",
+run_1766661268056,D10,rag_docs,qwen2.5:7b,1,1766662085744,15468,rag_query_ui,What is the data privacy policy for customer data?,,"📄 **Source: RAG + LLM**
+- Not available in the provided data.",
+run_1766661268056,D11,rag_docs,llama3:latest,1,1766662101211,55,rag_query_ui,Bagi ringkasan 'executive summary' untuk prestasi dan isu utama bulan 2024-06 menggunakan DATA yang ada.,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,D11,rag_docs,mistral:latest,1,1766662101266,3,rag_query_ui,Bagi ringkasan 'executive summary' untuk prestasi dan isu utama bulan 2024-06 menggunakan DATA yang ada.,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,D11,rag_docs,qwen2.5:7b,1,1766662101266,2,rag_query_ui,Bagi ringkasan 'executive summary' untuk prestasi dan isu utama bulan 2024-06 menggunakan DATA yang ada.,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,D12,rag_docs,llama3:latest,1,1766662101273,17,rag_query_ui,"Cadangkan 3 tindakan untuk kurangkan attrition, tapi hanya gunakan info dari dokumen.",,"✅ **Source: structured HR**
+📌 Highest attrition by Department: **Operations** (count=73)",
+run_1766661268056,D12,rag_docs,mistral:latest,1,1766662101291,1,rag_query_ui,"Cadangkan 3 tindakan untuk kurangkan attrition, tapi hanya gunakan info dari dokumen.",,"✅ **Source: structured HR**
+📌 Highest attrition by Department: **Operations** (count=73)",
+run_1766661268056,D12,rag_docs,qwen2.5:7b,1,1766662101294,2,rag_query_ui,"Cadangkan 3 tindakan untuk kurangkan attrition, tapi hanya gunakan info dari dokumen.",,"✅ **Source: structured HR**
+📌 Highest attrition by Department: **Operations** (count=73)",
+run_1766661268056,D13,rag_docs,llama3:latest,1,1766662101295,3,rag_query_ui,What branches should be monitored closely and why (based on available data)?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,D13,rag_docs,mistral:latest,1,1766662101298,2,rag_query_ui,What branches should be monitored closely and why (based on available data)?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,D13,rag_docs,qwen2.5:7b,1,1766662101298,2,rag_query_ui,What branches should be monitored closely and why (based on available data)?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,D14,rag_docs,llama3:latest,1,1766662101306,10,rag_query_ui,Give a short update for CEO: sales trend MoM and top-performing dimension.,,"✅ **Source: structured KPI**
+📊 **Total Sales (RM) (MoM)**
+- 2024-06: **99,852.83**
+- 2024-05: **106,995.11**
+- Change: **-7,142.28** (-6.68%)
+- Rows used (current month): 4,981
+- Dataset months available: 2024-01 → 2024-06
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,D14,rag_docs,mistral:latest,1,1766662101314,7,rag_query_ui,Give a short update for CEO: sales trend MoM and top-performing dimension.,,"✅ **Source: structured KPI**
+📊 **Total Sales (RM) (MoM)**
+- 2024-06: **99,852.83**
+- 2024-05: **106,995.11**
+- Change: **-7,142.28** (-6.68%)
+- Rows used (current month): 4,981
+- Dataset months available: 2024-01 → 2024-06
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,D14,rag_docs,qwen2.5:7b,1,1766662101321,7,rag_query_ui,Give a short update for CEO: sales trend MoM and top-performing dimension.,,"✅ **Source: structured KPI**
+📊 **Total Sales (RM) (MoM)**
+- 2024-06: **99,852.83**
+- 2024-05: **106,995.11**
+- Change: **-7,142.28** (-6.68%)
+- Rows used (current month): 4,981
+- Dataset months available: 2024-01 → 2024-06
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,D15,rag_docs,llama3:latest,1,1766662101329,18807,rag_query_ui,"If policy not found, say not available. What is the maternity leave policy?",,"📄 **Source: RAG + LLM**
+Not available in the provided data. The given HR policies do not mention maternity leave.",
+run_1766661268056,D15,rag_docs,mistral:latest,1,1766662120139,19342,rag_query_ui,"If policy not found, say not available. What is the maternity leave policy?",,"📄 **Source: RAG + LLM**
+Not available in the provided data. The HR Policy document does not contain information about Maternity Leave.",
+run_1766661268056,D15,rag_docs,qwen2.5:7b,1,1766662139482,18554,rag_query_ui,"If policy not found, say not available. What is the maternity leave policy?",,"📄 **Source: RAG + LLM**
+- Maternity Leave Policy: Not available in the provided data.",
+run_1766661268056,V01,visual,llama3:latest,1,1766662158037,49736,rag_query_ui,Summarize the table in this image (key metrics + highlights).,images\sales_state_kpi_2024-06.png,"📄 **Source: RAG + LLM**
+Based on the provided data, here is a summary of key metrics and highlights:
+
+**Key Metrics:**
+
+* Total Sales by State/Branch/Product/Channel: Not available in the provided data.
+* Top 3 Products by Month (2024-06): Cheese Burger
+* Sales by Month:
+	+ January: Not available in the provided data.
+	+ March: Not available in the provided data.
+	+ April: Not available in the provided data.
+	+ May: Not available in the provided data.
+
+**Highlights:**
+
+* The majority of sales are from the Kuala Lumpur region, with Bukit Bintang Branch 1 being a top-performing branch.
+* Cheese Burger is the top-selling product across all branches and months.
+* eWallet is the most popular payment method, used by customers at multiple branches.
+* SalesRep_12 and SalesRep_10 are among the top-performing employees, with multiple sales transactions recorded.
+
+Please note that these highlights are based on the limited data provided and may not be representative of the entire retail chain's performance.",
+run_1766661268056,V01,visual,mistral:latest,1,1766662207773,52370,rag_query_ui,Summarize the table in this image (key metrics + highlights).,images\sales_state_kpi_2024-06.png,"📄 **Source: RAG + LLM**
+Based on the provided data, here are the key metrics and highlights:
+
+1. Sales Metrics:
+   - Total Sales for Kuala Lumpur's Bukit Bintang Branch 1: 4 * Qty * UnitPrice = 175.6 (for Cheese Burger)
+   - Total Sales for Selangor's Shah Alam Branch 1: 2 * Qty * UnitPrice = 83.4 (for Cheese Burger)
+   - Top-selling product in June 2024 is not available in the provided data.
+   - Sales comparison between current month and previous month is not available as we only have sales data for one month.
+
+2. Employee Information:
+   - Employee EMP00510 works at Shah Alam Branch 1, Department of Operations, JobRole Kitchen Crew, Age 41, Age Group 36-45, Monthly Income 2115, OverTime No, Attrition No, YearsAtCompany 4.
+   - Employee SalesRep_12 works at Bukit Bintang Branch 1 and has made one sale of Cheese Burger.
+   - Employee SalesRep_10 has made two sales, one each at Bukit Bintang Branch 1 and Shah Alam Branch 1 (both for Cheese Burger).
+   - Information about other employees is not available in the provided data.",
+run_1766661268056,V01,visual,qwen2.5:7b,1,1766662260143,69426,rag_query_ui,Summarize the table in this image (key metrics + highlights).,images\sales_state_kpi_2024-06.png,"📄 **Source: RAG + LLM**
+- **Total Sales for Cheese Burger:**
+  - Not available in the provided data.
+
+- **Sales by Branch and Payment Method:**
+  - Bukit Bintang Branch 1:
+    - Dine-in, eWallet: 5 transactions, Total Sale = 209.0 (3 * 41.7 + 1 * 13.9)
+    - Dine-in, Cash: 1 transaction, Total Sale = 41.7
+  - Bukit Bintang Branch 2:
+    - Dine-in, Cash: 1 transaction, Total Sale = 41.7
+  - Shah Alam Branch 1:
+    - Dine-in, eWallet: 2 transactions, Total Sale = 83.4
+
+- **Sales by State and Payment Method:**
+  - Kuala Lumpur:
+    - Dine-in, eWallet: 6 transactions, Total Sale = 250.9
+    - Dine-in, Cash: 1 transaction, Total Sale = 41.7
+  - Selangor:
+    - Dine-in, eWallet: 2 transactions, Total Sale = 83.4
+    - Dine-in, Cash: Not available in the provided data
+
+- **Top 3 Product Sales (Cheese Burger):**
+  - Bukit Bintang Branch 1: 5 transactions
+  - Shah Alam Branch 1: 2 transactions
+  - Bukit Bintang Branch 2: 1 transaction
+
+- **Sales by Date:**
+  - Not available in the provided data for a comprehensive summary.
+
+- **Employee Sales Summary (Cheese Burger):**
+  - SalesRep_03: 1 transaction, Total Sale = 13.9
+  - SalesRep_07: 1 transaction, Total Sale = 41.7
+  - SalesRep_10: 2 transactions, Total Sale = 83.4
+  - SalesRep_11: 2 transactions, Total Sale = 83.4
+  - SalesRep_12: 3 transactions, Total Sale = 55.6",
+run_1766661268056,V02,visual,llama3:latest,1,1766662329569,29,rag_query_ui,What are the top 3 states by sales shown in the image?,images\sales_state_mom_2024-05_to_2024-06.png,"✅ **Source: structured KPI**
+🏆 **Top 3 State by Total Sales (RM)**
+- Month: **2024-06**
+
+| State        | Total Sales (RM)   |
+|:-------------|:-------------------|
+| Kuala Lumpur | RM 17,490.11       |
+| Sabah        | RM 17,350.47       |
+| Penang       | RM 16,961.05       |
+
+Rows used: 4,981",
+run_1766661268056,V02,visual,mistral:latest,1,1766662329598,4,rag_query_ui,What are the top 3 states by sales shown in the image?,images\sales_state_mom_2024-05_to_2024-06.png,"✅ **Source: structured KPI**
+🏆 **Top 3 State by Total Sales (RM)**
+- Month: **2024-06**
+
+| State        | Total Sales (RM)   |
+|:-------------|:-------------------|
+| Kuala Lumpur | RM 17,490.11       |
+| Sabah        | RM 17,350.47       |
+| Penang       | RM 16,961.05       |
+
+Rows used: 4,981",
+run_1766661268056,V02,visual,qwen2.5:7b,1,1766662329602,4,rag_query_ui,What are the top 3 states by sales shown in the image?,images\sales_state_mom_2024-05_to_2024-06.png,"✅ **Source: structured KPI**
+🏆 **Top 3 State by Total Sales (RM)**
+- Month: **2024-06**
+
+| State        | Total Sales (RM)   |
+|:-------------|:-------------------|
+| Kuala Lumpur | RM 17,490.11       |
+| Sabah        | RM 17,350.47       |
+| Penang       | RM 16,961.05       |
+
+Rows used: 4,981",
+run_1766661268056,V03,visual,llama3:latest,1,1766662329602,1,rag_query_ui,Summarize this HR attrition chart (highest group + any pattern).,images\hr_attrition_by_agegroup.png,"✅ **Source: structured HR**
+📌 Highest attrition by Department: **Operations** (count=73)",
+run_1766661268056,V03,visual,mistral:latest,1,1766662329602,1,rag_query_ui,Summarize this HR attrition chart (highest group + any pattern).,images\hr_attrition_by_agegroup.png,"✅ **Source: structured HR**
+📌 Highest attrition by Department: **Operations** (count=73)",
+run_1766661268056,V03,visual,qwen2.5:7b,1,1766662329602,1,rag_query_ui,Summarize this HR attrition chart (highest group + any pattern).,images\hr_attrition_by_agegroup.png,"✅ **Source: structured HR**
+📌 Highest attrition by Department: **Operations** (count=73)",
+run_1766661268056,V04,visual,llama3:latest,1,1766662329614,2,rag_query_ui,"From this chart, what channel has the highest sales?",images\sales_channel_mix_2024-06.png,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,V04,visual,mistral:latest,1,1766662329614,2,rag_query_ui,"From this chart, what channel has the highest sales?",images\sales_channel_mix_2024-06.png,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,V04,visual,qwen2.5:7b,1,1766662329614,2,rag_query_ui,"From this chart, what channel has the highest sales?",images\sales_channel_mix_2024-06.png,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,V05,visual,llama3:latest,1,1766662329614,36850,rag_query_ui,Write an executive summary from this dashboard screenshot.,images\hr_headcount_by_state.png,"📄 **Source: RAG + LLM**
+**Executive Summary**
+
+Based on the provided data, here are some key insights:
+
+* **Sales Performance**: Not available in the provided data. The dashboard screenshot only shows KPI examples and HR information.
+* **Top 3 Products for June 2024**: Not available in the provided data.
+* **Branch-wise Sales Comparison**: Not available in the provided data.
+* **Employee Demographics**:
+	+ Average age: 26-35 years old (EMP00376, EMP00781)
+	+ Age range: 18-60 years old
+	+ Monthly income range: RM2,505 (EMP00192) to RM5,390 (EMP00344)
+
+Note that the provided data does not contain sales performance or product-specific information.",
+run_1766661268056,V05,visual,mistral:latest,1,1766662366472,51555,rag_query_ui,Write an executive summary from this dashboard screenshot.,images\hr_headcount_by_state.png,"📄 **Source: RAG + LLM**
+Executive Summary:
+
+- Sales KPIs for June 2024 are yet to be determined as sales data is not provided in the given dataset.
+- Comparison of current month's sales with the previous month's sales is also unavailable due to lack of sales data.
+- Top 3 selling products for June 2024 in Kota Kinabalu branches are unknown, as product sales data is missing from the provided dataset.
+
+Human Resources:
+
+- Kota Kinabalu Branch 1 has 3 Finance Executives and 1 Sales Executive. Branch 2 has 1 Finance Executive and 1 Sales Executive.
+- The Finance Executive with the highest monthly income in both branches is not specified as salary data is not provided for all employees.
+- The average age of Finance Executives in Kota Kinabalu Branch 1 is 34 (range: 19-50), while in Branch 2 it's 24.
+- The majority of employees in both branches belong to the 18-25 and 26-35 age groups.
+- No overtime or attrition cases are reported for any employee in either branch.
+
+Operational Procedures:
+
+- Daily sales closing procedures include closing sales at 10:00 PM, exporting transactions as CSV files for each branch, verifying Total Sales by State/Branch/Product/Channel, and submitting KPI summaries to management the next morning.",
+run_1766661268056,V05,visual,qwen2.5:7b,1,1766662418027,94714,rag_query_ui,Write an executive summary from this dashboard screenshot.,images\hr_headcount_by_state.png,"📄 **Source: RAG + LLM**
+- **Sales Inquiry**: Sales for the current month are requested.
+- **Monthly Sales Comparison**: A comparison of sales between this month and the previous month is required.
+- **Top Products**: The top 3 products for June 2024 are to be identified.
+- **Employee Details**:
+  - EMP00202: Finance Executive, 24 years old, Kota Kinabalu Branch 2
+  - EMP00603: Finance Executive, 19 years old, Kota Kinabalu Branch 1
+  - EMP00344: Finance Executive, 50 years old, Kota Kinabalu Branch 1
+  - EMP00074: Sales Executive, 20 years old, Kota Kinabalu Branch 2
+  - EMP00002: HR Executive, 38 years old, Kota Kinabalu Branch 2
+  - EMP00376: Finance Executive, 26 years old, Kota Kinabalu Branch 1
+  - EMP00207: Sales Executive, 51 years old, Kota Kinabalu Branch 1
+  - EMP00192: Kitchen Crew, 19 years old, Kota Kinabalu Branch 1
+  - EMP00370: Kitchen Crew, 28 years old, Kota Kinabalu Branch 2
+  - EMP00781: Sales Executive, 28 years old, Kota Kinabalu Branch 2
+- **Employee Income**:
+  - EMP00202: RM4,383 monthly income
+  - EMP00603: RM3,340 monthly income
+  - EMP00344: RM5,390 monthly income
+  - EMP00074: RM3,638 monthly income
+  - EMP00002: RM4,018 monthly income
+  - EMP00376: RM4,604 monthly income
+  - EMP00207: RM3,684 monthly income
+  - EMP00192: RM2,505 monthly income
+  - EMP00370: RM2,036 monthly income
+  - EMP00781: RM3,749 monthly income
+- **Employee Tenure**:
+  - EMP00202: 9 years at the company
+  - EMP00603: 5 years at the company
+  - EMP00344: 2 years at the company
+  - EMP00074: 9 years at the company
+  - EMP00002: 8 years at the company
+  - EMP00376: 5 years at the company
+  - EMP00207: 8 years at the company
+- **Daily Close Procedures**:
+  - Sales should be closed by 10:00 PM.
+  - Export sales transactions in CSV format for each branch.
+  - Verify total sales by state, branch, product, and channel.
+  - Submit KPI summary to management the next morning.",
+run_1766661268056,R01,sales_kpi,llama3:latest,1,1766662512741,7,rag_query_ui,jumlah jualan bulan jun 2024?,,"✅ **Source: structured KPI**
+✅ **Total Quantity**
+- Month: **2024-06**
+- Value: **9932**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,R01,sales_kpi,mistral:latest,1,1766662512741,2,rag_query_ui,jumlah jualan bulan jun 2024?,,"✅ **Source: structured KPI**
+✅ **Total Quantity**
+- Month: **2024-06**
+- Value: **9932**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,R01,sales_kpi,qwen2.5:7b,1,1766662512741,2,rag_query_ui,jumlah jualan bulan jun 2024?,,"✅ **Source: structured KPI**
+✅ **Total Quantity**
+- Month: **2024-06**
+- Value: **9932**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,R02,sales_kpi,llama3:latest,1,1766662512741,2,rag_query_ui,jualan bulan ni berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,R02,sales_kpi,mistral:latest,1,1766662512757,2,rag_query_ui,jualan bulan ni berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,R02,sales_kpi,qwen2.5:7b,1,1766662512757,2,rag_query_ui,jualan bulan ni berapa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,R03,sales_kpi,llama3:latest,1,1766662512757,6,rag_query_ui,banding jualan bulan ni dengan bulan lepas,,"✅ **Source: structured KPI**
+📊 **Total Sales (RM) (MoM)**
+- 2024-06: **99,852.83**
+- 2024-05: **106,995.11**
+- Change: **-7,142.28** (-6.68%)
+- Rows used (current month): 4,981
+- Dataset months available: 2024-01 → 2024-06
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,R03,sales_kpi,mistral:latest,1,1766662512757,5,rag_query_ui,banding jualan bulan ni dengan bulan lepas,,"✅ **Source: structured KPI**
+📊 **Total Sales (RM) (MoM)**
+- 2024-06: **99,852.83**
+- 2024-05: **106,995.11**
+- Change: **-7,142.28** (-6.68%)
+- Rows used (current month): 4,981
+- Dataset months available: 2024-01 → 2024-06
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,R03,sales_kpi,qwen2.5:7b,1,1766662512774,5,rag_query_ui,banding jualan bulan ni dengan bulan lepas,,"✅ **Source: structured KPI**
+📊 **Total Sales (RM) (MoM)**
+- 2024-06: **99,852.83**
+- 2024-05: **106,995.11**
+- Change: **-7,142.28** (-6.68%)
+- Rows used (current month): 4,981
+- Dataset months available: 2024-01 → 2024-06
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,R04,hr_kpi,llama3:latest,1,1766662512774,1,rag_query_ui,berapa orang staff department HR?,,"✅ **Source: structured HR**
+👥 Headcount Department **HR**: **48**",
+run_1766661268056,R04,hr_kpi,mistral:latest,1,1766662512774,0,rag_query_ui,berapa orang staff department HR?,,"✅ **Source: structured HR**
+👥 Headcount Department **HR**: **48**",
+run_1766661268056,R04,hr_kpi,qwen2.5:7b,1,1766662512774,0,rag_query_ui,berapa orang staff department HR?,,"✅ **Source: structured HR**
+👥 Headcount Department **HR**: **48**",
+run_1766661268056,R05,rag_docs,llama3:latest,1,1766662512774,36420,rag_query_ui,tolong explain ringkas policy attendance (kehadiran),,"📄 **Source: RAG + LLM**
+Based on the provided HR Policy data, here is a brief explanation of the attendance policy:
+
+**Attendance Policy:**
+
+* **Definition:** Attendance refers to an employee's presence at work during their scheduled working hours.
+* **Recording:** Attendance is recorded by the HR department through various methods (not specified in the data).
+* **Monitoring:** The company monitors attendance to ensure employees are meeting their job requirements and maintaining a satisfactory level of productivity.
+* **Consequences:**
+	+ Not available in the provided data (no specific consequences mentioned)
+* **Benefits:**
+	+ Not available in the provided data (no specific benefits mentioned)
+
+Note that there is no explicit information on the attendance policy's rules, procedures, or penalties for absenteeism or tardiness.",
+run_1766661268056,R05,rag_docs,mistral:latest,1,1766662549205,40112,rag_query_ui,tolong explain ringkas policy attendance (kehadiran),,"📄 **Source: RAG + LLM**
+Based on the provided HR Policy data for the Malaysia Retail Chain, the attendance policy is not explicitly stated. However, we can infer some details:
+
+1. Employee roles with OverTime=Yes may have different attendance requirements due to extended working hours.
+2. The data does not indicate any penalties or consequences for poor attendance.
+3. There is no mention of flexible work arrangements or remote work options.
+4. The data suggests that employees are expected to adhere to their scheduled shifts, as there are no records of employees with Attrition due to attendance issues.
+5. Employees' ages range from 19 to 55, indicating a diverse workforce with varying personal circumstances that could affect attendance.
+6. The data does not provide information on sick leave policies or vacation days.
+7. It is not available in the provided data if there are specific attendance expectations for different job roles (e.g., Delivery Rider vs. Assistant Manager).",
+run_1766661268056,R05,rag_docs,qwen2.5:7b,1,1766662589318,18686,rag_query_ui,tolong explain ringkas policy attendance (kehadiran),,"📄 **Source: RAG + LLM**
+- Not available in the provided data.",
+run_1766661268056,R06,rag_docs,llama3:latest,1,1766662608006,15,rag_query_ui,CEO nak tahu isu terbesar bulan ni berdasarkan data sedia ada. Apa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,R06,rag_docs,mistral:latest,1,1766662608021,2,rag_query_ui,CEO nak tahu isu terbesar bulan ni berdasarkan data sedia ada. Apa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+run_1766661268056,R06,rag_docs,qwen2.5:7b,1,1766662608024,2,rag_query_ui,CEO nak tahu isu terbesar bulan ni berdasarkan data sedia ada. Apa?,,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",

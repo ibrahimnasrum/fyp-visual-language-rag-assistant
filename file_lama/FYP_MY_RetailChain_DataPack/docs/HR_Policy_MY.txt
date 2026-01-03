@@ -1,0 +1,18 @@
+HR Policy (Sample) — Malaysia Retail Chain
+Version: 1.0
+Effective: 2024-01-01
+
+Medical Claim:
+- Permanent employees: outpatient + specialist claims up to RM 300/month.
+- Contract employees: outpatient claims up to RM 150/month.
+- Claim must be submitted within 14 days with receipt and clinic name.
+
+Leave:
+- Annual Leave: 14 days/year (prorated).
+- Sick Leave: Medical certificate required.
+
+Overtime:
+- Overtime requires supervisor approval.
+- OT allowance is paid according to company guidelines.
+
+Note: Synthetic policy for RAG demo.

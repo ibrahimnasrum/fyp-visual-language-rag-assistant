@@ -1,0 +1,821 @@
+EmpID,State,City,Branch,Department,JobRole,Age,AgeGroup,Gender,MaritalStatus,Education,MonthlyIncome,OverTime,BusinessTravel,DistanceFromHome,JobSatisfaction,EnvironmentSatisfaction,WorkLifeBalance,YearsAtCompany,HireDate,Attrition
+EMP00001,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Branch Manager,41,36-45,Female,Single,2,7068,No,Travel_Rarely,19,3,1,4,4,2014-07-18,No
+EMP00002,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,HR,HR Executive,38,36-45,Female,Single,1,4018,No,Non-Travel,23,2,4,2,8,2022-09-30,No
+EMP00003,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,20,18-25,Female,Married,2,2115,No,Non-Travel,12,2,2,2,8,2019-10-05,Yes
+EMP00004,Penang,George Town,George Town Branch 1,Operations,Assistant Manager,29,26-35,Male,Divorced,4,4571,No,Non-Travel,6,3,2,3,11,2018-04-20,No
+EMP00005,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,29,26-35,Female,Married,4,2143,No,Non-Travel,7,3,4,2,7,2022-12-28,No
+EMP00006,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,32,26-35,Female,Divorced,4,2098,No,Travel_Rarely,4,1,3,4,12,2014-06-24,No
+EMP00007,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,33,26-35,Male,Single,3,2832,Yes,Non-Travel,12,2,3,2,2,2017-09-28,No
+EMP00008,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,21,18-25,Male,Married,2,1800,No,Non-Travel,12,1,3,3,9,2014-02-26,No
+EMP00009,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,21,18-25,Male,Single,4,2533,Yes,Travel_Frequently,23,1,2,4,5,2014-08-31,No
+EMP00010,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,36,36-45,Male,Single,3,2004,No,Non-Travel,2,3,3,2,0,2018-06-26,No
+EMP00011,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,26,26-35,Female,Single,3,2415,No,Travel_Rarely,17,2,1,3,12,2021-07-01,Yes
+EMP00012,Penang,George Town,George Town Branch 1,Operations,Cashier,28,26-35,Male,Married,4,2233,No,Non-Travel,7,1,4,1,0,2023-12-18,Yes
+EMP00013,Penang,George Town,George Town Branch 2,Operations,Branch Manager,45,36-45,Male,Single,3,6024,No,Non-Travel,17,1,3,3,13,2014-04-24,No
+EMP00014,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Assistant Manager,48,46-60,Male,Single,3,4176,No,Non-Travel,14,3,2,2,7,2019-01-09,No
+EMP00015,Sarawak,Kuching,Kuching Branch 2,Operations,Assistant Manager,23,18-25,Female,Single,3,3734,No,Travel_Rarely,22,2,2,3,9,2018-10-04,No
+EMP00016,Sarawak,Kuching,Kuching Branch 1,Operations,Assistant Manager,36,36-45,Male,Single,2,4477,No,Travel_Rarely,6,1,2,3,2,2020-08-11,No
+EMP00017,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Customer Support,Customer Service,23,18-25,Female,Single,4,2835,No,Travel_Rarely,22,1,3,4,10,2017-03-27,No
+EMP00018,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Branch Manager,29,26-35,Male,Married,5,7477,No,Non-Travel,8,3,2,2,4,2022-07-28,No
+EMP00019,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Sales,Sales Executive,33,26-35,Female,Single,4,4217,Yes,Travel_Rarely,23,2,3,1,3,2019-07-11,Yes
+EMP00020,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,31,26-35,Female,Married,3,2222,No,Non-Travel,12,3,3,3,13,2016-07-19,No
+EMP00021,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Assistant Manager,53,46-60,Male,Single,2,3909,No,Non-Travel,12,1,3,3,6,2020-02-16,Yes
+EMP00022,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Sales,Sales Executive,25,18-25,Male,Single,2,3275,No,Travel_Rarely,20,1,2,1,11,2014-02-08,No
+EMP00023,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Branch Manager,42,36-45,Male,Married,5,7549,Yes,Travel_Frequently,22,1,4,4,8,2017-04-18,Yes
+EMP00024,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,26,26-35,Male,Married,5,2183,Yes,Travel_Frequently,13,3,4,1,7,2017-05-18,No
+EMP00025,Penang,George Town,George Town Branch 2,Operations,Cashier,27,26-35,Female,Single,3,2343,No,Non-Travel,12,1,3,4,8,2022-08-01,No
+EMP00026,Penang,George Town,George Town Branch 2,Sales,Sales Executive,21,18-25,Female,Single,2,2971,No,Travel_Rarely,23,4,1,1,15,2015-01-01,Yes
+EMP00027,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,46,46-60,Male,Single,2,2288,No,Travel_Rarely,20,2,3,3,1,2023-05-03,No
+EMP00028,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,43,36-45,Female,Married,1,2389,No,Non-Travel,15,4,1,3,11,2016-11-07,No
+EMP00029,Sarawak,Kuching,Kuching Branch 2,Operations,Assistant Manager,19,18-25,Female,Married,2,4098,No,Non-Travel,11,1,3,4,10,2021-01-21,Yes
+EMP00030,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Delivery Rider,37,36-45,Male,Single,1,2275,Yes,Travel_Frequently,19,1,4,1,1,2017-06-01,No
+EMP00031,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,26,26-35,Female,Single,3,1877,Yes,Non-Travel,7,4,2,3,8,2023-04-15,No
+EMP00032,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Customer Support,Customer Service,25,18-25,Female,Married,2,3158,No,Non-Travel,20,2,1,4,14,2014-08-21,No
+EMP00033,Penang,George Town,George Town Branch 2,Operations,Cashier,29,26-35,Female,Married,3,2271,No,Travel_Rarely,2,4,1,1,3,2019-10-29,No
+EMP00034,Penang,George Town,George Town Branch 1,Sales,Sales Executive,38,36-45,Male,Married,3,4320,Yes,Travel_Rarely,23,1,4,2,7,2017-01-20,Yes
+EMP00035,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,55,46-60,Male,Married,4,2478,No,Travel_Rarely,1,2,2,1,14,2018-11-17,No
+EMP00036,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Assistant Manager,42,36-45,Male,Married,2,4724,No,Non-Travel,21,4,3,2,4,2021-05-25,No
+EMP00037,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Cashier,27,26-35,Male,Single,5,2134,No,Non-Travel,24,1,2,1,7,2017-12-14,Yes
+EMP00038,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,54,46-60,Female,Single,2,2230,No,Travel_Rarely,15,4,3,3,8,2020-08-23,No
+EMP00039,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Assistant Manager,46,46-60,Female,Married,3,4278,No,Travel_Frequently,6,2,4,3,12,2020-05-14,No
+EMP00040,Penang,George Town,George Town Branch 2,HR,HR Executive,26,26-35,Female,Married,2,3858,No,Travel_Rarely,17,4,2,4,1,2016-05-12,No
+EMP00041,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Kitchen Crew,44,36-45,Female,Single,3,2798,No,Non-Travel,15,2,3,3,9,2019-09-30,No
+EMP00042,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Sales,Sales Executive,28,26-35,Male,Single,3,3447,No,Non-Travel,12,3,2,3,15,2014-06-12,No
+EMP00043,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Kitchen Crew,36,36-45,Male,Single,3,2342,No,Non-Travel,3,3,2,3,3,2020-01-29,No
+EMP00044,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Branch Manager,36,36-45,Male,Single,4,6081,No,Travel_Rarely,19,2,3,2,1,2018-01-01,No
+EMP00045,Penang,George Town,George Town Branch 1,Operations,Cashier,43,36-45,Male,Married,5,2285,Yes,Non-Travel,7,2,2,3,13,2014-03-11,Yes
+EMP00046,Sarawak,Kuching,Kuching Branch 2,Sales,Sales Executive,38,36-45,Male,Married,4,3247,No,Non-Travel,25,3,1,2,0,2019-04-19,No
+EMP00047,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Cashier,42,36-45,Male,Single,3,2125,No,Travel_Frequently,19,4,1,2,15,2019-08-26,No
+EMP00048,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Delivery Rider,28,26-35,Male,Married,3,2903,No,Travel_Rarely,23,3,4,1,11,2014-05-08,No
+EMP00049,Penang,George Town,George Town Branch 1,HR,HR Executive,51,46-60,Female,Single,4,3760,Yes,Non-Travel,21,1,3,1,9,2019-06-06,No
+EMP00050,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,47,46-60,Female,Single,3,2037,No,Non-Travel,22,3,3,1,0,2016-11-14,No
+EMP00051,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Branch Manager,21,18-25,Male,Single,2,7668,No,Non-Travel,13,2,2,1,10,2023-04-08,No
+EMP00052,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,HR,HR Executive,45,36-45,Male,Single,3,3767,Yes,Travel_Frequently,25,4,2,4,7,2020-03-31,No
+EMP00053,Sarawak,Kuching,Kuching Branch 2,IT,IT Support,50,46-60,Female,Single,3,4069,No,Non-Travel,4,2,2,1,1,2019-01-19,No
+EMP00054,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,19,18-25,Female,Married,2,2606,Yes,Non-Travel,1,2,1,2,2,2018-01-21,No
+EMP00055,Selangor,Shah Alam,Shah Alam Branch 2,HR,HR Executive,28,26-35,Male,Married,1,4006,No,Non-Travel,7,3,3,1,9,2015-10-21,No
+EMP00056,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Delivery Rider,53,46-60,Female,Married,3,2529,No,Travel_Rarely,18,1,1,2,4,2020-01-04,No
+EMP00057,Penang,George Town,George Town Branch 2,Sales,Sales Executive,45,36-45,Female,Married,3,3262,No,Travel_Frequently,22,3,3,4,1,2020-09-06,No
+EMP00058,Johor,Johor Bahru,Johor Bahru Branch 2,Finance,Finance Executive,33,26-35,Male,Married,4,4254,No,Travel_Rarely,11,2,1,3,6,2021-09-02,No
+EMP00059,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Cashier,39,36-45,Male,Divorced,4,2557,No,Travel_Frequently,24,4,3,2,3,2023-03-18,No
+EMP00060,Johor,Johor Bahru,Johor Bahru Branch 1,Sales,Sales Executive,44,36-45,Female,Single,2,3416,Yes,Travel_Rarely,8,1,4,1,13,2017-04-26,No
+EMP00061,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Assistant Manager,48,46-60,Female,Single,2,3789,No,Travel_Frequently,23,2,1,2,3,2019-12-18,No
+EMP00062,Penang,George Town,George Town Branch 2,Operations,Assistant Manager,35,26-35,Male,Single,3,3399,No,Non-Travel,7,2,2,4,5,2019-09-04,Yes
+EMP00063,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,51,46-60,Female,Married,2,2354,No,Non-Travel,4,2,2,2,9,2022-06-30,No
+EMP00064,Johor,Johor Bahru,Johor Bahru Branch 1,Customer Support,Customer Service,34,26-35,Male,Divorced,4,2392,No,Travel_Rarely,16,4,3,3,4,2023-10-28,No
+EMP00065,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Kitchen Crew,28,26-35,Female,Single,3,2696,No,Non-Travel,20,4,2,1,7,2015-06-10,No
+EMP00066,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Cashier,32,26-35,Male,Married,5,2325,No,Travel_Rarely,14,3,3,2,13,2020-08-24,No
+EMP00067,Penang,George Town,George Town Branch 1,Operations,Cashier,45,36-45,Female,Divorced,2,2262,No,Non-Travel,20,3,3,4,0,2019-05-07,No
+EMP00068,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,20,18-25,Male,Single,1,2255,No,Non-Travel,12,3,3,1,12,2022-12-27,No
+EMP00069,Penang,George Town,George Town Branch 1,Customer Support,Customer Service,40,36-45,Female,Single,3,2598,No,Non-Travel,25,2,1,3,6,2015-12-29,No
+EMP00070,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,53,46-60,Male,Married,3,2364,Yes,Non-Travel,16,3,3,4,13,2021-04-18,No
+EMP00071,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,IT,IT Support,26,26-35,Male,Single,3,3126,No,Travel_Rarely,9,3,2,1,2,2017-01-16,No
+EMP00072,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Sales,Sales Executive,42,36-45,Female,Married,2,3795,No,Non-Travel,21,3,3,1,5,2023-06-19,No
+EMP00073,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Delivery Rider,34,26-35,Female,Single,4,2357,No,Travel_Rarely,22,2,2,3,6,2022-03-05,No
+EMP00074,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Sales,Sales Executive,20,18-25,Female,Single,2,3638,No,Non-Travel,1,2,4,4,9,2020-04-18,No
+EMP00075,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Kitchen Crew,50,46-60,Male,Single,3,2009,No,Non-Travel,9,3,2,1,4,2020-09-27,No
+EMP00076,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,50,46-60,Male,Married,1,1964,Yes,Non-Travel,12,3,3,2,10,2023-12-26,Yes
+EMP00077,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,41,36-45,Female,Married,2,2037,No,Non-Travel,2,3,1,4,12,2022-05-07,No
+EMP00078,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Cashier,47,46-60,Male,Married,2,2199,No,Travel_Rarely,24,4,1,1,15,2014-01-23,No
+EMP00079,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,40,36-45,Male,Single,3,2575,No,Travel_Rarely,4,2,2,1,13,2014-09-29,No
+EMP00080,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,27,26-35,Male,Married,2,1800,No,Travel_Rarely,13,1,3,1,11,2023-11-03,No
+EMP00081,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Customer Support,Customer Service,39,36-45,Female,Single,3,3210,No,Travel_Rarely,25,4,2,4,2,2021-04-16,No
+EMP00082,Selangor,Shah Alam,Shah Alam Branch 1,Finance,Finance Executive,30,26-35,Female,Single,4,3687,No,Travel_Rarely,25,1,3,2,9,2023-11-11,No
+EMP00083,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,46,46-60,Male,Married,2,2364,No,Travel_Rarely,24,2,4,2,9,2020-03-10,No
+EMP00084,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,21,18-25,Female,Married,2,2531,No,Non-Travel,2,1,1,3,1,2015-05-07,No
+EMP00085,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Cashier,33,26-35,Female,Married,4,2052,Yes,Travel_Rarely,11,1,1,1,6,2018-11-16,No
+EMP00086,Sarawak,Kuching,Kuching Branch 1,IT,IT Support,34,26-35,Male,Divorced,2,3768,Yes,Non-Travel,19,1,3,4,6,2023-03-24,No
+EMP00087,Selangor,Shah Alam,Shah Alam Branch 1,HR,HR Executive,31,26-35,Female,Single,3,3550,Yes,Non-Travel,24,1,2,3,13,2019-06-15,Yes
+EMP00088,Penang,George Town,George Town Branch 1,Operations,Cashier,38,36-45,Male,Single,1,2155,Yes,Travel_Rarely,3,3,1,1,8,2015-09-02,No
+EMP00089,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,47,46-60,Female,Married,3,1857,No,Travel_Frequently,16,3,3,3,12,2021-03-12,No
+EMP00090,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Customer Support,Customer Service,37,36-45,Female,Single,2,2466,No,Non-Travel,5,2,2,2,13,2023-09-12,No
+EMP00091,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,36,36-45,Male,Single,1,2636,No,Non-Travel,1,4,4,1,3,2020-12-14,No
+EMP00092,Johor,Johor Bahru,Johor Bahru Branch 2,Finance,Finance Executive,44,36-45,Female,Married,3,4931,Yes,Travel_Rarely,1,2,2,2,5,2018-07-01,No
+EMP00093,Sarawak,Kuching,Kuching Branch 2,IT,IT Support,28,26-35,Female,Single,2,3374,No,Travel_Rarely,18,1,4,1,11,2016-02-22,No
+EMP00094,Selangor,Shah Alam,Shah Alam Branch 1,Sales,Sales Executive,51,46-60,Male,Single,2,3281,No,Travel_Rarely,11,4,3,1,2,2020-01-14,No
+EMP00095,Selangor,Shah Alam,Shah Alam Branch 1,Customer Support,Customer Service,33,26-35,Male,Single,3,2250,No,Non-Travel,22,1,2,4,11,2023-06-05,Yes
+EMP00096,Penang,George Town,George Town Branch 1,Operations,Assistant Manager,24,18-25,Female,Married,3,4558,No,Non-Travel,16,4,4,1,3,2017-08-27,No
+EMP00097,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Kitchen Crew,36,36-45,Female,Single,3,2340,No,Non-Travel,3,4,4,2,12,2020-09-16,No
+EMP00098,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Kitchen Crew,46,46-60,Male,Single,3,2216,No,Non-Travel,20,3,2,4,10,2023-06-03,No
+EMP00099,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Kitchen Crew,44,36-45,Male,Divorced,4,2135,No,Travel_Rarely,12,4,2,4,8,2022-08-21,No
+EMP00100,Sarawak,Kuching,Kuching Branch 2,Operations,Cashier,55,46-60,Female,Single,3,2347,No,Non-Travel,11,1,3,2,2,2019-12-14,No
+EMP00101,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,41,36-45,Female,Married,3,2254,Yes,Non-Travel,19,2,2,1,14,2017-11-30,No
+EMP00102,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Finance,Finance Executive,35,26-35,Female,Single,3,4486,Yes,Travel_Frequently,8,1,3,2,11,2023-05-16,No
+EMP00103,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Sales,Sales Executive,23,18-25,Male,Single,2,3461,Yes,Travel_Rarely,15,3,3,4,15,2022-02-04,No
+EMP00104,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,32,26-35,Female,Married,3,2551,Yes,Travel_Rarely,24,2,2,3,0,2015-12-30,No
+EMP00105,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,26,26-35,Male,Single,2,2475,No,Travel_Frequently,6,2,2,2,9,2017-01-23,No
+EMP00106,Sarawak,Kuching,Kuching Branch 1,HR,HR Executive,25,18-25,Female,Single,4,3483,No,Non-Travel,25,4,4,2,11,2018-08-23,No
+EMP00107,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Sales,Sales Executive,34,26-35,Female,Single,1,3399,No,Non-Travel,9,4,4,2,12,2015-05-23,No
+EMP00108,Sarawak,Kuching,Kuching Branch 1,Finance,Finance Executive,25,18-25,Male,Single,1,3327,No,Non-Travel,17,2,4,4,3,2020-11-05,No
+EMP00109,Sarawak,Kuching,Kuching Branch 2,Customer Support,Customer Service,54,46-60,Male,Single,2,2709,Yes,Non-Travel,22,1,2,1,1,2016-03-11,No
+EMP00110,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Delivery Rider,22,18-25,Female,Married,3,2108,No,Non-Travel,1,3,4,2,14,2016-08-06,No
+EMP00111,Johor,Johor Bahru,Johor Bahru Branch 1,Sales,Sales Executive,24,18-25,Female,Married,2,3672,No,Travel_Rarely,17,4,2,3,15,2021-12-20,No
+EMP00112,Penang,George Town,George Town Branch 2,Operations,Cashier,52,46-60,Male,Single,1,1921,No,Travel_Rarely,15,4,1,2,9,2021-03-05,No
+EMP00113,Johor,Johor Bahru,Johor Bahru Branch 2,Customer Support,Customer Service,31,26-35,Male,Single,2,2419,No,Travel_Rarely,24,1,4,3,3,2014-06-06,Yes
+EMP00114,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Assistant Manager,39,36-45,Male,Divorced,2,3560,No,Travel_Rarely,11,4,2,1,13,2014-09-06,No
+EMP00115,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Assistant Manager,29,26-35,Female,Married,4,4846,No,Non-Travel,18,3,4,4,13,2014-09-06,No
+EMP00116,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Kitchen Crew,22,18-25,Male,Married,2,2422,No,Non-Travel,9,2,3,4,13,2014-01-08,No
+EMP00117,Sarawak,Kuching,Kuching Branch 2,Operations,Cashier,31,26-35,Female,Married,2,2324,No,Non-Travel,21,1,3,3,8,2020-12-22,No
+EMP00118,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,49,46-60,Female,Married,3,1800,Yes,Non-Travel,1,1,3,3,8,2014-01-10,No
+EMP00119,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Finance,Finance Executive,33,26-35,Male,Divorced,3,4065,No,Non-Travel,1,2,4,2,15,2015-08-20,Yes
+EMP00120,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,48,46-60,Female,Single,2,2347,No,Travel_Rarely,15,2,3,3,9,2020-09-09,Yes
+EMP00121,Penang,George Town,George Town Branch 2,Sales,Sales Executive,45,36-45,Female,Divorced,3,3869,No,Non-Travel,14,1,2,4,15,2016-01-01,No
+EMP00122,Selangor,Shah Alam,Shah Alam Branch 2,Sales,Sales Executive,21,18-25,Male,Single,4,3314,Yes,Non-Travel,20,4,3,3,15,2020-08-09,No
+EMP00123,Penang,George Town,George Town Branch 1,Customer Support,Customer Service,43,36-45,Female,Married,4,2410,Yes,Travel_Rarely,5,3,1,4,9,2020-01-17,No
+EMP00124,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,37,36-45,Female,Single,1,2052,No,Travel_Rarely,23,1,4,2,1,2014-01-31,No
+EMP00125,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Assistant Manager,43,36-45,Female,Married,1,4671,No,Travel_Rarely,9,2,3,4,0,2020-11-25,No
+EMP00126,Sarawak,Kuching,Kuching Branch 2,Finance,Finance Executive,43,36-45,Male,Married,3,3260,No,Travel_Frequently,18,3,4,3,9,2018-04-15,No
+EMP00127,Penang,George Town,George Town Branch 1,Operations,Delivery Rider,32,26-35,Female,Single,2,2442,No,Non-Travel,13,4,4,2,10,2015-11-02,Yes
+EMP00128,Penang,George Town,George Town Branch 2,Sales,Sales Executive,52,46-60,Female,Married,1,2461,No,Travel_Rarely,5,2,3,2,7,2019-10-26,Yes
+EMP00129,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Assistant Manager,40,36-45,Male,Single,3,4630,No,Non-Travel,13,2,2,4,1,2021-11-08,No
+EMP00130,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Assistant Manager,49,46-60,Male,Married,3,3790,Yes,Non-Travel,2,1,3,1,11,2017-01-05,No
+EMP00131,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,31,26-35,Female,Married,2,2596,No,Non-Travel,15,2,2,1,3,2021-07-04,No
+EMP00132,Sarawak,Kuching,Kuching Branch 1,Operations,Branch Manager,39,36-45,Male,Single,3,5647,No,Travel_Rarely,19,1,3,2,4,2020-09-20,No
+EMP00133,Sarawak,Kuching,Kuching Branch 1,Customer Support,Customer Service,33,26-35,Male,Married,4,2679,No,Non-Travel,25,4,1,4,10,2016-06-02,No
+EMP00134,Penang,George Town,George Town Branch 2,IT,IT Support,45,36-45,Male,Single,3,3811,No,Non-Travel,3,3,1,2,5,2019-10-25,No
+EMP00135,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,48,46-60,Female,Single,3,2093,No,Non-Travel,3,2,4,2,7,2016-03-06,No
+EMP00136,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,35,26-35,Female,Single,2,1831,No,Travel_Rarely,10,3,1,1,15,2015-06-09,No
+EMP00137,Penang,George Town,George Town Branch 2,Customer Support,Customer Service,34,26-35,Male,Married,3,2343,No,Non-Travel,19,2,2,3,4,2021-05-07,Yes
+EMP00138,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,41,36-45,Female,Single,3,2074,No,Non-Travel,8,2,1,4,4,2019-05-23,No
+EMP00139,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Kitchen Crew,53,46-60,Female,Single,2,2502,No,Non-Travel,25,1,1,1,9,2018-06-19,No
+EMP00140,Johor,Johor Bahru,Johor Bahru Branch 1,Sales,Sales Executive,32,26-35,Male,Single,3,3400,Yes,Travel_Rarely,24,1,3,3,4,2022-03-16,No
+EMP00141,Sarawak,Kuching,Kuching Branch 1,Operations,Branch Manager,38,36-45,Female,Married,2,7112,No,Travel_Rarely,20,3,4,1,10,2017-03-08,No
+EMP00142,Penang,George Town,George Town Branch 2,Customer Support,Customer Service,35,26-35,Female,Married,3,3097,Yes,Non-Travel,14,4,1,3,15,2021-11-04,No
+EMP00143,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,40,36-45,Male,Single,3,1800,Yes,Non-Travel,4,1,1,2,12,2014-08-30,No
+EMP00144,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Assistant Manager,50,46-60,Female,Married,1,4302,No,Non-Travel,21,2,4,3,2,2015-01-15,No
+EMP00145,Sarawak,Kuching,Kuching Branch 2,Operations,Cashier,40,36-45,Male,Single,4,2093,Yes,Non-Travel,1,4,1,2,15,2017-06-17,No
+EMP00146,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,23,18-25,Female,Single,3,2363,No,Travel_Rarely,16,3,3,2,10,2023-09-13,No
+EMP00147,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,39,36-45,Female,Single,3,2215,No,Non-Travel,1,2,1,2,6,2014-08-21,No
+EMP00148,Johor,Johor Bahru,Johor Bahru Branch 1,Sales,Sales Executive,39,36-45,Male,Divorced,2,3527,No,Non-Travel,19,2,3,3,2,2017-12-02,Yes
+EMP00149,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,46,46-60,Male,Married,2,1955,No,Travel_Rarely,2,4,3,3,11,2014-10-28,No
+EMP00150,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,28,26-35,Female,Married,3,1960,No,Non-Travel,13,1,2,4,6,2017-02-03,No
+EMP00151,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,44,36-45,Female,Married,4,2332,Yes,Non-Travel,13,1,2,4,12,2018-08-03,No
+EMP00152,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Cashier,43,36-45,Male,Married,2,1802,No,Non-Travel,14,4,2,1,5,2020-12-17,No
+EMP00153,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Kitchen Crew,54,46-60,Male,Single,4,1982,No,Travel_Rarely,10,2,3,4,11,2019-11-30,No
+EMP00154,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Assistant Manager,27,26-35,Female,Married,5,4286,No,Non-Travel,5,2,4,1,10,2021-01-16,No
+EMP00155,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,53,46-60,Female,Single,3,2212,Yes,Non-Travel,23,1,1,3,8,2023-06-24,No
+EMP00156,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Cashier,50,46-60,Female,Married,2,2061,No,Non-Travel,10,3,4,1,13,2021-11-30,No
+EMP00157,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Kitchen Crew,49,46-60,Female,Married,3,2236,No,Travel_Rarely,7,3,2,4,11,2022-01-26,No
+EMP00158,Sarawak,Kuching,Kuching Branch 2,Sales,Sales Executive,36,36-45,Female,Single,2,3291,Yes,Non-Travel,23,2,2,1,3,2019-03-25,No
+EMP00159,Selangor,Shah Alam,Shah Alam Branch 2,Finance,Finance Executive,31,26-35,Male,Single,4,4018,Yes,Travel_Rarely,20,4,2,3,13,2020-01-11,No
+EMP00160,Selangor,Shah Alam,Shah Alam Branch 1,Sales,Sales Executive,47,46-60,Female,Married,2,3179,No,Travel_Rarely,2,3,4,1,5,2022-03-08,No
+EMP00161,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,32,26-35,Female,Single,4,1877,Yes,Travel_Rarely,8,4,3,3,2,2021-05-16,No
+EMP00162,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,23,18-25,Male,Single,5,2543,Yes,Non-Travel,7,2,4,4,9,2019-07-31,No
+EMP00163,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,32,26-35,Male,Single,3,2449,No,Travel_Rarely,17,1,4,1,1,2023-08-29,No
+EMP00164,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,26,26-35,Male,Married,2,1800,Yes,Travel_Rarely,9,1,1,2,15,2015-12-11,No
+EMP00165,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,31,26-35,Female,Single,2,1963,Yes,Travel_Rarely,24,1,4,1,1,2020-01-12,No
+EMP00166,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,26,26-35,Male,Married,3,2793,No,Non-Travel,18,2,3,4,1,2015-09-27,No
+EMP00167,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,53,46-60,Female,Married,4,2440,No,Travel_Frequently,7,2,3,4,5,2021-01-19,No
+EMP00168,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Customer Support,Customer Service,48,46-60,Female,Single,3,2970,No,Travel_Rarely,24,4,2,3,6,2014-05-20,No
+EMP00169,Sarawak,Kuching,Kuching Branch 1,Operations,Delivery Rider,31,26-35,Male,Single,3,2123,No,Travel_Rarely,2,2,3,3,3,2014-01-21,No
+EMP00170,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Sales,Sales Executive,32,26-35,Female,Single,2,3829,No,Travel_Frequently,6,2,1,2,9,2020-02-19,Yes
+EMP00171,Sarawak,Kuching,Kuching Branch 2,Finance,Finance Executive,20,18-25,Female,Married,2,3853,No,Non-Travel,22,1,4,4,7,2016-12-29,No
+EMP00172,Sarawak,Kuching,Kuching Branch 1,Customer Support,Customer Service,20,18-25,Male,Single,2,2255,No,Non-Travel,16,3,3,4,0,2016-11-17,Yes
+EMP00173,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,HR,HR Executive,40,36-45,Male,Single,3,3887,No,Travel_Rarely,21,2,4,2,7,2020-07-14,No
+EMP00174,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,48,46-60,Female,Married,2,1987,No,Travel_Frequently,6,2,3,4,12,2015-12-25,No
+EMP00175,Johor,Johor Bahru,Johor Bahru Branch 1,Finance,Finance Executive,19,18-25,Female,Single,1,3989,Yes,Non-Travel,25,1,1,2,3,2020-02-02,No
+EMP00176,Sarawak,Kuching,Kuching Branch 2,Customer Support,Customer Service,52,46-60,Female,Single,1,2429,Yes,Non-Travel,15,2,3,3,0,2018-02-14,Yes
+EMP00177,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Cashier,55,46-60,Female,Single,2,1800,No,Travel_Rarely,15,4,2,1,0,2021-11-03,No
+EMP00178,Penang,George Town,George Town Branch 1,Sales,Sales Executive,48,46-60,Female,Married,3,2744,No,Travel_Frequently,13,1,3,2,12,2016-11-02,Yes
+EMP00179,Selangor,Shah Alam,Shah Alam Branch 2,HR,HR Executive,27,26-35,Female,Single,2,3873,No,Travel_Rarely,16,2,4,3,10,2017-06-25,No
+EMP00180,Sarawak,Kuching,Kuching Branch 2,Operations,Cashier,48,46-60,Male,Divorced,2,2021,No,Non-Travel,12,1,4,1,4,2017-01-27,Yes
+EMP00181,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Customer Support,Customer Service,19,18-25,Male,Single,3,2833,No,Non-Travel,4,2,1,1,7,2014-11-19,No
+EMP00182,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,46,46-60,Female,Divorced,5,2343,Yes,Non-Travel,4,2,1,3,7,2016-09-18,No
+EMP00183,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Sales,Sales Executive,46,46-60,Female,Single,3,3436,No,Non-Travel,8,3,3,1,14,2021-05-06,No
+EMP00184,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,55,46-60,Male,Married,4,2741,Yes,Non-Travel,11,1,4,4,3,2023-07-02,Yes
+EMP00185,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Assistant Manager,41,36-45,Male,Married,3,4442,No,Travel_Rarely,5,2,1,4,11,2020-11-07,No
+EMP00186,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,22,18-25,Male,Single,1,2347,No,Non-Travel,24,4,3,1,10,2018-10-25,No
+EMP00187,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,19,18-25,Male,Single,3,2459,No,Travel_Frequently,22,3,2,3,1,2023-03-31,No
+EMP00188,Sarawak,Kuching,Kuching Branch 2,Sales,Sales Executive,42,36-45,Female,Single,1,3662,No,Non-Travel,21,3,4,3,1,2018-02-23,No
+EMP00189,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,IT,IT Support,29,26-35,Male,Divorced,3,3557,No,Non-Travel,10,3,3,1,8,2016-09-05,No
+EMP00190,Sarawak,Kuching,Kuching Branch 1,Operations,Branch Manager,46,46-60,Male,Single,2,6674,No,Travel_Rarely,14,2,4,3,4,2021-01-18,No
+EMP00191,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,HR,HR Executive,23,18-25,Female,Married,2,3519,Yes,Non-Travel,9,1,4,1,8,2015-11-28,Yes
+EMP00192,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Kitchen Crew,19,18-25,Female,Single,4,2505,No,Travel_Rarely,7,3,1,3,4,2016-04-24,No
+EMP00193,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,23,18-25,Male,Single,3,2116,No,Travel_Rarely,5,4,2,1,15,2019-02-05,No
+EMP00194,Selangor,Shah Alam,Shah Alam Branch 1,IT,IT Support,45,36-45,Female,Single,2,3827,Yes,Non-Travel,22,4,3,1,1,2019-11-11,No
+EMP00195,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,26,26-35,Female,Married,4,2174,Yes,Travel_Frequently,25,2,4,4,7,2015-07-04,Yes
+EMP00196,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,30,26-35,Female,Single,4,1800,No,Travel_Rarely,25,2,3,2,8,2020-01-16,No
+EMP00197,Sarawak,Kuching,Kuching Branch 1,Operations,Branch Manager,55,46-60,Female,Married,2,6741,Yes,Travel_Rarely,18,1,1,1,4,2021-01-07,Yes
+EMP00198,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Kitchen Crew,52,46-60,Female,Married,2,2878,No,Non-Travel,5,2,2,3,8,2019-11-09,No
+EMP00199,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,30,26-35,Male,Single,2,1962,No,Non-Travel,24,2,4,3,11,2016-11-22,No
+EMP00200,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Kitchen Crew,52,46-60,Female,Divorced,2,2256,No,Non-Travel,6,2,2,2,13,2014-06-06,No
+EMP00201,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Assistant Manager,50,46-60,Female,Married,2,4326,No,Travel_Rarely,18,2,1,2,9,2014-08-16,No
+EMP00202,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Finance,Finance Executive,24,18-25,Male,Single,3,4383,No,Non-Travel,12,4,3,4,9,2018-09-16,No
+EMP00203,Selangor,Shah Alam,Shah Alam Branch 1,IT,IT Support,22,18-25,Male,Married,3,3954,No,Travel_Rarely,6,4,1,2,0,2022-04-10,No
+EMP00204,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,33,26-35,Female,Single,3,2086,No,Non-Travel,17,4,3,4,12,2015-02-02,No
+EMP00205,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Sales,Sales Executive,49,46-60,Male,Married,2,3250,No,Travel_Rarely,20,3,2,4,5,2023-07-11,No
+EMP00206,Penang,George Town,George Town Branch 1,Finance,Finance Executive,21,18-25,Female,Single,3,3682,Yes,Non-Travel,11,2,1,4,7,2022-09-25,Yes
+EMP00207,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Sales,Sales Executive,51,46-60,Male,Married,2,3684,No,Travel_Rarely,19,3,4,1,8,2023-10-27,No
+EMP00208,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,32,26-35,Female,Single,4,2411,Yes,Non-Travel,6,1,4,3,1,2019-03-11,No
+EMP00209,Johor,Johor Bahru,Johor Bahru Branch 2,Sales,Sales Executive,23,18-25,Female,Single,3,3635,Yes,Non-Travel,20,4,1,2,14,2014-02-07,No
+EMP00210,Sarawak,Kuching,Kuching Branch 2,Finance,Finance Executive,23,18-25,Female,Married,3,4265,No,Non-Travel,8,3,3,3,6,2023-07-17,No
+EMP00211,Johor,Johor Bahru,Johor Bahru Branch 2,IT,IT Support,34,26-35,Female,Married,2,3524,No,Travel_Frequently,3,4,4,3,3,2016-05-02,No
+EMP00212,Penang,George Town,George Town Branch 1,IT,IT Support,34,26-35,Female,Married,3,4111,No,Non-Travel,22,4,2,4,4,2023-12-29,Yes
+EMP00213,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,40,36-45,Male,Married,3,2746,Yes,Travel_Rarely,6,4,3,3,9,2016-08-22,No
+EMP00214,Penang,George Town,George Town Branch 2,HR,HR Executive,24,18-25,Male,Married,1,3729,Yes,Travel_Rarely,18,1,4,4,14,2019-08-15,No
+EMP00215,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,31,26-35,Female,Married,3,2062,No,Non-Travel,15,3,2,3,9,2018-08-05,Yes
+EMP00216,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,38,36-45,Female,Married,4,1961,No,Travel_Rarely,15,3,4,2,4,2021-10-17,No
+EMP00217,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,27,26-35,Male,Single,4,2520,Yes,Non-Travel,6,4,3,1,14,2023-06-01,No
+EMP00218,Penang,George Town,George Town Branch 2,Finance,Finance Executive,40,36-45,Male,Married,3,3628,Yes,Non-Travel,2,2,1,3,13,2020-09-03,No
+EMP00219,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,40,36-45,Female,Married,2,2166,No,Travel_Rarely,15,3,3,2,9,2019-07-24,No
+EMP00220,Sarawak,Kuching,Kuching Branch 1,Finance,Finance Executive,33,26-35,Female,Married,2,3862,No,Non-Travel,8,1,2,1,8,2018-07-07,Yes
+EMP00221,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,HR,HR Executive,38,36-45,Male,Single,3,4521,Yes,Travel_Rarely,6,2,4,1,7,2018-01-22,No
+EMP00222,Sarawak,Kuching,Kuching Branch 1,HR,HR Executive,48,46-60,Female,Single,5,4182,No,Non-Travel,24,4,3,4,14,2016-06-06,No
+EMP00223,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Cashier,40,36-45,Female,Married,2,2569,No,Travel_Rarely,9,3,3,4,11,2021-09-23,No
+EMP00224,Penang,George Town,George Town Branch 2,Operations,Cashier,30,26-35,Female,Divorced,5,2106,Yes,Non-Travel,23,4,2,4,4,2015-04-16,No
+EMP00225,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,21,18-25,Male,Married,4,2583,Yes,Travel_Rarely,24,2,2,3,6,2015-01-21,No
+EMP00226,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Delivery Rider,29,26-35,Male,Single,3,2637,Yes,Travel_Rarely,10,1,3,2,6,2014-10-12,No
+EMP00227,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,40,36-45,Male,Single,3,2409,Yes,Non-Travel,21,1,3,1,14,2018-05-03,No
+EMP00228,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,27,26-35,Male,Single,3,2126,No,Non-Travel,2,1,1,3,4,2018-01-28,No
+EMP00229,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Delivery Rider,36,36-45,Female,Single,5,2402,Yes,Non-Travel,17,2,4,1,0,2023-04-28,No
+EMP00230,Selangor,Shah Alam,Shah Alam Branch 2,Sales,Sales Executive,51,46-60,Female,Single,3,3692,Yes,Non-Travel,17,4,2,1,8,2019-09-13,No
+EMP00231,Sarawak,Kuching,Kuching Branch 2,Operations,Assistant Manager,25,18-25,Female,Married,3,4112,Yes,Non-Travel,16,2,3,1,12,2014-01-13,No
+EMP00232,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Kitchen Crew,43,36-45,Female,Married,4,2128,Yes,Travel_Rarely,15,2,3,4,15,2023-12-03,No
+EMP00233,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,49,46-60,Female,Married,4,2663,No,Non-Travel,18,1,1,2,11,2017-03-31,No
+EMP00234,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Customer Support,Customer Service,40,36-45,Female,Single,4,2737,No,Travel_Rarely,7,1,2,2,1,2020-09-20,Yes
+EMP00235,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,43,36-45,Male,Married,3,2281,Yes,Non-Travel,9,3,4,4,6,2017-09-13,No
+EMP00236,Sarawak,Kuching,Kuching Branch 1,Operations,Assistant Manager,49,46-60,Male,Divorced,4,4583,No,Non-Travel,21,4,3,1,7,2021-04-16,No
+EMP00237,Penang,George Town,George Town Branch 1,Sales,Sales Executive,26,26-35,Male,Single,5,3967,No,Non-Travel,12,4,1,1,5,2015-02-17,No
+EMP00238,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,24,18-25,Male,Married,1,2040,No,Travel_Rarely,18,1,2,4,12,2021-12-21,No
+EMP00239,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,34,26-35,Male,Single,2,1800,Yes,Travel_Rarely,13,2,3,3,6,2014-04-06,No
+EMP00240,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Assistant Manager,23,18-25,Female,Single,5,4363,Yes,Non-Travel,22,1,1,1,5,2020-04-13,Yes
+EMP00241,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Customer Support,Customer Service,52,46-60,Male,Single,3,2896,No,Travel_Rarely,8,2,1,4,1,2017-07-22,No
+EMP00242,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Customer Support,Customer Service,22,18-25,Female,Single,3,2976,No,Travel_Rarely,17,2,1,1,2,2019-05-15,Yes
+EMP00243,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,45,36-45,Male,Divorced,2,2346,No,Travel_Rarely,15,3,3,1,0,2021-09-16,No
+EMP00244,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Branch Manager,38,36-45,Female,Single,2,5584,No,Non-Travel,1,2,4,3,9,2014-07-01,No
+EMP00245,Selangor,Shah Alam,Shah Alam Branch 1,Sales,Sales Executive,32,26-35,Male,Single,4,3649,Yes,Travel_Rarely,16,4,1,3,5,2019-06-18,No
+EMP00246,Sarawak,Kuching,Kuching Branch 2,Finance,Finance Executive,43,36-45,Male,Married,2,4519,No,Non-Travel,22,3,4,3,5,2014-05-20,No
+EMP00247,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,40,36-45,Female,Married,3,2218,No,Travel_Rarely,22,1,1,1,0,2022-03-25,No
+EMP00248,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Kitchen Crew,48,46-60,Male,Single,3,2502,No,Travel_Rarely,24,4,3,1,15,2016-05-13,Yes
+EMP00249,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Delivery Rider,33,26-35,Female,Single,4,2023,Yes,Non-Travel,20,2,4,1,12,2021-02-22,No
+EMP00250,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Kitchen Crew,32,26-35,Female,Married,2,2731,Yes,Non-Travel,3,4,2,1,5,2018-09-23,No
+EMP00251,Sarawak,Kuching,Kuching Branch 2,Operations,Cashier,44,36-45,Female,Single,1,2040,Yes,Travel_Rarely,18,1,3,3,1,2014-03-17,Yes
+EMP00252,Sarawak,Kuching,Kuching Branch 1,Operations,Assistant Manager,52,46-60,Male,Married,3,3409,No,Non-Travel,11,4,3,4,6,2018-02-06,No
+EMP00253,Penang,George Town,George Town Branch 1,Sales,Sales Executive,31,26-35,Female,Married,1,3181,No,Travel_Rarely,12,4,3,3,13,2017-11-02,No
+EMP00254,Johor,Johor Bahru,Johor Bahru Branch 2,Sales,Sales Executive,46,46-60,Male,Single,2,3805,No,Non-Travel,8,4,2,1,11,2023-08-22,No
+EMP00255,Selangor,Shah Alam,Shah Alam Branch 1,Sales,Sales Executive,28,26-35,Female,Single,4,3820,No,Travel_Rarely,15,2,3,3,14,2020-09-14,No
+EMP00256,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,30,26-35,Male,Single,2,2337,No,Travel_Rarely,15,2,4,1,0,2017-12-24,No
+EMP00257,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Sales,Sales Executive,42,36-45,Female,Married,3,2649,No,Non-Travel,22,2,1,4,8,2021-05-19,No
+EMP00258,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,HR,HR Executive,50,46-60,Female,Married,4,3340,No,Non-Travel,6,1,2,1,7,2017-07-15,No
+EMP00259,Penang,George Town,George Town Branch 1,IT,IT Support,28,26-35,Female,Married,2,3439,No,Non-Travel,7,2,3,4,8,2022-05-07,No
+EMP00260,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Cashier,25,18-25,Male,Single,3,2114,Yes,Travel_Rarely,10,2,3,3,5,2021-11-12,No
+EMP00261,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,47,46-60,Male,Married,2,1891,No,Non-Travel,17,4,2,2,1,2022-10-24,No
+EMP00262,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,36,36-45,Male,Married,4,2246,No,Travel_Frequently,25,3,2,3,5,2018-09-15,No
+EMP00263,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Cashier,45,36-45,Female,Married,2,2455,Yes,Travel_Rarely,4,1,3,1,1,2022-07-15,Yes
+EMP00264,Penang,George Town,George Town Branch 1,Operations,Branch Manager,38,36-45,Female,Single,4,6541,Yes,Non-Travel,4,1,3,3,2,2020-11-30,No
+EMP00265,Penang,George Town,George Town Branch 2,Customer Support,Customer Service,52,46-60,Female,Single,5,3051,No,Non-Travel,24,2,3,2,5,2022-11-15,Yes
+EMP00266,Johor,Johor Bahru,Johor Bahru Branch 1,IT,IT Support,28,26-35,Female,Single,4,3569,Yes,Non-Travel,25,3,2,1,6,2019-05-03,No
+EMP00267,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,52,46-60,Female,Married,3,2698,No,Travel_Rarely,23,2,2,3,5,2018-10-20,No
+EMP00268,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,50,46-60,Female,Married,2,2773,No,Travel_Rarely,4,1,4,1,15,2020-01-30,No
+EMP00269,Penang,George Town,George Town Branch 2,Operations,Delivery Rider,41,36-45,Female,Single,4,2508,No,Travel_Rarely,12,3,1,2,2,2016-10-26,Yes
+EMP00270,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,22,18-25,Male,Married,4,2236,Yes,Travel_Rarely,21,4,1,3,7,2019-12-10,No
+EMP00271,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,42,36-45,Female,Divorced,1,2647,Yes,Non-Travel,4,1,2,1,15,2019-10-05,No
+EMP00272,Sarawak,Kuching,Kuching Branch 2,Operations,Branch Manager,48,46-60,Female,Married,4,7362,No,Travel_Rarely,14,3,3,2,2,2014-11-20,No
+EMP00273,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,21,18-25,Female,Single,4,2124,No,Travel_Frequently,7,3,1,2,6,2014-11-04,Yes
+EMP00274,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,32,26-35,Male,Married,3,2216,Yes,Non-Travel,9,1,3,1,8,2016-09-25,No
+EMP00275,Selangor,Shah Alam,Shah Alam Branch 1,Sales,Sales Executive,27,26-35,Female,Married,1,3688,Yes,Travel_Rarely,4,3,3,3,11,2017-03-07,No
+EMP00276,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Delivery Rider,23,18-25,Female,Single,5,2043,No,Travel_Rarely,19,1,2,1,1,2020-12-28,No
+EMP00277,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,24,18-25,Male,Married,5,2429,No,Non-Travel,24,3,1,4,12,2022-11-18,No
+EMP00278,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,34,26-35,Male,Single,1,2310,No,Travel_Frequently,14,2,3,2,9,2014-12-21,No
+EMP00279,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,HR,HR Executive,25,18-25,Female,Single,2,3310,No,Non-Travel,7,1,1,1,10,2017-11-05,No
+EMP00280,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,26,26-35,Male,Single,4,2192,Yes,Travel_Rarely,19,2,4,3,13,2015-07-01,No
+EMP00281,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Delivery Rider,30,26-35,Female,Married,2,2545,No,Non-Travel,16,4,2,2,1,2020-11-14,No
+EMP00282,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Customer Support,Customer Service,47,46-60,Male,Single,3,2538,Yes,Non-Travel,16,3,2,2,1,2017-03-26,No
+EMP00283,Sarawak,Kuching,Kuching Branch 1,Operations,Delivery Rider,48,46-60,Female,Married,1,2486,No,Non-Travel,21,2,4,4,0,2015-02-23,No
+EMP00284,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Branch Manager,22,18-25,Female,Divorced,3,7056,No,Non-Travel,8,3,2,3,7,2015-04-15,No
+EMP00285,Sarawak,Kuching,Kuching Branch 1,HR,HR Executive,38,36-45,Female,Married,4,4506,Yes,Non-Travel,5,2,1,1,10,2017-04-02,No
+EMP00286,Penang,George Town,George Town Branch 1,Operations,Cashier,44,36-45,Female,Married,2,2105,No,Travel_Frequently,3,2,1,4,12,2022-06-16,No
+EMP00287,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Cashier,50,46-60,Female,Single,3,2168,Yes,Travel_Rarely,25,2,3,2,11,2021-11-06,No
+EMP00288,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,IT,IT Support,28,26-35,Female,Single,3,3673,Yes,Non-Travel,2,2,1,3,4,2015-09-07,No
+EMP00289,Selangor,Shah Alam,Shah Alam Branch 2,Sales,Sales Executive,32,26-35,Male,Single,4,4300,No,Travel_Rarely,3,3,3,3,5,2016-12-15,No
+EMP00290,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Sales,Sales Executive,54,46-60,Female,Single,1,3950,No,Non-Travel,16,4,1,3,5,2015-02-19,No
+EMP00291,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,37,36-45,Female,Single,4,1970,No,Non-Travel,19,4,3,3,10,2015-10-23,No
+EMP00292,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Delivery Rider,39,36-45,Male,Single,2,1982,No,Travel_Rarely,17,2,4,3,8,2019-12-23,No
+EMP00293,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,HR,HR Executive,53,46-60,Female,Married,4,4386,No,Non-Travel,22,2,3,4,3,2017-04-13,No
+EMP00294,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,48,46-60,Male,Married,3,2357,No,Non-Travel,1,4,2,4,6,2020-11-20,No
+EMP00295,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,25,18-25,Female,Single,2,2581,No,Non-Travel,25,1,4,2,10,2017-12-27,No
+EMP00296,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Delivery Rider,41,36-45,Female,Married,3,2840,No,Travel_Rarely,9,3,4,2,14,2021-05-20,No
+EMP00297,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Kitchen Crew,44,36-45,Female,Single,2,2178,No,Travel_Rarely,19,2,2,1,11,2020-06-25,Yes
+EMP00298,Sarawak,Kuching,Kuching Branch 1,IT,IT Support,29,26-35,Male,Single,1,3578,Yes,Travel_Rarely,5,3,3,3,8,2016-10-13,No
+EMP00299,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,38,36-45,Female,Married,3,2402,No,Non-Travel,10,4,4,3,3,2023-02-21,No
+EMP00300,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Kitchen Crew,52,46-60,Male,Single,3,2082,No,Travel_Rarely,4,3,4,2,15,2014-10-18,No
+EMP00301,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,41,36-45,Male,Married,2,2234,No,Non-Travel,20,1,3,4,11,2014-04-20,No
+EMP00302,Sarawak,Kuching,Kuching Branch 2,Sales,Sales Executive,26,26-35,Male,Single,4,3427,No,Travel_Rarely,1,1,2,1,7,2023-10-30,No
+EMP00303,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,54,46-60,Female,Married,4,2179,No,Travel_Rarely,7,2,3,2,7,2016-01-05,No
+EMP00304,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,30,26-35,Female,Single,4,2493,Yes,Travel_Rarely,9,3,4,4,6,2016-06-08,No
+EMP00305,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Assistant Manager,50,46-60,Male,Married,5,4169,No,Travel_Rarely,18,4,1,1,3,2017-09-08,No
+EMP00306,Penang,George Town,George Town Branch 2,Operations,Delivery Rider,27,26-35,Male,Single,3,2174,No,Travel_Frequently,15,4,2,1,12,2017-08-24,No
+EMP00307,Penang,George Town,George Town Branch 1,Finance,Finance Executive,50,46-60,Female,Married,2,4680,Yes,Non-Travel,23,4,1,1,4,2017-09-09,No
+EMP00308,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,IT,IT Support,20,18-25,Female,Single,3,4106,Yes,Non-Travel,11,3,2,3,10,2015-11-04,No
+EMP00309,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Customer Support,Customer Service,53,46-60,Female,Single,5,2907,No,Non-Travel,21,4,1,4,0,2016-03-09,No
+EMP00310,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Branch Manager,47,46-60,Male,Married,3,6076,No,Travel_Rarely,2,3,4,2,15,2015-01-30,No
+EMP00311,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,21,18-25,Female,Married,1,2420,Yes,Travel_Rarely,17,3,3,1,13,2021-05-22,No
+EMP00312,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,24,18-25,Female,Single,5,2345,No,Travel_Rarely,13,1,1,4,11,2021-07-21,No
+EMP00313,Penang,George Town,George Town Branch 1,Operations,Assistant Manager,42,36-45,Female,Married,2,4259,No,Travel_Rarely,20,2,4,2,2,2019-06-29,No
+EMP00314,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,IT,IT Support,37,36-45,Female,Married,3,3838,No,Non-Travel,17,4,4,1,1,2021-02-16,No
+EMP00315,Sarawak,Kuching,Kuching Branch 2,IT,IT Support,29,26-35,Male,Single,2,3884,No,Non-Travel,23,3,1,3,9,2014-10-16,No
+EMP00316,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,38,36-45,Female,Married,2,2738,No,Non-Travel,11,1,3,3,5,2023-01-29,No
+EMP00317,Penang,George Town,George Town Branch 2,Customer Support,Customer Service,50,46-60,Female,Single,3,2765,No,Non-Travel,13,4,2,2,9,2020-01-03,No
+EMP00318,Penang,George Town,George Town Branch 1,Operations,Delivery Rider,45,36-45,Female,Married,4,2518,No,Non-Travel,1,4,3,3,14,2017-07-17,No
+EMP00319,Sarawak,Kuching,Kuching Branch 2,Sales,Sales Executive,22,18-25,Female,Single,2,3686,No,Travel_Frequently,5,1,4,3,8,2016-04-03,No
+EMP00320,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Cashier,51,46-60,Female,Married,2,2651,No,Travel_Rarely,16,1,3,4,7,2018-12-24,No
+EMP00321,Selangor,Shah Alam,Shah Alam Branch 1,Customer Support,Customer Service,48,46-60,Female,Single,3,2185,No,Non-Travel,8,1,4,1,13,2017-11-08,No
+EMP00322,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,50,46-60,Male,Married,1,2494,No,Travel_Rarely,20,3,3,2,1,2017-07-26,No
+EMP00323,Johor,Johor Bahru,Johor Bahru Branch 2,IT,IT Support,34,26-35,Male,Single,3,3856,No,Travel_Rarely,2,4,1,3,2,2015-08-21,Yes
+EMP00324,Johor,Johor Bahru,Johor Bahru Branch 2,Customer Support,Customer Service,44,36-45,Female,Single,2,2626,No,Non-Travel,10,1,3,4,3,2022-12-27,No
+EMP00325,Sarawak,Kuching,Kuching Branch 1,HR,HR Executive,33,26-35,Male,Married,1,3977,No,Travel_Rarely,6,4,2,2,9,2018-05-20,No
+EMP00326,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Cashier,38,36-45,Female,Married,3,2586,No,Non-Travel,12,4,2,2,11,2015-01-07,No
+EMP00327,Selangor,Shah Alam,Shah Alam Branch 2,HR,HR Executive,50,46-60,Female,Single,2,4055,No,Non-Travel,24,1,1,3,2,2020-06-27,No
+EMP00328,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Sales,Sales Executive,55,46-60,Female,Single,3,3756,No,Non-Travel,24,2,1,3,3,2023-11-02,No
+EMP00329,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,49,46-60,Male,Married,3,2306,No,Non-Travel,7,4,4,4,13,2022-12-24,Yes
+EMP00330,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,44,36-45,Male,Single,3,2442,Yes,Non-Travel,24,4,1,3,11,2016-03-28,No
+EMP00331,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Kitchen Crew,26,26-35,Male,Married,4,2563,Yes,Non-Travel,2,1,1,1,8,2017-07-29,No
+EMP00332,Johor,Johor Bahru,Johor Bahru Branch 1,Finance,Finance Executive,50,46-60,Male,Married,2,3216,No,Non-Travel,6,1,1,2,10,2015-03-29,No
+EMP00333,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,24,18-25,Male,Married,5,2403,No,Non-Travel,2,4,3,1,11,2023-02-21,No
+EMP00334,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Cashier,52,46-60,Male,Single,2,2881,Yes,Travel_Frequently,12,2,2,4,9,2014-06-07,No
+EMP00335,Sarawak,Kuching,Kuching Branch 2,IT,IT Support,24,18-25,Male,Divorced,5,4345,No,Travel_Rarely,12,2,3,1,11,2022-10-09,No
+EMP00336,Selangor,Shah Alam,Shah Alam Branch 2,Sales,Sales Executive,26,26-35,Male,Married,4,3994,No,Travel_Rarely,18,1,4,3,10,2021-12-14,No
+EMP00337,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Assistant Manager,30,26-35,Male,Married,3,4253,No,Travel_Rarely,11,4,3,2,0,2019-03-06,No
+EMP00338,Johor,Johor Bahru,Johor Bahru Branch 2,HR,HR Executive,30,26-35,Male,Married,4,4378,Yes,Travel_Rarely,7,4,4,2,14,2021-04-02,No
+EMP00339,Penang,George Town,George Town Branch 2,Operations,Cashier,20,18-25,Male,Single,3,2296,No,Travel_Rarely,1,1,3,4,5,2017-10-10,No
+EMP00340,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Branch Manager,37,36-45,Female,Single,2,5235,No,Non-Travel,13,1,1,2,6,2022-01-29,No
+EMP00341,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,22,18-25,Male,Married,5,2288,Yes,Travel_Rarely,2,4,2,1,4,2018-11-01,No
+EMP00342,Johor,Johor Bahru,Johor Bahru Branch 2,Customer Support,Customer Service,32,26-35,Male,Single,2,2160,No,Travel_Frequently,10,1,1,1,10,2022-05-20,No
+EMP00343,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Sales,Sales Executive,34,26-35,Male,Single,2,3510,No,Non-Travel,7,4,4,1,4,2018-04-20,No
+EMP00344,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Finance,Finance Executive,50,46-60,Male,Married,3,5390,No,Travel_Rarely,6,2,2,1,2,2020-02-28,No
+EMP00345,Sarawak,Kuching,Kuching Branch 1,Sales,Sales Executive,52,46-60,Male,Single,2,3252,No,Non-Travel,16,2,3,4,14,2021-06-03,No
+EMP00346,Sarawak,Kuching,Kuching Branch 2,Sales,Sales Executive,26,26-35,Female,Married,3,3899,No,Non-Travel,14,2,1,4,8,2014-06-07,No
+EMP00347,Selangor,Shah Alam,Shah Alam Branch 2,HR,HR Executive,24,18-25,Male,Married,1,3191,No,Non-Travel,1,1,3,3,5,2018-06-15,No
+EMP00348,Johor,Johor Bahru,Johor Bahru Branch 2,Sales,Sales Executive,47,46-60,Male,Married,1,3616,No,Travel_Rarely,5,4,3,4,4,2014-07-07,No
+EMP00349,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,51,46-60,Female,Married,3,1870,Yes,Travel_Frequently,5,1,2,4,1,2014-04-08,No
+EMP00350,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,38,36-45,Male,Married,1,1942,No,Non-Travel,22,1,1,3,0,2023-05-13,No
+EMP00351,Penang,George Town,George Town Branch 1,Operations,Branch Manager,31,26-35,Male,Married,5,7066,Yes,Travel_Rarely,8,1,4,3,5,2015-06-24,No
+EMP00352,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Kitchen Crew,43,36-45,Female,Single,2,2263,No,Travel_Rarely,19,4,4,1,12,2023-03-29,No
+EMP00353,Sarawak,Kuching,Kuching Branch 1,Operations,Assistant Manager,39,36-45,Female,Single,3,4164,No,Non-Travel,2,4,1,3,6,2019-05-15,No
+EMP00354,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,23,18-25,Male,Single,1,2304,Yes,Non-Travel,6,1,3,3,7,2019-10-29,Yes
+EMP00355,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,HR,HR Executive,33,26-35,Male,Married,3,2836,No,Travel_Rarely,9,4,4,1,1,2021-05-16,No
+EMP00356,Penang,George Town,George Town Branch 1,Operations,Cashier,53,46-60,Female,Married,2,2087,No,Travel_Frequently,8,2,4,3,11,2022-04-24,No
+EMP00357,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Cashier,39,36-45,Female,Single,3,2199,No,Non-Travel,3,2,4,4,4,2014-06-11,No
+EMP00358,Selangor,Shah Alam,Shah Alam Branch 1,Sales,Sales Executive,33,26-35,Female,Married,3,3666,No,Non-Travel,24,4,2,2,3,2023-01-06,Yes
+EMP00359,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,30,26-35,Male,Single,3,1800,No,Travel_Rarely,19,2,2,2,9,2014-12-22,No
+EMP00360,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Customer Support,Customer Service,44,36-45,Female,Single,2,2925,No,Travel_Rarely,20,3,1,3,1,2014-09-23,Yes
+EMP00361,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Branch Manager,22,18-25,Female,Married,1,5683,No,Travel_Frequently,1,3,1,4,0,2021-04-05,No
+EMP00362,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Finance,Finance Executive,51,46-60,Female,Divorced,4,4480,No,Non-Travel,17,4,3,2,1,2014-12-25,No
+EMP00363,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,51,46-60,Female,Single,2,2322,No,Non-Travel,20,4,3,4,2,2023-03-14,No
+EMP00364,Selangor,Shah Alam,Shah Alam Branch 1,HR,HR Executive,31,26-35,Female,Married,4,4241,No,Non-Travel,19,2,3,1,14,2022-05-21,No
+EMP00365,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Customer Support,Customer Service,36,36-45,Female,Married,4,3088,No,Non-Travel,15,1,2,4,6,2020-01-13,No
+EMP00366,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,46,46-60,Male,Married,1,2325,No,Non-Travel,18,4,3,2,1,2014-04-16,No
+EMP00367,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Customer Support,Customer Service,53,46-60,Male,Single,4,2687,No,Non-Travel,7,2,3,4,8,2017-05-23,Yes
+EMP00368,Sarawak,Kuching,Kuching Branch 2,Sales,Sales Executive,22,18-25,Female,Single,1,2523,Yes,Travel_Rarely,2,2,3,1,3,2016-06-25,No
+EMP00369,Penang,George Town,George Town Branch 2,Operations,Delivery Rider,39,36-45,Male,Single,3,2181,No,Non-Travel,5,4,2,2,0,2015-08-27,No
+EMP00370,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,28,26-35,Female,Single,3,2036,No,Travel_Rarely,3,1,4,3,2,2016-04-22,No
+EMP00371,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Delivery Rider,51,46-60,Male,Married,3,2383,No,Non-Travel,22,2,2,1,2,2022-10-20,No
+EMP00372,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,35,26-35,Male,Single,1,2185,No,Non-Travel,10,1,1,2,12,2016-02-13,No
+EMP00373,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Delivery Rider,27,26-35,Female,Single,3,2370,No,Travel_Rarely,16,2,4,3,15,2015-02-24,No
+EMP00374,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,25,18-25,Female,Married,4,2389,No,Travel_Rarely,20,1,1,3,13,2020-08-12,No
+EMP00375,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,31,26-35,Female,Married,3,2772,No,Travel_Rarely,6,2,4,1,10,2021-09-28,No
+EMP00376,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Finance,Finance Executive,26,26-35,Male,Single,4,4604,No,Travel_Frequently,6,2,3,2,5,2020-12-26,No
+EMP00377,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,23,18-25,Female,Married,4,2478,No,Travel_Rarely,14,4,1,3,0,2022-12-15,No
+EMP00378,Penang,George Town,George Town Branch 1,Operations,Cashier,44,36-45,Male,Single,3,2212,No,Travel_Frequently,16,2,1,4,6,2017-07-20,No
+EMP00379,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Kitchen Crew,40,36-45,Female,Married,3,2317,No,Non-Travel,11,3,1,3,8,2014-09-24,No
+EMP00380,Penang,George Town,George Town Branch 2,Operations,Cashier,48,46-60,Male,Single,4,2321,No,Non-Travel,14,3,1,2,10,2015-03-01,No
+EMP00381,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,HR,HR Executive,23,18-25,Female,Single,4,3816,No,Non-Travel,17,4,3,1,8,2022-07-22,No
+EMP00382,Sarawak,Kuching,Kuching Branch 2,Operations,Delivery Rider,49,46-60,Male,Married,2,2910,Yes,Non-Travel,25,1,2,4,15,2021-07-18,No
+EMP00383,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Assistant Manager,37,36-45,Female,Married,5,3794,Yes,Non-Travel,21,1,2,4,14,2022-12-23,No
+EMP00384,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Branch Manager,24,18-25,Female,Married,3,7064,No,Non-Travel,16,2,2,3,2,2018-04-23,No
+EMP00385,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Delivery Rider,21,18-25,Male,Married,3,2200,No,Travel_Rarely,6,1,1,4,4,2018-01-05,No
+EMP00386,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Delivery Rider,41,36-45,Male,Divorced,1,2523,Yes,Non-Travel,7,2,1,3,2,2017-11-02,Yes
+EMP00387,Penang,George Town,George Town Branch 1,Sales,Sales Executive,36,36-45,Male,Married,4,3727,Yes,Non-Travel,1,1,4,4,3,2014-08-10,No
+EMP00388,Johor,Johor Bahru,Johor Bahru Branch 1,Sales,Sales Executive,44,36-45,Female,Single,2,3683,No,Non-Travel,14,3,4,3,8,2015-12-22,Yes
+EMP00389,Penang,George Town,George Town Branch 1,Operations,Delivery Rider,49,46-60,Female,Single,4,2347,No,Travel_Rarely,8,1,3,4,3,2016-06-24,No
+EMP00390,Penang,George Town,George Town Branch 2,Operations,Cashier,42,36-45,Male,Single,3,1883,Yes,Travel_Rarely,21,3,4,4,9,2017-05-04,No
+EMP00391,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Cashier,20,18-25,Female,Married,3,2110,No,Travel_Rarely,21,1,1,2,2,2023-03-26,No
+EMP00392,Johor,Johor Bahru,Johor Bahru Branch 1,IT,IT Support,30,26-35,Female,Single,3,3808,Yes,Travel_Rarely,7,1,1,4,2,2021-02-18,No
+EMP00393,Selangor,Shah Alam,Shah Alam Branch 1,HR,HR Executive,45,36-45,Female,Married,2,2810,No,Travel_Rarely,17,3,4,1,8,2021-01-07,No
+EMP00394,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,HR,HR Executive,52,46-60,Male,Single,1,3972,Yes,Non-Travel,10,4,3,2,5,2017-06-30,No
+EMP00395,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,IT,IT Support,24,18-25,Female,Married,2,3491,No,Non-Travel,20,1,4,4,3,2017-03-28,No
+EMP00396,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,42,36-45,Female,Married,4,1871,No,Non-Travel,20,2,4,3,1,2021-02-01,No
+EMP00397,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Branch Manager,25,18-25,Male,Married,3,6631,Yes,Non-Travel,3,3,3,4,1,2021-10-14,Yes
+EMP00398,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,20,18-25,Female,Single,3,2735,No,Non-Travel,14,2,1,2,11,2020-02-26,No
+EMP00399,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,23,18-25,Male,Married,2,2618,No,Travel_Rarely,3,4,1,1,10,2016-06-27,No
+EMP00400,Selangor,Shah Alam,Shah Alam Branch 1,Sales,Sales Executive,28,26-35,Female,Married,2,3146,No,Non-Travel,7,2,3,4,15,2014-12-23,No
+EMP00401,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,53,46-60,Male,Married,3,2896,Yes,Non-Travel,9,3,1,2,11,2017-10-31,No
+EMP00402,Selangor,Shah Alam,Shah Alam Branch 1,Sales,Sales Executive,40,36-45,Female,Married,2,3747,No,Non-Travel,15,1,1,1,13,2023-01-26,Yes
+EMP00403,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,26,26-35,Male,Divorced,3,2530,Yes,Non-Travel,4,1,4,4,13,2021-12-09,No
+EMP00404,Penang,George Town,George Town Branch 2,Operations,Cashier,34,26-35,Female,Single,2,2223,No,Travel_Frequently,7,1,1,4,0,2020-11-14,No
+EMP00405,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,52,46-60,Male,Single,5,2217,Yes,Non-Travel,7,4,3,4,12,2023-05-27,No
+EMP00406,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,42,36-45,Female,Married,3,1856,No,Travel_Frequently,1,3,4,2,5,2016-04-03,No
+EMP00407,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,53,46-60,Male,Married,3,2619,No,Non-Travel,4,2,3,4,13,2014-08-11,No
+EMP00408,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,29,26-35,Male,Married,2,2411,No,Travel_Rarely,6,4,4,3,11,2023-12-13,No
+EMP00409,Selangor,Shah Alam,Shah Alam Branch 1,Finance,Finance Executive,33,26-35,Male,Married,3,4103,No,Non-Travel,21,1,3,4,11,2015-04-03,Yes
+EMP00410,Sarawak,Kuching,Kuching Branch 2,Sales,Sales Executive,37,36-45,Female,Married,3,3986,Yes,Non-Travel,10,2,4,4,1,2018-09-10,Yes
+EMP00411,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,23,18-25,Male,Married,4,2370,Yes,Travel_Rarely,10,3,2,3,13,2017-07-18,No
+EMP00412,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Branch Manager,43,36-45,Male,Married,2,5532,No,Travel_Rarely,16,1,1,1,11,2023-10-28,No
+EMP00413,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,32,26-35,Male,Single,3,2303,No,Travel_Frequently,7,3,3,4,13,2015-07-24,No
+EMP00414,Penang,George Town,George Town Branch 1,IT,IT Support,45,36-45,Male,Single,3,3395,No,Non-Travel,3,4,2,1,6,2014-07-07,No
+EMP00415,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,31,26-35,Female,Single,4,2183,No,Non-Travel,13,4,4,2,2,2015-01-27,No
+EMP00416,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,24,18-25,Female,Married,4,2608,No,Non-Travel,12,2,3,1,12,2017-07-13,No
+EMP00417,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,19,18-25,Female,Married,3,2450,No,Non-Travel,16,2,1,3,12,2017-10-20,Yes
+EMP00418,Selangor,Shah Alam,Shah Alam Branch 2,HR,HR Executive,36,36-45,Male,Single,2,4160,Yes,Travel_Rarely,13,1,2,1,4,2015-04-26,No
+EMP00419,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Delivery Rider,31,26-35,Male,Single,5,2756,No,Travel_Rarely,20,3,1,2,9,2019-01-13,Yes
+EMP00420,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,54,46-60,Male,Single,3,2502,Yes,Travel_Rarely,22,3,1,4,9,2021-02-25,Yes
+EMP00421,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,33,26-35,Male,Married,2,2391,No,Non-Travel,12,4,3,2,9,2014-09-04,No
+EMP00422,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Finance,Finance Executive,28,26-35,Female,Single,2,4524,No,Non-Travel,10,1,1,3,11,2021-05-10,No
+EMP00423,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Sales,Sales Executive,35,26-35,Male,Married,3,3577,No,Non-Travel,4,3,3,4,12,2017-06-03,Yes
+EMP00424,Penang,George Town,George Town Branch 1,Sales,Sales Executive,43,36-45,Female,Single,3,3581,No,Travel_Rarely,3,3,2,2,12,2014-03-14,No
+EMP00425,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,24,18-25,Female,Married,3,2109,No,Travel_Rarely,24,2,1,2,10,2023-12-29,No
+EMP00426,Penang,George Town,George Town Branch 1,Customer Support,Customer Service,20,18-25,Female,Married,3,2506,No,Travel_Rarely,23,1,1,1,9,2020-02-05,Yes
+EMP00427,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Delivery Rider,31,26-35,Female,Divorced,3,2507,No,Travel_Rarely,11,2,1,1,4,2022-10-11,No
+EMP00428,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,41,36-45,Female,Married,4,2371,No,Non-Travel,12,1,2,4,1,2015-09-04,Yes
+EMP00429,Sarawak,Kuching,Kuching Branch 2,Sales,Sales Executive,36,36-45,Female,Single,1,3231,Yes,Travel_Rarely,25,3,2,3,15,2020-06-28,No
+EMP00430,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Finance,Finance Executive,27,26-35,Male,Divorced,2,4132,Yes,Non-Travel,6,3,3,2,5,2015-12-12,No
+EMP00431,Sarawak,Kuching,Kuching Branch 2,IT,IT Support,55,46-60,Male,Married,2,3461,No,Non-Travel,20,2,3,3,11,2023-07-21,No
+EMP00432,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,IT,IT Support,41,36-45,Female,Married,2,4130,No,Travel_Frequently,3,1,4,1,12,2020-10-05,No
+EMP00433,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,51,46-60,Female,Married,3,2291,Yes,Non-Travel,24,1,4,1,15,2020-10-19,Yes
+EMP00434,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,36,36-45,Male,Married,1,2184,Yes,Travel_Rarely,4,1,2,3,12,2022-12-01,No
+EMP00435,Sarawak,Kuching,Kuching Branch 1,HR,HR Executive,30,26-35,Female,Divorced,3,3322,Yes,Non-Travel,22,3,2,4,2,2021-05-17,No
+EMP00436,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,IT,IT Support,43,36-45,Female,Married,1,3119,No,Non-Travel,24,1,3,1,7,2014-11-20,No
+EMP00437,Sarawak,Kuching,Kuching Branch 2,HR,HR Executive,49,46-60,Male,Single,3,3137,No,Travel_Rarely,17,2,2,3,13,2015-02-20,No
+EMP00438,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,32,26-35,Female,Single,3,2458,Yes,Non-Travel,21,4,2,1,14,2016-11-12,Yes
+EMP00439,Penang,George Town,George Town Branch 1,Customer Support,Customer Service,41,36-45,Male,Single,3,2247,No,Non-Travel,8,3,2,2,8,2017-11-06,No
+EMP00440,Penang,George Town,George Town Branch 1,Customer Support,Customer Service,47,46-60,Female,Married,3,2280,No,Travel_Rarely,10,3,3,2,8,2016-01-01,No
+EMP00441,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Assistant Manager,22,18-25,Male,Single,3,3097,No,Travel_Rarely,14,2,2,4,0,2016-08-16,No
+EMP00442,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Delivery Rider,23,18-25,Male,Divorced,2,2215,Yes,Travel_Rarely,21,1,2,1,13,2014-03-24,No
+EMP00443,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,IT,IT Support,42,36-45,Female,Married,2,2864,No,Non-Travel,15,2,1,2,0,2015-04-14,No
+EMP00444,Selangor,Shah Alam,Shah Alam Branch 1,Sales,Sales Executive,21,18-25,Female,Single,4,2828,Yes,Travel_Frequently,18,4,1,3,0,2021-06-11,No
+EMP00445,Sarawak,Kuching,Kuching Branch 1,IT,IT Support,39,36-45,Male,Married,3,3916,No,Non-Travel,3,2,1,1,7,2021-06-26,Yes
+EMP00446,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,30,26-35,Male,Married,2,2198,No,Non-Travel,3,3,1,4,0,2017-07-03,No
+EMP00447,Johor,Johor Bahru,Johor Bahru Branch 1,Finance,Finance Executive,25,18-25,Female,Single,1,3915,No,Non-Travel,2,4,1,2,13,2017-09-30,No
+EMP00448,Sarawak,Kuching,Kuching Branch 2,Operations,Cashier,53,46-60,Female,Divorced,2,2441,No,Non-Travel,5,3,1,3,8,2014-06-09,No
+EMP00449,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Customer Support,Customer Service,31,26-35,Female,Married,4,2506,No,Travel_Rarely,22,2,1,4,13,2016-02-25,No
+EMP00450,Sarawak,Kuching,Kuching Branch 1,IT,IT Support,55,46-60,Female,Single,2,3048,Yes,Travel_Rarely,17,2,2,4,14,2015-07-25,No
+EMP00451,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Branch Manager,45,36-45,Male,Married,3,7089,No,Non-Travel,15,2,2,4,13,2023-05-07,No
+EMP00452,Penang,George Town,George Town Branch 2,IT,IT Support,34,26-35,Male,Single,3,3895,No,Travel_Rarely,12,3,2,1,4,2015-08-29,No
+EMP00453,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Delivery Rider,41,36-45,Female,Divorced,1,2151,No,Non-Travel,5,1,1,1,14,2014-05-07,Yes
+EMP00454,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,20,18-25,Female,Single,3,2137,Yes,Travel_Rarely,20,2,4,4,14,2019-08-17,No
+EMP00455,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Assistant Manager,30,26-35,Male,Married,4,3939,No,Travel_Rarely,11,4,3,4,8,2017-06-11,No
+EMP00456,Selangor,Shah Alam,Shah Alam Branch 2,Customer Support,Customer Service,34,26-35,Female,Single,2,3103,No,Non-Travel,24,1,1,1,12,2023-12-03,Yes
+EMP00457,Johor,Johor Bahru,Johor Bahru Branch 1,Finance,Finance Executive,50,46-60,Female,Single,2,3929,No,Non-Travel,21,4,1,4,2,2020-04-09,No
+EMP00458,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Delivery Rider,41,36-45,Male,Single,3,2283,Yes,Non-Travel,13,4,1,2,5,2015-01-24,No
+EMP00459,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,22,18-25,Male,Single,3,1997,No,Non-Travel,8,4,2,1,13,2018-01-11,No
+EMP00460,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,IT,IT Support,53,46-60,Female,Married,1,3246,Yes,Travel_Rarely,3,3,3,2,9,2015-04-14,No
+EMP00461,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Cashier,43,36-45,Female,Single,3,2322,No,Travel_Rarely,25,1,3,1,10,2019-10-13,No
+EMP00462,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,50,46-60,Female,Married,3,2555,Yes,Non-Travel,19,1,4,2,14,2018-03-19,No
+EMP00463,Penang,George Town,George Town Branch 2,Operations,Cashier,28,26-35,Female,Single,4,1975,No,Non-Travel,14,4,3,3,4,2022-05-15,No
+EMP00464,Sarawak,Kuching,Kuching Branch 2,IT,IT Support,23,18-25,Male,Married,2,2533,No,Travel_Rarely,18,3,2,4,2,2023-02-07,No
+EMP00465,Penang,George Town,George Town Branch 1,IT,IT Support,46,46-60,Female,Single,5,3635,No,Travel_Rarely,2,2,2,4,10,2017-08-30,No
+EMP00466,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,48,46-60,Female,Married,3,1800,Yes,Non-Travel,17,1,3,3,13,2021-10-02,Yes
+EMP00467,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Delivery Rider,21,18-25,Male,Single,2,2316,Yes,Travel_Rarely,11,1,4,2,3,2017-01-29,No
+EMP00468,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,26,26-35,Male,Married,5,2290,No,Non-Travel,4,3,3,2,8,2018-02-10,No
+EMP00469,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Finance,Finance Executive,31,26-35,Female,Single,3,3454,No,Non-Travel,14,1,1,4,7,2017-11-15,No
+EMP00470,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,HR,HR Executive,52,46-60,Male,Single,4,3874,No,Travel_Frequently,23,4,3,3,13,2023-06-19,No
+EMP00471,Sarawak,Kuching,Kuching Branch 1,Sales,Sales Executive,36,36-45,Male,Married,4,3421,Yes,Non-Travel,14,4,1,4,4,2022-06-28,No
+EMP00472,Johor,Johor Bahru,Johor Bahru Branch 2,Sales,Sales Executive,27,26-35,Male,Married,3,2727,Yes,Non-Travel,23,3,3,1,9,2019-11-06,No
+EMP00473,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Cashier,33,26-35,Male,Single,5,1955,No,Travel_Frequently,3,2,3,4,2,2018-01-20,No
+EMP00474,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,IT,IT Support,41,36-45,Male,Married,3,3565,No,Travel_Rarely,3,1,4,1,2,2020-03-06,No
+EMP00475,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,45,36-45,Male,Single,5,2544,No,Travel_Rarely,12,2,3,2,3,2021-06-27,No
+EMP00476,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Sales,Sales Executive,48,46-60,Male,Single,3,3234,Yes,Non-Travel,21,4,4,1,15,2017-08-08,No
+EMP00477,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Cashier,49,46-60,Male,Single,4,2093,No,Non-Travel,12,2,3,1,5,2015-11-17,No
+EMP00478,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,35,26-35,Male,Married,4,2005,Yes,Non-Travel,23,2,4,3,15,2021-12-04,No
+EMP00479,Sarawak,Kuching,Kuching Branch 2,Operations,Cashier,27,26-35,Female,Single,4,2243,No,Non-Travel,23,4,2,1,13,2021-11-25,No
+EMP00480,Selangor,Shah Alam,Shah Alam Branch 2,Customer Support,Customer Service,24,18-25,Male,Married,2,2548,No,Non-Travel,24,1,4,3,2,2023-03-26,No
+EMP00481,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,27,26-35,Male,Married,2,2428,Yes,Non-Travel,21,1,4,3,2,2021-08-26,Yes
+EMP00482,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Assistant Manager,30,26-35,Female,Married,3,3850,No,Non-Travel,7,4,2,2,2,2021-06-24,No
+EMP00483,Johor,Johor Bahru,Johor Bahru Branch 1,IT,IT Support,45,36-45,Male,Married,4,3198,Yes,Travel_Rarely,3,2,3,4,11,2021-08-29,No
+EMP00484,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,HR,HR Executive,31,26-35,Male,Married,4,3611,No,Non-Travel,22,3,3,4,13,2017-11-20,No
+EMP00485,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,40,36-45,Male,Married,3,2239,No,Non-Travel,25,3,3,4,3,2019-03-09,No
+EMP00486,Penang,George Town,George Town Branch 2,Operations,Cashier,25,18-25,Male,Married,3,2268,Yes,Travel_Rarely,11,3,3,3,2,2014-06-01,No
+EMP00487,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Delivery Rider,44,36-45,Female,Married,2,2546,No,Travel_Rarely,1,2,1,2,14,2014-01-09,No
+EMP00488,Penang,George Town,George Town Branch 2,IT,IT Support,51,46-60,Male,Married,4,3755,No,Non-Travel,5,3,1,4,0,2015-01-16,No
+EMP00489,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Delivery Rider,33,26-35,Male,Single,3,2271,Yes,Non-Travel,7,2,4,4,1,2018-10-27,No
+EMP00490,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Branch Manager,33,26-35,Male,Single,3,7269,No,Travel_Rarely,7,4,1,2,2,2017-06-18,No
+EMP00491,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,42,36-45,Female,Married,4,2353,Yes,Non-Travel,12,1,1,2,8,2020-01-09,Yes
+EMP00492,Sarawak,Kuching,Kuching Branch 2,Sales,Sales Executive,40,36-45,Male,Single,5,4134,No,Travel_Rarely,20,2,1,2,8,2022-04-09,No
+EMP00493,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,54,46-60,Male,Married,2,2459,Yes,Travel_Rarely,18,4,2,1,9,2017-07-24,No
+EMP00494,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,51,46-60,Female,Single,2,1800,No,Travel_Rarely,17,4,1,2,11,2022-07-28,No
+EMP00495,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,51,46-60,Female,Single,4,1883,Yes,Non-Travel,18,1,3,2,12,2015-04-27,No
+EMP00496,Sarawak,Kuching,Kuching Branch 1,Operations,Assistant Manager,55,46-60,Male,Single,3,4961,Yes,Travel_Frequently,16,4,3,4,6,2023-10-31,No
+EMP00497,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Customer Support,Customer Service,41,36-45,Male,Married,2,2780,No,Non-Travel,4,1,2,1,14,2021-09-30,No
+EMP00498,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,34,26-35,Female,Married,2,2312,No,Non-Travel,18,1,3,1,8,2014-07-16,No
+EMP00499,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,23,18-25,Male,Single,2,2745,No,Non-Travel,10,3,4,1,4,2022-04-26,No
+EMP00500,Sarawak,Kuching,Kuching Branch 2,Operations,Cashier,54,46-60,Male,Married,3,1800,No,Non-Travel,21,4,4,1,6,2019-08-05,Yes
+EMP00501,Penang,George Town,George Town Branch 2,Customer Support,Customer Service,54,46-60,Male,Married,1,2308,Yes,Non-Travel,4,2,4,1,12,2019-05-30,No
+EMP00502,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,26,26-35,Female,Married,3,2262,Yes,Travel_Rarely,5,1,3,4,3,2019-03-17,No
+EMP00503,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Delivery Rider,43,36-45,Male,Single,4,2316,No,Travel_Rarely,13,3,4,3,2,2016-09-02,No
+EMP00504,Selangor,Shah Alam,Shah Alam Branch 2,HR,HR Executive,26,26-35,Female,Married,1,4229,No,Non-Travel,8,2,2,2,2,2023-11-16,Yes
+EMP00505,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Delivery Rider,40,36-45,Female,Divorced,4,2978,No,Non-Travel,21,3,3,1,11,2014-05-09,Yes
+EMP00506,Johor,Johor Bahru,Johor Bahru Branch 2,Customer Support,Customer Service,34,26-35,Male,Married,2,2852,Yes,Travel_Rarely,12,4,4,3,1,2017-11-20,No
+EMP00507,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,23,18-25,Male,Single,1,1800,No,Travel_Rarely,2,4,2,2,8,2019-01-27,No
+EMP00508,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,21,18-25,Female,Single,3,2641,No,Non-Travel,14,4,3,3,2,2022-12-03,No
+EMP00509,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,55,46-60,Female,Divorced,3,2187,No,Travel_Rarely,21,1,2,1,6,2017-05-24,Yes
+EMP00510,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,41,36-45,Male,Single,2,2115,No,Non-Travel,19,3,1,4,4,2023-08-21,No
+EMP00511,Penang,George Town,George Town Branch 1,Operations,Delivery Rider,42,36-45,Male,Divorced,2,1875,Yes,Travel_Rarely,24,2,2,1,9,2021-09-12,No
+EMP00512,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,41,36-45,Female,Single,3,2309,No,Travel_Rarely,20,2,2,4,4,2019-01-25,No
+EMP00513,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,38,36-45,Male,Married,3,1849,Yes,Travel_Rarely,19,1,3,3,6,2022-04-23,Yes
+EMP00514,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,20,18-25,Male,Married,1,1991,Yes,Travel_Rarely,10,3,3,1,1,2023-02-10,No
+EMP00515,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,41,36-45,Female,Married,2,1902,No,Non-Travel,9,4,2,4,9,2014-01-11,No
+EMP00516,Sarawak,Kuching,Kuching Branch 2,Customer Support,Customer Service,21,18-25,Female,Single,3,2484,No,Non-Travel,16,1,4,3,13,2017-09-23,No
+EMP00517,Sarawak,Kuching,Kuching Branch 1,IT,IT Support,38,36-45,Male,Single,3,3435,Yes,Travel_Frequently,23,1,1,4,13,2021-07-27,Yes
+EMP00518,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Sales,Sales Executive,29,26-35,Female,Single,3,2997,No,Travel_Rarely,10,4,1,4,7,2017-03-31,No
+EMP00519,Penang,George Town,George Town Branch 2,Operations,Assistant Manager,44,36-45,Male,Single,2,4064,No,Travel_Rarely,16,3,4,3,13,2019-01-20,No
+EMP00520,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,23,18-25,Male,Single,3,2440,No,Non-Travel,10,1,4,4,9,2014-08-23,No
+EMP00521,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Sales,Sales Executive,32,26-35,Female,Single,4,3436,Yes,Travel_Rarely,16,4,4,4,14,2016-08-24,Yes
+EMP00522,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,24,18-25,Female,Single,2,2967,No,Non-Travel,4,4,2,2,14,2016-02-28,No
+EMP00523,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Sales,Sales Executive,45,36-45,Female,Single,4,3288,No,Non-Travel,14,3,4,3,0,2019-09-27,No
+EMP00524,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Assistant Manager,54,46-60,Male,Single,3,4116,Yes,Non-Travel,17,1,3,3,6,2023-05-10,No
+EMP00525,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Branch Manager,53,46-60,Female,Single,2,7380,No,Travel_Frequently,3,4,4,3,0,2016-06-09,No
+EMP00526,Johor,Johor Bahru,Johor Bahru Branch 2,Sales,Sales Executive,45,36-45,Male,Married,3,3108,No,Non-Travel,2,3,2,3,11,2015-12-26,No
+EMP00527,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,34,26-35,Female,Single,2,2366,Yes,Travel_Rarely,15,1,2,4,13,2016-12-21,Yes
+EMP00528,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,51,46-60,Female,Single,2,2003,No,Non-Travel,9,4,3,3,5,2022-01-05,No
+EMP00529,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,IT,IT Support,24,18-25,Male,Single,2,3297,No,Travel_Rarely,22,3,2,3,12,2017-03-01,No
+EMP00530,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,51,46-60,Female,Single,4,2373,No,Non-Travel,25,1,2,2,15,2020-05-30,No
+EMP00531,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,48,46-60,Female,Married,4,2079,No,Non-Travel,9,1,4,1,5,2019-11-08,No
+EMP00532,Penang,George Town,George Town Branch 1,Operations,Cashier,27,26-35,Male,Married,3,2068,Yes,Travel_Rarely,20,3,2,1,9,2019-08-10,No
+EMP00533,Selangor,Shah Alam,Shah Alam Branch 1,Finance,Finance Executive,40,36-45,Female,Married,4,3180,No,Travel_Rarely,3,2,1,1,5,2023-10-13,Yes
+EMP00534,Johor,Johor Bahru,Johor Bahru Branch 2,HR,HR Executive,32,26-35,Female,Single,3,4541,No,Non-Travel,8,4,1,2,1,2022-05-24,No
+EMP00535,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Assistant Manager,40,36-45,Male,Single,4,4542,No,Non-Travel,15,3,3,2,7,2018-12-28,No
+EMP00536,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Cashier,35,26-35,Female,Married,2,2292,No,Non-Travel,7,2,2,2,1,2018-04-10,No
+EMP00537,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,IT,IT Support,33,26-35,Female,Married,3,3329,No,Travel_Rarely,12,4,1,2,1,2015-06-02,No
+EMP00538,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Delivery Rider,28,26-35,Male,Single,5,1855,Yes,Travel_Rarely,21,2,4,3,2,2018-06-17,No
+EMP00539,Penang,George Town,George Town Branch 1,Operations,Cashier,27,26-35,Female,Divorced,3,2297,No,Travel_Rarely,5,3,2,2,15,2019-11-12,No
+EMP00540,Sarawak,Kuching,Kuching Branch 2,Customer Support,Customer Service,34,26-35,Female,Single,5,2708,Yes,Non-Travel,13,3,2,4,7,2017-12-17,No
+EMP00541,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,52,46-60,Female,Single,2,1800,No,Non-Travel,17,1,3,1,10,2018-03-30,No
+EMP00542,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,26,26-35,Male,Single,2,1887,Yes,Non-Travel,5,4,4,1,13,2019-02-08,No
+EMP00543,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Branch Manager,19,18-25,Male,Single,3,6432,No,Travel_Frequently,10,4,3,4,8,2017-07-18,No
+EMP00544,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Finance,Finance Executive,37,36-45,Male,Married,4,4342,No,Non-Travel,16,1,2,4,2,2020-08-24,No
+EMP00545,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,20,18-25,Male,Married,3,2253,No,Travel_Rarely,25,1,4,4,11,2019-04-18,No
+EMP00546,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,55,46-60,Male,Single,4,1800,Yes,Non-Travel,6,3,3,3,12,2015-03-29,Yes
+EMP00547,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,50,46-60,Female,Single,3,2235,Yes,Non-Travel,16,1,4,3,8,2015-07-15,No
+EMP00548,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,49,46-60,Female,Married,2,2253,No,Non-Travel,8,1,1,1,12,2020-03-11,No
+EMP00549,Selangor,Shah Alam,Shah Alam Branch 2,Sales,Sales Executive,33,26-35,Female,Divorced,3,2884,No,Non-Travel,13,2,4,2,12,2017-02-12,Yes
+EMP00550,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Cashier,49,46-60,Male,Married,1,2196,No,Non-Travel,13,1,2,1,5,2015-06-09,No
+EMP00551,Penang,George Town,George Town Branch 1,Customer Support,Customer Service,32,26-35,Male,Single,3,2388,No,Non-Travel,24,4,2,1,14,2022-05-31,No
+EMP00552,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Sales,Sales Executive,49,46-60,Female,Single,3,2593,Yes,Non-Travel,12,4,3,1,13,2022-09-25,No
+EMP00553,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,55,46-60,Male,Married,2,2301,Yes,Non-Travel,25,2,2,4,12,2015-10-25,No
+EMP00554,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Cashier,52,46-60,Female,Single,2,2440,No,Non-Travel,24,2,3,2,1,2019-01-28,No
+EMP00555,Penang,George Town,George Town Branch 2,Operations,Cashier,25,18-25,Male,Married,2,2504,Yes,Travel_Rarely,12,3,4,3,15,2016-07-21,Yes
+EMP00556,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Cashier,49,46-60,Male,Single,1,2408,Yes,Travel_Rarely,17,4,3,4,10,2014-11-25,No
+EMP00557,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,46,46-60,Female,Single,1,2208,No,Travel_Rarely,8,1,2,3,2,2020-09-13,No
+EMP00558,Sarawak,Kuching,Kuching Branch 1,Operations,Delivery Rider,54,46-60,Male,Single,4,2194,No,Non-Travel,6,1,3,2,13,2017-06-01,No
+EMP00559,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,44,36-45,Male,Married,3,1871,No,Non-Travel,19,1,2,3,15,2018-07-15,Yes
+EMP00560,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Kitchen Crew,27,26-35,Male,Single,5,1800,No,Travel_Rarely,25,1,2,2,7,2018-09-12,No
+EMP00561,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,54,46-60,Male,Single,3,2322,No,Travel_Frequently,6,4,4,1,10,2018-01-22,No
+EMP00562,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Sales,Sales Executive,43,36-45,Male,Married,1,3545,Yes,Non-Travel,6,2,3,3,3,2015-04-04,No
+EMP00563,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,31,26-35,Male,Married,3,2075,No,Non-Travel,25,3,2,4,6,2014-04-10,No
+EMP00564,Johor,Johor Bahru,Johor Bahru Branch 2,Customer Support,Customer Service,52,46-60,Female,Single,4,2967,No,Travel_Rarely,8,4,1,2,14,2021-10-02,Yes
+EMP00565,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Cashier,27,26-35,Female,Married,3,2468,No,Travel_Rarely,18,1,3,3,1,2014-01-12,No
+EMP00566,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Cashier,51,46-60,Female,Married,3,2339,No,Travel_Rarely,15,3,3,3,14,2016-03-22,No
+EMP00567,Sarawak,Kuching,Kuching Branch 1,Finance,Finance Executive,23,18-25,Female,Divorced,3,3819,No,Travel_Rarely,23,2,2,3,12,2015-07-02,No
+EMP00568,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Delivery Rider,30,26-35,Female,Married,2,2910,No,Non-Travel,24,3,4,3,7,2018-10-07,No
+EMP00569,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,50,46-60,Female,Married,3,2670,Yes,Travel_Frequently,14,2,4,3,0,2020-05-26,No
+EMP00570,Selangor,Shah Alam,Shah Alam Branch 1,HR,HR Executive,20,18-25,Male,Single,2,3157,Yes,Travel_Rarely,24,2,2,3,8,2021-08-29,No
+EMP00571,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,47,46-60,Female,Married,3,2363,No,Travel_Rarely,15,2,4,1,4,2015-10-16,No
+EMP00572,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,52,46-60,Female,Married,3,2348,No,Travel_Rarely,4,2,4,4,11,2017-06-03,No
+EMP00573,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Branch Manager,25,18-25,Female,Single,1,5646,No,Travel_Rarely,18,3,4,3,10,2023-03-06,No
+EMP00574,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Cashier,44,36-45,Female,Single,3,2399,No,Travel_Rarely,22,1,1,3,0,2023-08-12,No
+EMP00575,Sarawak,Kuching,Kuching Branch 2,Operations,Cashier,47,46-60,Male,Single,1,2508,Yes,Non-Travel,25,3,1,1,2,2021-07-01,Yes
+EMP00576,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,45,36-45,Female,Married,1,2095,No,Non-Travel,2,1,2,4,4,2023-10-22,Yes
+EMP00577,Sarawak,Kuching,Kuching Branch 2,IT,IT Support,28,26-35,Female,Married,3,3456,Yes,Travel_Frequently,13,4,3,4,6,2022-02-05,No
+EMP00578,Penang,George Town,George Town Branch 1,Operations,Assistant Manager,31,26-35,Female,Married,4,4474,No,Non-Travel,19,2,3,2,14,2019-01-12,No
+EMP00579,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,52,46-60,Male,Single,3,2756,Yes,Non-Travel,15,3,3,2,7,2019-03-21,No
+EMP00580,Selangor,Shah Alam,Shah Alam Branch 2,Finance,Finance Executive,21,18-25,Female,Single,3,4478,No,Travel_Rarely,4,3,2,4,10,2017-10-20,Yes
+EMP00581,Penang,George Town,George Town Branch 1,Operations,Cashier,33,26-35,Male,Married,3,2051,No,Non-Travel,9,2,3,3,15,2016-09-15,No
+EMP00582,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Customer Support,Customer Service,40,36-45,Male,Single,5,2462,No,Non-Travel,16,4,2,2,7,2017-01-06,No
+EMP00583,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Cashier,26,26-35,Female,Married,1,2287,No,Non-Travel,7,1,4,3,4,2015-01-27,No
+EMP00584,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,40,36-45,Male,Married,2,2320,No,Non-Travel,24,1,1,3,0,2020-07-29,No
+EMP00585,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,42,36-45,Male,Single,3,2296,No,Non-Travel,10,4,1,3,6,2017-10-28,No
+EMP00586,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,21,18-25,Male,Single,3,1943,Yes,Non-Travel,23,2,2,4,12,2017-03-02,No
+EMP00587,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,39,36-45,Male,Single,5,2357,No,Travel_Rarely,8,4,4,4,10,2021-09-09,No
+EMP00588,Sarawak,Kuching,Kuching Branch 1,Operations,Assistant Manager,51,46-60,Female,Married,1,4455,No,Travel_Rarely,17,4,4,3,9,2020-03-29,No
+EMP00589,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,51,46-60,Female,Single,2,2135,No,Non-Travel,2,2,1,3,8,2020-02-07,No
+EMP00590,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Delivery Rider,27,26-35,Female,Single,3,2551,Yes,Travel_Rarely,5,2,3,2,12,2015-06-21,Yes
+EMP00591,Selangor,Shah Alam,Shah Alam Branch 1,IT,IT Support,24,18-25,Male,Married,2,4025,No,Travel_Rarely,4,4,2,1,9,2018-08-24,No
+EMP00592,Penang,George Town,George Town Branch 1,Finance,Finance Executive,36,36-45,Male,Married,3,4583,No,Non-Travel,8,2,4,3,2,2015-06-27,No
+EMP00593,Sarawak,Kuching,Kuching Branch 2,HR,HR Executive,29,26-35,Female,Married,3,4419,No,Travel_Rarely,19,2,4,4,10,2018-01-23,No
+EMP00594,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Customer Support,Customer Service,48,46-60,Male,Married,3,2245,Yes,Travel_Rarely,17,4,4,3,4,2015-07-13,No
+EMP00595,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,54,46-60,Male,Married,3,2342,No,Travel_Rarely,4,3,2,1,3,2015-03-04,Yes
+EMP00596,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,HR,HR Executive,48,46-60,Female,Single,3,4545,No,Travel_Rarely,22,1,4,3,10,2019-02-17,No
+EMP00597,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,25,18-25,Female,Married,2,2681,No,Non-Travel,3,1,4,4,8,2023-03-30,No
+EMP00598,Penang,George Town,George Town Branch 2,Customer Support,Customer Service,52,46-60,Male,Single,3,1916,No,Travel_Rarely,1,1,3,2,5,2018-05-14,No
+EMP00599,Penang,George Town,George Town Branch 2,Customer Support,Customer Service,37,36-45,Female,Married,4,2445,No,Non-Travel,16,2,2,2,10,2020-01-23,No
+EMP00600,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Kitchen Crew,46,46-60,Female,Married,1,2360,No,Non-Travel,4,3,1,2,1,2018-02-15,No
+EMP00601,Selangor,Shah Alam,Shah Alam Branch 1,IT,IT Support,46,46-60,Female,Married,3,2631,No,Travel_Rarely,1,2,1,2,11,2020-08-03,No
+EMP00602,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,44,36-45,Male,Married,1,2395,No,Non-Travel,2,2,3,4,1,2016-06-06,No
+EMP00603,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Finance,Finance Executive,19,18-25,Female,Single,2,3340,No,Travel_Rarely,5,1,4,1,5,2022-12-27,No
+EMP00604,Selangor,Shah Alam,Shah Alam Branch 1,Customer Support,Customer Service,28,26-35,Male,Single,4,2468,Yes,Travel_Frequently,6,3,4,4,12,2022-09-02,Yes
+EMP00605,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,30,26-35,Female,Single,2,2120,No,Travel_Rarely,10,3,3,3,12,2015-06-11,No
+EMP00606,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,HR,HR Executive,31,26-35,Male,Single,2,3523,No,Travel_Frequently,4,1,2,1,9,2020-04-06,No
+EMP00607,Penang,George Town,George Town Branch 2,Sales,Sales Executive,41,36-45,Female,Married,2,3360,Yes,Non-Travel,4,2,3,1,6,2015-09-10,No
+EMP00608,Sarawak,Kuching,Kuching Branch 2,Sales,Sales Executive,46,46-60,Male,Single,4,2622,Yes,Travel_Rarely,7,3,3,3,9,2015-05-27,No
+EMP00609,Sarawak,Kuching,Kuching Branch 1,Sales,Sales Executive,49,46-60,Male,Single,4,3692,Yes,Non-Travel,12,3,3,3,15,2014-09-28,No
+EMP00610,Selangor,Shah Alam,Shah Alam Branch 1,HR,HR Executive,47,46-60,Female,Married,3,3896,No,Travel_Rarely,22,3,2,3,10,2022-06-22,Yes
+EMP00611,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,41,36-45,Male,Married,3,2306,No,Non-Travel,22,3,3,3,7,2023-06-27,Yes
+EMP00612,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,33,26-35,Male,Single,3,2605,No,Non-Travel,10,4,2,3,1,2014-07-19,No
+EMP00613,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,52,46-60,Female,Married,5,2461,No,Non-Travel,3,4,4,3,13,2015-06-23,No
+EMP00614,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Finance,Finance Executive,47,46-60,Female,Married,5,4193,No,Travel_Frequently,24,4,1,4,15,2023-07-12,No
+EMP00615,Johor,Johor Bahru,Johor Bahru Branch 2,Finance,Finance Executive,51,46-60,Female,Single,4,4384,No,Travel_Rarely,6,2,3,3,15,2020-02-19,No
+EMP00616,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Kitchen Crew,54,46-60,Male,Single,3,2588,No,Travel_Rarely,11,4,1,1,0,2020-06-01,No
+EMP00617,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,27,26-35,Female,Single,3,2004,No,Non-Travel,21,1,4,2,7,2023-08-07,No
+EMP00618,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Cashier,44,36-45,Female,Married,4,2301,No,Non-Travel,23,4,3,2,7,2016-09-20,No
+EMP00619,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Assistant Manager,55,46-60,Female,Married,2,3651,Yes,Travel_Rarely,6,3,4,1,1,2020-05-18,No
+EMP00620,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,46,46-60,Female,Single,3,1958,Yes,Non-Travel,4,3,4,4,13,2016-10-27,No
+EMP00621,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Customer Support,Customer Service,48,46-60,Male,Divorced,5,2387,No,Non-Travel,16,1,2,4,7,2019-08-15,No
+EMP00622,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,53,46-60,Female,Married,1,2279,Yes,Travel_Frequently,9,3,2,4,10,2023-01-31,No
+EMP00623,Selangor,Shah Alam,Shah Alam Branch 2,Sales,Sales Executive,32,26-35,Female,Single,2,3671,No,Non-Travel,16,4,1,1,8,2020-02-04,No
+EMP00624,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,51,46-60,Female,Single,3,2045,No,Non-Travel,2,3,3,1,7,2015-11-18,No
+EMP00625,Penang,George Town,George Town Branch 1,Operations,Cashier,47,46-60,Male,Single,3,2543,No,Travel_Rarely,13,4,1,3,4,2019-09-19,No
+EMP00626,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,24,18-25,Male,Divorced,4,2245,No,Non-Travel,14,2,3,1,2,2014-03-16,No
+EMP00627,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Cashier,55,46-60,Female,Married,4,2119,Yes,Non-Travel,10,3,4,4,15,2022-01-12,Yes
+EMP00628,Sarawak,Kuching,Kuching Branch 2,Operations,Branch Manager,40,36-45,Female,Married,3,6153,No,Non-Travel,21,1,2,1,5,2017-09-17,No
+EMP00629,Johor,Johor Bahru,Johor Bahru Branch 2,IT,IT Support,54,46-60,Female,Married,1,3398,No,Travel_Rarely,11,2,2,3,1,2023-09-08,No
+EMP00630,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Cashier,44,36-45,Female,Married,2,1906,No,Travel_Frequently,1,4,3,2,2,2020-06-24,No
+EMP00631,Penang,George Town,George Town Branch 2,Operations,Assistant Manager,21,18-25,Male,Single,2,3618,No,Travel_Rarely,12,3,1,1,1,2020-08-05,No
+EMP00632,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,47,46-60,Female,Married,2,2211,No,Travel_Rarely,20,1,4,1,4,2023-01-11,No
+EMP00633,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Customer Support,Customer Service,38,36-45,Male,Single,1,2515,No,Travel_Rarely,25,3,3,4,2,2016-07-28,No
+EMP00634,Penang,George Town,George Town Branch 2,Operations,Cashier,22,18-25,Male,Married,2,2373,Yes,Non-Travel,17,2,3,2,7,2019-06-18,No
+EMP00635,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Branch Manager,41,36-45,Female,Married,4,8139,No,Travel_Rarely,10,1,3,4,7,2014-10-05,Yes
+EMP00636,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Cashier,40,36-45,Male,Single,1,2293,No,Non-Travel,3,1,3,3,7,2022-11-03,No
+EMP00637,Penang,George Town,George Town Branch 1,Operations,Cashier,38,36-45,Female,Married,5,1918,Yes,Non-Travel,20,1,1,3,9,2018-11-05,No
+EMP00638,Selangor,Shah Alam,Shah Alam Branch 2,Finance,Finance Executive,45,36-45,Female,Married,4,3980,Yes,Travel_Rarely,15,1,2,1,5,2022-08-28,No
+EMP00639,Johor,Johor Bahru,Johor Bahru Branch 2,Finance,Finance Executive,49,46-60,Male,Single,2,5162,Yes,Non-Travel,18,3,3,2,3,2022-08-01,No
+EMP00640,Sarawak,Kuching,Kuching Branch 2,Sales,Sales Executive,26,26-35,Female,Married,2,4378,Yes,Non-Travel,21,2,2,1,1,2018-07-05,No
+EMP00641,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Finance,Finance Executive,53,46-60,Female,Married,5,4252,No,Non-Travel,2,4,2,2,0,2021-06-23,No
+EMP00642,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Cashier,40,36-45,Male,Single,3,2637,No,Non-Travel,18,1,3,4,4,2021-08-24,No
+EMP00643,Selangor,Shah Alam,Shah Alam Branch 1,Customer Support,Customer Service,33,26-35,Male,Married,3,2937,No,Travel_Rarely,16,1,1,2,5,2016-07-14,No
+EMP00644,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Cashier,26,26-35,Male,Divorced,2,2313,No,Non-Travel,12,4,2,2,0,2018-10-24,No
+EMP00645,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Kitchen Crew,19,18-25,Male,Married,4,2374,No,Non-Travel,15,3,3,1,15,2016-02-27,No
+EMP00646,Sarawak,Kuching,Kuching Branch 2,Customer Support,Customer Service,29,26-35,Male,Married,2,2953,No,Non-Travel,10,3,4,3,3,2015-03-29,No
+EMP00647,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,IT,IT Support,52,46-60,Male,Single,3,4046,No,Non-Travel,22,2,1,2,0,2017-06-30,Yes
+EMP00648,Johor,Johor Bahru,Johor Bahru Branch 1,Finance,Finance Executive,28,26-35,Male,Married,1,3589,No,Travel_Frequently,13,3,2,3,7,2015-06-09,Yes
+EMP00649,Penang,George Town,George Town Branch 1,IT,IT Support,32,26-35,Male,Single,4,3260,Yes,Non-Travel,18,2,3,1,7,2018-11-26,No
+EMP00650,Penang,George Town,George Town Branch 2,Operations,Kitchen Crew,33,26-35,Male,Married,3,2338,Yes,Travel_Rarely,4,4,3,3,2,2023-04-25,No
+EMP00651,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Cashier,37,36-45,Female,Married,1,2107,No,Non-Travel,2,2,4,2,15,2015-02-14,Yes
+EMP00652,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,38,36-45,Male,Married,2,1966,No,Travel_Rarely,4,3,1,1,2,2019-09-09,No
+EMP00653,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,49,46-60,Male,Single,3,1800,Yes,Travel_Rarely,16,2,1,4,15,2016-11-03,Yes
+EMP00654,Johor,Johor Bahru,Johor Bahru Branch 1,Sales,Sales Executive,23,18-25,Male,Married,1,3283,No,Non-Travel,12,1,4,3,1,2020-10-11,No
+EMP00655,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Sales,Sales Executive,25,18-25,Female,Single,2,3171,Yes,Travel_Rarely,1,4,2,4,5,2016-09-14,No
+EMP00656,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,29,26-35,Male,Married,4,2546,No,Non-Travel,20,4,3,2,15,2018-04-16,No
+EMP00657,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,28,26-35,Male,Single,4,2582,Yes,Travel_Rarely,15,1,4,2,13,2018-12-23,No
+EMP00658,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,23,18-25,Female,Single,3,2253,No,Travel_Rarely,13,4,1,4,7,2018-04-28,No
+EMP00659,Penang,George Town,George Town Branch 2,HR,HR Executive,50,46-60,Female,Single,4,4093,No,Travel_Rarely,16,2,4,3,1,2015-10-27,No
+EMP00660,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Assistant Manager,43,36-45,Female,Single,2,3970,No,Travel_Frequently,25,1,3,2,11,2023-07-13,No
+EMP00661,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,51,46-60,Male,Married,3,2710,No,Travel_Rarely,3,2,1,3,8,2015-10-20,Yes
+EMP00662,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,36,36-45,Male,Married,4,2432,No,Non-Travel,21,2,1,4,15,2022-07-18,No
+EMP00663,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,IT,IT Support,22,18-25,Male,Married,4,3998,No,Travel_Rarely,17,1,2,1,11,2022-10-31,No
+EMP00664,Penang,George Town,George Town Branch 2,Customer Support,Customer Service,51,46-60,Female,Married,4,2651,No,Travel_Rarely,9,2,2,3,8,2021-07-31,No
+EMP00665,Sarawak,Kuching,Kuching Branch 2,Customer Support,Customer Service,25,18-25,Male,Single,2,2896,No,Non-Travel,3,4,3,1,12,2018-02-26,No
+EMP00666,Sarawak,Kuching,Kuching Branch 2,Customer Support,Customer Service,25,18-25,Female,Married,3,2996,No,Non-Travel,6,1,2,3,9,2019-09-12,No
+EMP00667,Penang,George Town,George Town Branch 2,Operations,Cashier,29,26-35,Male,Single,4,1847,Yes,Non-Travel,1,4,1,2,14,2014-08-08,No
+EMP00668,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,44,36-45,Female,Single,3,2464,No,Travel_Rarely,6,1,1,2,0,2018-08-29,No
+EMP00669,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,HR,HR Executive,37,36-45,Female,Single,3,3880,No,Non-Travel,3,1,3,4,5,2019-01-25,No
+EMP00670,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Branch Manager,21,18-25,Male,Single,2,5516,Yes,Travel_Rarely,25,1,3,4,13,2023-04-05,No
+EMP00671,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Assistant Manager,43,36-45,Female,Married,2,4140,No,Travel_Frequently,3,3,1,3,5,2017-08-07,No
+EMP00672,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Sales,Sales Executive,55,46-60,Female,Married,2,3160,No,Non-Travel,17,2,3,3,1,2014-05-11,No
+EMP00673,Sarawak,Kuching,Kuching Branch 1,HR,HR Executive,33,26-35,Female,Married,3,4207,No,Travel_Rarely,18,4,4,1,3,2023-05-14,No
+EMP00674,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Cashier,21,18-25,Male,Single,3,2010,Yes,Travel_Rarely,25,1,1,1,0,2015-02-24,No
+EMP00675,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,41,36-45,Male,Married,3,2565,Yes,Travel_Rarely,25,2,3,1,6,2014-01-05,No
+EMP00676,Sarawak,Kuching,Kuching Branch 1,Customer Support,Customer Service,38,36-45,Male,Married,2,2438,Yes,Travel_Rarely,16,3,2,3,7,2021-02-04,No
+EMP00677,Sarawak,Kuching,Kuching Branch 1,Customer Support,Customer Service,21,18-25,Male,Single,3,2297,No,Travel_Rarely,20,1,1,2,5,2015-04-15,No
+EMP00678,Johor,Johor Bahru,Johor Bahru Branch 1,Customer Support,Customer Service,25,18-25,Male,Married,3,2279,No,Non-Travel,24,3,3,1,12,2014-05-05,No
+EMP00679,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,IT,IT Support,36,36-45,Male,Single,1,4239,Yes,Travel_Rarely,15,3,4,2,0,2015-01-27,No
+EMP00680,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,IT,IT Support,40,36-45,Male,Single,3,3729,No,Non-Travel,10,3,2,3,14,2019-11-03,No
+EMP00681,Sarawak,Kuching,Kuching Branch 2,Operations,Branch Manager,43,36-45,Female,Married,4,6282,No,Non-Travel,8,2,4,4,10,2021-09-10,Yes
+EMP00682,Sarawak,Kuching,Kuching Branch 1,Operations,Delivery Rider,31,26-35,Male,Single,3,2770,No,Non-Travel,1,4,4,1,9,2015-09-16,No
+EMP00683,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Customer Support,Customer Service,26,26-35,Male,Single,5,3233,No,Travel_Rarely,4,2,1,2,12,2021-08-01,Yes
+EMP00684,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Finance,Finance Executive,33,26-35,Female,Single,5,3879,No,Non-Travel,12,3,4,1,9,2016-06-14,No
+EMP00685,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Branch Manager,52,46-60,Female,Single,3,7563,No,Travel_Rarely,17,3,4,2,6,2020-06-18,No
+EMP00686,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,27,26-35,Female,Single,2,2145,No,Non-Travel,19,2,2,4,5,2015-07-01,No
+EMP00687,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,37,36-45,Female,Married,3,2358,No,Non-Travel,5,4,4,3,11,2019-06-16,No
+EMP00688,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,HR,HR Executive,28,26-35,Male,Married,5,3537,No,Travel_Frequently,25,2,2,1,10,2020-07-02,No
+EMP00689,Penang,George Town,George Town Branch 1,Sales,Sales Executive,53,46-60,Male,Single,2,3665,No,Non-Travel,25,4,4,4,7,2014-11-11,No
+EMP00690,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,19,18-25,Male,Single,2,2396,No,Travel_Frequently,25,1,3,2,11,2018-11-29,No
+EMP00691,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,32,26-35,Female,Married,2,2512,No,Non-Travel,6,1,4,2,14,2019-11-05,No
+EMP00692,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,27,26-35,Female,Married,4,2072,No,Non-Travel,18,2,3,3,5,2014-11-08,Yes
+EMP00693,Penang,George Town,George Town Branch 2,Operations,Cashier,31,26-35,Female,Single,3,2598,No,Travel_Rarely,9,4,3,2,5,2021-10-01,No
+EMP00694,Selangor,Shah Alam,Shah Alam Branch 1,HR,HR Executive,53,46-60,Male,Single,4,4774,No,Travel_Rarely,5,3,1,4,7,2015-06-16,No
+EMP00695,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Customer Support,Customer Service,24,18-25,Female,Married,3,2832,No,Travel_Rarely,9,3,3,4,8,2014-08-24,No
+EMP00696,Sarawak,Kuching,Kuching Branch 1,Operations,Branch Manager,37,36-45,Female,Married,4,7396,No,Non-Travel,19,1,3,3,12,2019-05-28,No
+EMP00697,Penang,George Town,George Town Branch 1,Operations,Cashier,50,46-60,Male,Married,3,1800,Yes,Travel_Rarely,16,4,3,2,3,2016-07-18,No
+EMP00698,Johor,Johor Bahru,Johor Bahru Branch 1,Sales,Sales Executive,37,36-45,Female,Single,2,3174,No,Travel_Rarely,6,4,4,1,12,2016-11-27,No
+EMP00699,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,43,36-45,Male,Single,1,2614,No,Travel_Frequently,5,2,4,4,11,2021-08-10,No
+EMP00700,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,27,26-35,Female,Single,2,2651,No,Non-Travel,19,2,4,4,5,2018-06-18,No
+EMP00701,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,29,26-35,Female,Single,2,2375,No,Travel_Rarely,12,2,2,2,11,2020-08-16,No
+EMP00702,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Branch Manager,21,18-25,Male,Married,3,6221,No,Travel_Frequently,1,4,1,3,5,2017-05-04,No
+EMP00703,Penang,George Town,George Town Branch 2,IT,IT Support,52,46-60,Female,Single,2,3657,Yes,Travel_Rarely,14,3,1,3,3,2021-06-25,No
+EMP00704,Johor,Johor Bahru,Johor Bahru Branch 2,Finance,Finance Executive,23,18-25,Female,Married,3,4483,Yes,Travel_Frequently,17,3,1,3,0,2023-04-25,No
+EMP00705,Penang,George Town,George Town Branch 1,Operations,Cashier,19,18-25,Male,Single,2,2494,No,Non-Travel,4,4,4,4,5,2015-01-25,No
+EMP00706,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,39,36-45,Female,Married,3,2257,Yes,Travel_Rarely,9,3,2,3,6,2019-08-22,No
+EMP00707,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,34,26-35,Female,Single,2,1802,Yes,Non-Travel,3,2,3,3,14,2021-10-23,No
+EMP00708,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,20,18-25,Male,Divorced,2,2289,No,Travel_Rarely,9,1,3,4,12,2015-03-12,No
+EMP00709,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,55,46-60,Female,Married,1,1923,Yes,Travel_Rarely,1,4,4,3,2,2021-02-27,No
+EMP00710,Sarawak,Kuching,Kuching Branch 1,Customer Support,Customer Service,30,26-35,Female,Married,3,3116,No,Non-Travel,21,1,1,1,4,2023-11-20,Yes
+EMP00711,Penang,George Town,George Town Branch 2,HR,HR Executive,31,26-35,Female,Married,3,4141,No,Non-Travel,21,1,1,3,8,2022-09-18,No
+EMP00712,Penang,George Town,George Town Branch 2,Customer Support,Customer Service,49,46-60,Male,Married,4,3043,No,Non-Travel,14,3,3,1,15,2017-06-23,No
+EMP00713,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Delivery Rider,41,36-45,Male,Single,3,2670,Yes,Non-Travel,22,1,3,3,13,2021-11-07,No
+EMP00714,Penang,George Town,George Town Branch 2,IT,IT Support,24,18-25,Female,Married,2,3895,Yes,Non-Travel,24,1,2,4,7,2014-09-16,No
+EMP00715,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Delivery Rider,38,36-45,Female,Single,3,2117,No,Non-Travel,20,3,1,3,6,2020-11-04,No
+EMP00716,Sarawak,Kuching,Kuching Branch 2,Operations,Cashier,41,36-45,Female,Married,3,2081,Yes,Non-Travel,17,2,2,2,4,2022-01-09,No
+EMP00717,Selangor,Shah Alam,Shah Alam Branch 2,Finance,Finance Executive,54,46-60,Female,Single,3,3828,No,Non-Travel,14,3,3,4,8,2018-05-10,No
+EMP00718,Penang,George Town,George Town Branch 2,Operations,Delivery Rider,21,18-25,Female,Single,4,2284,No,Travel_Rarely,2,3,3,1,10,2016-08-10,No
+EMP00719,Penang,George Town,George Town Branch 1,Sales,Sales Executive,47,46-60,Male,Married,4,3510,Yes,Non-Travel,5,3,4,3,0,2019-12-13,No
+EMP00720,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,52,46-60,Male,Single,1,2102,Yes,Travel_Rarely,13,1,2,2,8,2022-08-16,No
+EMP00721,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,HR,HR Executive,51,46-60,Male,Single,2,3258,No,Travel_Frequently,15,3,4,1,3,2016-05-15,Yes
+EMP00722,Sarawak,Kuching,Kuching Branch 2,Operations,Cashier,35,26-35,Male,Single,3,1800,No,Non-Travel,13,1,3,3,12,2023-10-04,No
+EMP00723,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Delivery Rider,32,26-35,Female,Married,3,2094,No,Non-Travel,2,1,2,2,10,2019-06-20,No
+EMP00724,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Cashier,34,26-35,Female,Married,2,2337,No,Travel_Frequently,23,1,2,1,8,2020-11-29,Yes
+EMP00725,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Cashier,51,46-60,Female,Single,4,2218,No,Travel_Rarely,14,2,3,3,12,2016-11-08,No
+EMP00726,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,30,26-35,Female,Single,4,2352,Yes,Non-Travel,6,4,1,1,4,2021-07-30,No
+EMP00727,Selangor,Shah Alam,Shah Alam Branch 2,Sales,Sales Executive,21,18-25,Female,Single,1,3374,No,Non-Travel,10,2,4,4,1,2023-06-14,No
+EMP00728,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,38,36-45,Male,Married,4,2204,No,Non-Travel,2,1,3,3,12,2021-12-12,No
+EMP00729,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Customer Support,Customer Service,54,46-60,Female,Married,3,2739,Yes,Non-Travel,5,1,2,2,6,2016-05-13,No
+EMP00730,Johor,Johor Bahru,Johor Bahru Branch 2,Finance,Finance Executive,33,26-35,Male,Single,3,4329,No,Travel_Rarely,17,1,4,3,8,2021-10-02,Yes
+EMP00731,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Kitchen Crew,33,26-35,Female,Married,2,2380,No,Travel_Rarely,13,1,3,2,8,2017-12-31,No
+EMP00732,Sarawak,Kuching,Kuching Branch 2,Customer Support,Customer Service,34,26-35,Male,Married,3,2577,No,Travel_Rarely,17,3,2,4,3,2022-12-16,No
+EMP00733,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,IT,IT Support,33,26-35,Male,Single,5,3781,No,Non-Travel,15,3,1,1,1,2014-08-23,No
+EMP00734,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Cashier,22,18-25,Female,Married,1,1831,No,Travel_Rarely,17,3,1,1,11,2014-12-02,No
+EMP00735,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Branch Manager,47,46-60,Male,Married,4,6753,No,Travel_Frequently,1,3,1,2,5,2014-09-19,No
+EMP00736,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Finance,Finance Executive,27,26-35,Female,Married,3,3930,No,Travel_Rarely,5,2,1,4,11,2018-11-06,No
+EMP00737,Penang,George Town,George Town Branch 1,Operations,Delivery Rider,32,26-35,Male,Single,3,2439,Yes,Non-Travel,2,1,1,3,13,2016-08-23,No
+EMP00738,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,47,46-60,Male,Married,4,2008,No,Travel_Rarely,21,3,2,3,0,2017-05-06,No
+EMP00739,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,21,18-25,Female,Married,3,1872,No,Non-Travel,20,1,3,3,3,2014-05-24,Yes
+EMP00740,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,36,36-45,Male,Married,3,2019,Yes,Travel_Rarely,1,1,2,4,9,2018-02-24,No
+EMP00741,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Kitchen Crew,28,26-35,Female,Single,1,2485,No,Non-Travel,23,1,2,2,4,2021-01-22,No
+EMP00742,Sarawak,Kuching,Kuching Branch 2,Operations,Cashier,47,46-60,Male,Married,5,2106,No,Non-Travel,4,2,4,2,2,2015-07-08,Yes
+EMP00743,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,20,18-25,Male,Single,5,2304,No,Travel_Rarely,8,3,3,2,7,2016-09-03,Yes
+EMP00744,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,54,46-60,Female,Married,3,2362,No,Non-Travel,23,4,3,2,12,2020-04-05,No
+EMP00745,Penang,George Town,George Town Branch 2,Operations,Cashier,42,36-45,Female,Married,3,1908,Yes,Travel_Frequently,17,4,2,4,14,2023-10-22,No
+EMP00746,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Cashier,25,18-25,Male,Single,3,1800,No,Travel_Rarely,9,3,4,4,8,2020-01-24,No
+EMP00747,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Assistant Manager,42,36-45,Female,Single,2,4187,No,Travel_Rarely,15,4,1,2,3,2021-02-19,No
+EMP00748,Penang,George Town,George Town Branch 1,Finance,Finance Executive,53,46-60,Female,Married,3,3974,No,Travel_Rarely,21,4,4,4,13,2014-06-09,Yes
+EMP00749,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Cashier,41,36-45,Female,Married,3,2348,No,Non-Travel,10,3,3,4,5,2019-09-23,No
+EMP00750,Sarawak,Kuching,Kuching Branch 2,Operations,Kitchen Crew,42,36-45,Male,Married,2,2205,No,Travel_Frequently,4,2,2,3,0,2017-10-01,No
+EMP00751,Penang,George Town,George Town Branch 1,HR,HR Executive,28,26-35,Female,Married,3,2485,Yes,Travel_Rarely,6,2,1,2,2,2018-05-21,No
+EMP00752,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,44,36-45,Female,Married,2,2512,No,Travel_Rarely,1,3,3,1,3,2017-02-17,No
+EMP00753,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Cashier,20,18-25,Female,Divorced,2,2370,No,Travel_Rarely,1,4,2,4,11,2015-11-02,No
+EMP00754,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Cashier,52,46-60,Male,Married,3,2000,No,Travel_Rarely,6,4,4,1,14,2016-04-17,No
+EMP00755,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,IT,IT Support,40,36-45,Female,Single,3,3551,Yes,Travel_Frequently,17,1,1,4,13,2018-02-26,No
+EMP00756,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,24,18-25,Female,Divorced,3,2020,No,Non-Travel,15,1,3,4,1,2015-09-30,No
+EMP00757,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,34,26-35,Male,Divorced,5,2271,No,Travel_Rarely,2,1,3,2,6,2016-10-19,Yes
+EMP00758,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Kitchen Crew,37,36-45,Female,Married,5,2453,Yes,Non-Travel,21,3,3,2,5,2021-06-23,No
+EMP00759,Penang,George Town,George Town Branch 2,Customer Support,Customer Service,23,18-25,Male,Married,1,2585,Yes,Non-Travel,12,1,1,1,4,2020-02-02,Yes
+EMP00760,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,20,18-25,Male,Single,3,2424,No,Travel_Rarely,4,3,3,3,12,2017-02-08,No
+EMP00761,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Kitchen Crew,35,26-35,Female,Single,1,1938,No,Non-Travel,10,1,4,3,1,2020-04-03,No
+EMP00762,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,43,36-45,Male,Single,5,1835,Yes,Travel_Rarely,22,1,1,1,0,2017-05-06,Yes
+EMP00763,Penang,George Town,George Town Branch 2,Operations,Delivery Rider,29,26-35,Female,Married,3,2666,Yes,Non-Travel,21,3,4,1,0,2021-10-29,Yes
+EMP00764,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,IT,IT Support,35,26-35,Male,Single,3,3626,No,Travel_Rarely,13,1,2,2,11,2014-06-18,No
+EMP00765,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Cashier,26,26-35,Male,Married,3,2174,Yes,Non-Travel,25,4,2,2,6,2022-11-23,Yes
+EMP00766,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,37,36-45,Male,Married,3,2654,Yes,Non-Travel,2,4,2,4,7,2014-08-06,No
+EMP00767,Selangor,Shah Alam,Shah Alam Branch 2,Operations,Cashier,49,46-60,Female,Single,3,2594,No,Non-Travel,10,4,2,3,1,2016-01-28,No
+EMP00768,Penang,George Town,George Town Branch 2,Operations,Cashier,42,36-45,Male,Single,1,2275,Yes,Travel_Rarely,13,4,1,1,10,2019-04-08,Yes
+EMP00769,Penang,George Town,George Town Branch 2,Finance,Finance Executive,53,46-60,Female,Single,3,3885,No,Travel_Rarely,20,3,4,2,7,2015-03-07,No
+EMP00770,Penang,George Town,George Town Branch 1,Operations,Cashier,44,36-45,Male,Married,3,2208,Yes,Travel_Rarely,23,3,2,1,15,2015-03-21,Yes
+EMP00771,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Branch Manager,53,46-60,Female,Single,3,5882,No,Non-Travel,3,1,2,1,9,2015-02-18,No
+EMP00772,Sarawak,Kuching,Kuching Branch 2,HR,HR Executive,27,26-35,Female,Single,2,3835,Yes,Travel_Rarely,16,2,1,4,1,2017-12-19,No
+EMP00773,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,45,36-45,Male,Married,2,2384,No,Non-Travel,23,1,3,4,1,2017-05-06,No
+EMP00774,Penang,George Town,George Town Branch 1,Operations,Kitchen Crew,39,36-45,Male,Married,3,2686,No,Non-Travel,5,3,4,1,11,2020-11-19,No
+EMP00775,Penang,George Town,George Town Branch 2,Operations,Cashier,31,26-35,Female,Single,3,2149,No,Non-Travel,5,4,1,2,1,2019-01-21,No
+EMP00776,Sarawak,Kuching,Kuching Branch 2,Sales,Sales Executive,50,46-60,Female,Married,2,3560,No,Non-Travel,21,2,4,4,12,2017-02-25,Yes
+EMP00777,Johor,Johor Bahru,Johor Bahru Branch 2,Sales,Sales Executive,54,46-60,Female,Single,3,3529,No,Travel_Rarely,12,1,4,1,13,2021-10-11,No
+EMP00778,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,50,46-60,Female,Married,1,2550,Yes,Travel_Rarely,2,3,4,3,15,2023-01-22,No
+EMP00779,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,51,46-60,Female,Married,2,1800,No,Non-Travel,17,2,3,3,1,2017-06-13,No
+EMP00780,Selangor,Shah Alam,Shah Alam Branch 2,Finance,Finance Executive,36,36-45,Male,Married,2,4871,No,Non-Travel,8,1,2,4,10,2019-09-04,No
+EMP00781,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Sales,Sales Executive,28,26-35,Male,Single,4,3749,No,Travel_Rarely,19,2,4,2,5,2016-06-16,No
+EMP00782,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Cashier,31,26-35,Female,Married,4,1953,Yes,Non-Travel,1,2,1,2,7,2014-05-06,Yes
+EMP00783,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Delivery Rider,41,36-45,Female,Single,2,2120,Yes,Travel_Rarely,25,4,2,1,14,2022-06-23,No
+EMP00784,Sarawak,Kuching,Kuching Branch 1,Customer Support,Customer Service,23,18-25,Female,Single,3,2191,No,Travel_Rarely,21,1,3,2,7,2019-04-20,Yes
+EMP00785,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Branch Manager,25,18-25,Female,Single,2,7055,No,Non-Travel,13,2,2,4,11,2015-12-29,No
+EMP00786,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Branch Manager,54,46-60,Female,Single,1,7325,No,Non-Travel,16,1,4,3,4,2018-01-14,No
+EMP00787,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,HR,HR Executive,46,46-60,Female,Divorced,3,3968,Yes,Travel_Rarely,7,4,4,2,2,2023-05-23,No
+EMP00788,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Cashier,35,26-35,Male,Married,3,2465,No,Travel_Frequently,7,3,2,2,8,2016-08-19,No
+EMP00789,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Kitchen Crew,25,18-25,Female,Single,2,2500,Yes,Travel_Rarely,11,4,2,2,2,2019-02-03,No
+EMP00790,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Delivery Rider,47,46-60,Male,Single,3,2007,No,Non-Travel,8,1,1,3,11,2014-08-17,No
+EMP00791,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Cashier,50,46-60,Female,Married,2,1876,Yes,Travel_Rarely,18,1,1,1,13,2015-08-01,Yes
+EMP00792,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,21,18-25,Female,Divorced,4,2359,No,Travel_Rarely,18,3,1,1,15,2023-08-13,No
+EMP00793,Johor,Johor Bahru,Johor Bahru Branch 1,Customer Support,Customer Service,34,26-35,Male,Single,2,2128,No,Non-Travel,16,1,1,4,8,2016-02-23,No
+EMP00794,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Cashier,21,18-25,Male,Married,4,1927,No,Non-Travel,4,2,2,4,0,2016-09-15,Yes
+EMP00795,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,29,26-35,Female,Married,4,2579,No,Travel_Rarely,15,3,1,4,1,2015-08-07,No
+EMP00796,Johor,Johor Bahru,Johor Bahru Branch 2,Operations,Cashier,35,26-35,Male,Married,4,2404,No,Non-Travel,9,4,3,3,2,2021-10-17,No
+EMP00797,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Operations,Kitchen Crew,35,26-35,Female,Married,4,1800,No,Travel_Rarely,21,1,2,4,13,2017-12-09,No
+EMP00798,Sarawak,Kuching,Kuching Branch 1,Operations,Cashier,49,46-60,Female,Single,2,1892,No,Non-Travel,1,1,4,1,2,2017-02-24,No
+EMP00799,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,48,46-60,Female,Married,5,2169,No,Non-Travel,24,4,1,1,3,2014-07-30,No
+EMP00800,Penang,George Town,George Town Branch 1,Sales,Sales Executive,37,36-45,Male,Married,2,2937,No,Non-Travel,15,4,1,2,15,2019-12-09,No
+EMP00801,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Customer Support,Customer Service,49,46-60,Female,Single,1,2835,No,Travel_Rarely,8,3,3,4,7,2017-03-25,No
+EMP00802,Sarawak,Kuching,Kuching Branch 1,Operations,Kitchen Crew,37,36-45,Female,Married,1,1834,Yes,Travel_Rarely,7,3,2,4,15,2023-02-01,No
+EMP00803,Sarawak,Kuching,Kuching Branch 1,Finance,Finance Executive,20,18-25,Female,Single,2,4192,No,Non-Travel,22,2,1,3,7,2015-03-31,Yes
+EMP00804,Johor,Johor Bahru,Johor Bahru Branch 1,Operations,Delivery Rider,34,26-35,Female,Single,3,2359,No,Travel_Rarely,23,1,4,3,7,2020-09-20,No
+EMP00805,Selangor,Shah Alam,Shah Alam Branch 2,IT,IT Support,39,36-45,Male,Married,4,4215,No,Travel_Rarely,12,4,1,2,3,2023-07-04,No
+EMP00806,Sarawak,Kuching,Kuching Branch 1,IT,IT Support,23,18-25,Female,Married,4,3210,No,Non-Travel,13,2,1,4,3,2017-09-17,No
+EMP00807,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Sales,Sales Executive,26,26-35,Male,Married,2,2752,No,Travel_Frequently,11,1,4,1,4,2019-01-24,Yes
+EMP00808,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,Operations,Cashier,29,26-35,Female,Married,3,2181,Yes,Travel_Rarely,3,2,2,2,1,2018-06-21,Yes
+EMP00809,Sarawak,Kuching,Kuching Branch 1,IT,IT Support,26,26-35,Male,Single,2,3092,No,Travel_Frequently,13,2,3,3,7,2017-03-30,Yes
+EMP00810,Selangor,Shah Alam,Shah Alam Branch 1,Operations,Cashier,44,36-45,Male,Divorced,1,2371,No,Non-Travel,12,3,4,4,2,2022-08-27,Yes
+EMP00811,Selangor,Shah Alam,Shah Alam Branch 1,Customer Support,Customer Service,26,26-35,Male,Married,3,2306,No,Travel_Rarely,4,2,3,1,4,2022-09-27,No
+EMP00812,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Cashier,34,26-35,Female,Married,4,2354,No,Travel_Rarely,24,1,3,1,3,2018-07-29,No
+EMP00813,Johor,Johor Bahru,Johor Bahru Branch 1,Sales,Sales Executive,26,26-35,Female,Single,2,3597,No,Non-Travel,5,3,3,3,14,2018-09-18,No
+EMP00814,Sabah,Kota Kinabalu,Kota Kinabalu Branch 1,Sales,Sales Executive,29,26-35,Female,Single,4,3596,Yes,Non-Travel,7,1,4,1,14,2018-08-31,No
+EMP00815,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 1,Operations,Kitchen Crew,34,26-35,Male,Single,3,1800,Yes,Travel_Rarely,9,2,3,3,2,2023-05-03,No
+EMP00816,Sabah,Kota Kinabalu,Kota Kinabalu Branch 2,Operations,Kitchen Crew,35,26-35,Female,Married,3,2545,No,Travel_Rarely,20,2,2,2,6,2014-07-31,No
+EMP00817,Johor,Johor Bahru,Johor Bahru Branch 1,Sales,Sales Executive,32,26-35,Female,Married,4,3573,No,Travel_Frequently,10,3,1,4,7,2020-12-15,No
+EMP00818,Selangor,Shah Alam,Shah Alam Branch 1,IT,IT Support,48,46-60,Male,Married,4,3864,Yes,Non-Travel,5,1,1,2,8,2022-11-20,No
+EMP00819,Kuala Lumpur,Bukit Bintang,Bukit Bintang Branch 2,IT,IT Support,48,46-60,Female,Married,5,3359,No,Travel_Rarely,25,3,2,2,14,2021-02-27,No
+EMP00820,Penang,George Town,George Town Branch 1,Customer Support,Customer Service,29,26-35,Male,Single,2,2475,Yes,Non-Travel,1,1,4,1,5,2015-05-14,No

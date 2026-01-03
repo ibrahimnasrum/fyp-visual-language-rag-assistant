@@ -1,0 +1,12 @@
+FAQ (Sample) — Malaysia Retail Chain
+
+Q: Do branches accept eWallet?
+A: Yes, branches accept common eWallet payments.
+
+Q: Which channels are supported?
+A: Dine-in, Takeaway, and Delivery.
+
+Q: Can I request weekly KPI breakdown?
+A: Yes, KPI can be aggregated by week, month, state, branch, and product.
+
+Note: Synthetic FAQ for RAG demo.

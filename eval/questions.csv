@@ -1,0 +1,52 @@
+id,category,question,image_path,notes
+S01,sales_kpi,sales bulan 2024-06 berapa?,,Total sales (RM) for June 2024
+S02,sales_kpi,banding sales bulan 2024-06 vs 2024-05,,MoM comparison
+S03,sales_kpi,top 3 product bulan 2024-06,,Ranking by total sales
+S04,sales_kpi,top 5 branch by sales bulan 2024-06,,Ranking by branch
+S05,sales_kpi,sales ikut state bulan 2024-06,,Group by State
+S06,sales_kpi,sales ikut channel bulan 2024-06,,Group by Channel
+S07,sales_kpi,quantity terjual bulan 2024-06 berapa?,,Quantity metric
+S08,sales_kpi,top 3 state by quantity bulan 2024-06,,Top states by quantity
+S09,sales_kpi,sales bulan 2024-01 berapa?,,Earliest month check
+S10,sales_kpi,banding quantity bulan 2024-04 vs 2024-03,,MoM quantity comparison
+S11,sales_kpi,sales state Selangor bulan 2024-06 berapa?,,Filter State
+S12,sales_kpi,top 3 product di Selangor bulan 2024-06,,Filter + top
+S13,sales_kpi,sales channel Delivery bulan 2024-05 berapa?,,Filter Channel
+S14,sales_kpi,sales product Classic Beef Burger bulan 2024-06 berapa?,,Rename product if not exist
+S15,sales_kpi,top 3 employee by sales bulan 2024-06,,Group by Employee
+H01,hr_kpi,total employees berapa?,,Total headcount
+H02,hr_kpi,how many employees work in the Sales department?,,Dept headcount
+H03,hr_kpi,headcount ikut state,,Headcount by state
+H04,hr_kpi,which age group has highest attrition?,,Attrition by age group
+H05,hr_kpi,which state has highest attrition?,,Attrition by state
+H06,hr_kpi,which department has highest attrition?,,Attrition by department
+H07,hr_kpi,average salary for Sales department,,Avg income by dept
+H08,hr_kpi,purata gaji semua pekerja berapa?,,Avg income overall
+H09,hr_kpi,how many employees in Kuala Lumpur?,,Adjust if State list differs
+H10,hr_kpi,headcount department Operations,,Another dept example
+D01,rag_docs,Ringkaskan polisi cuti tahunan berdasarkan dokumen syarikat.,,Doc RAG: leave policy
+D02,rag_docs,Apakah polisi refund pelanggan?,,Doc RAG: refund policy
+D03,rag_docs,SOP: langkah-langkah tutup kedai (closing procedure) apa?,,Doc RAG: SOP
+D04,rag_docs,Apakah waktu operasi dan cut-off time untuk delivery?,,Doc RAG: operations
+D05,rag_docs,What is the escalation process for customer complaints?,,Doc RAG: complaints
+D06,rag_docs,"Berdasarkan dokumen, senaraikan 3 KPI utama untuk branch manager.",,Doc RAG: KPIs
+D07,rag_docs,Apa guideline untuk diskaun/promosi?,,Doc RAG: promo rules
+D08,rag_docs,Explain the employee overtime policy.,,Doc RAG: OT policy
+D09,rag_docs,"Berdasarkan dokumen, bagaimana proses onboarding staff baru?",,Doc RAG: onboarding
+D10,rag_docs,What is the data privacy policy for customer data?,,Doc RAG: privacy
+D11,rag_docs,Bagi ringkasan 'executive summary' untuk prestasi dan isu utama bulan 2024-06 menggunakan DATA yang ada.,,Grounded summary
+D12,rag_docs,"Cadangkan 3 tindakan untuk kurangkan attrition, tapi hanya gunakan info dari dokumen.",,No invented facts
+D13,rag_docs,What branches should be monitored closely and why (based on available data)?,,Should be cautious
+D14,rag_docs,Give a short update for CEO: sales trend MoM and top-performing dimension.,,Grounded update
+D15,rag_docs,"If policy not found, say not available. What is the maternity leave policy?",,Negative test
+V01,visual,Summarize the table in this image (key metrics + highlights).,images\sales_state_kpi_2024-06.png,Update image_path to your real file path
+V02,visual,What are the top 3 states by sales shown in the image?,images\sales_state_mom_2024-05_to_2024-06.png,Update image_path
+V03,visual,Summarize this HR attrition chart (highest group + any pattern).,images\hr_attrition_by_agegroup.png,Update image_path
+V04,visual,"From this chart, what channel has the highest sales?",images\sales_channel_mix_2024-06.png,Update image_path
+V05,visual,Write an executive summary from this dashboard screenshot.,images\hr_headcount_by_state.png,Update image_path
+R01,sales_kpi,jumlah jualan bulan jun 2024?,,Malay phrasing
+R02,sales_kpi,jualan bulan ni berapa?,,Relative month -> latest in dataset
+R03,sales_kpi,banding jualan bulan ni dengan bulan lepas,,Relative MoM
+R04,hr_kpi,berapa orang staff department HR?,,Malay phrasing
+R05,rag_docs,tolong explain ringkas policy attendance (kehadiran),,Doc RAG
+R06,rag_docs,CEO nak tahu isu terbesar bulan ni berdasarkan data sedia ada. Apa?,,Cautious answer

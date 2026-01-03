@@ -1,0 +1,13 @@
+category,model,n,errors,avg_latency_ms,p95_latency_ms,error_rate
+hr_kpi,llama3:latest,11,0,1822.4545454545455,10018.0,0.0
+hr_kpi,mistral:latest,11,0,4415.818181818182,24283.5,0.0
+hr_kpi,qwen2.5:7b,11,0,1737.090909090909,9550.0,0.0
+rag_docs,llama3:latest,17,0,20322.058823529413,45548.799999999996,0.0
+rag_docs,mistral:latest,17,0,20066.529411764706,43958.99999999999,0.0
+rag_docs,qwen2.5:7b,17,0,12177.117647058823,20599.6,0.0
+sales_kpi,llama3:latest,18,0,4.0,7.299999999999997,0.0
+sales_kpi,mistral:latest,18,0,2.888888888888889,5.0,0.0
+sales_kpi,qwen2.5:7b,18,0,3.0,5.0,0.0
+visual,llama3:latest,5,0,16120.2,41614.0,0.0
+visual,mistral:latest,5,0,21309.0,53588.8,0.0
+visual,qwen2.5:7b,5,0,34331.4,93331.0,0.0

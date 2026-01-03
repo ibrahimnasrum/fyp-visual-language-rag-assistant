@@ -1,0 +1,12 @@
+Ops Incident Report (Sample) — Delivery Platform Issue
+Date: 2024-06-12
+Affected States: Sabah, Penang
+Impact:
+- Delivery orders delayed for ~2 hours due to platform outage.
+- Expected sales dip in Delivery channel for affected states.
+
+Action:
+- Contacted platform support.
+- Manual order tracking activated.
+
+Note: Synthetic incident report for demo.

@@ -1,0 +1,13 @@
+timestamp,model,route,latency_ms,question,answer
+2026-01-04 22:18:11,qwen2.5:7b,rag_docs,12036,What is the annual leave entitlement per year?,"Error: POST predict: Post ""http://127.0.0.1:57298/completion"": read tcp 127.0.0.1:57303->127.0.0.1:57298: wsarecv: An existing connection was forcibly closed by the remote host. (status code: -1)"
+2026-01-04 22:18:27,N/A,sales_kpi,6,sales bulan 2024-06 berapa?,"✅ **Source: structured KPI**
+✅ **Total Sales (RM)**
+- Month: **2024-06**
+- Value: **RM 99,852.83**
+- Rows used: 4,981
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+2026-01-04 22:18:56,qwen2.5:7b,rag_docs,24484,What is the annual leave entitlement per year?,"📄 **Source: RAG + LLM**
+
+- Permanent Employees: 14 days per calendar year (prorated based on join date).
+- Contract Employees: prorated annual leave per contract terms (minimum as per company offer).
+- Part-Time employees are not eligible unless stated in employment terms."

@@ -1,4 +1,4 @@
-# 🧠 FYP AI Personal Assistant (CEO Bot) — Hybrid KPI + RAG + OCR (Malaysia Retail Chain)
+# 🧠 FYP AI Personal Assistant Using Visual Language Retrieval Augmented Generation(CEO Bot) — Hybrid KPI + RAG + OCR (Malaysia Retail Chain)
 
 A **CEO-style AI Personal Assistant** for a Malaysia retail chain that can answer:
 

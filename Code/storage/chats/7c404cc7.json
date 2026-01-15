@@ -1,0 +1,24 @@
+{
+  "chat_id": "7c404cc7",
+  "title": "What is the annual leave entitlement per...",
+  "created_at": "2026-01-13T22:51:20.008407",
+  "updated_at": "2026-01-13T22:51:20.008407",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the annual leave entitlement per year?",
+      "timestamp": "2026-01-13T22:51:20.008407"
+    },
+    {
+      "role": "assistant",
+      "content": "## 📄 Document Analysis\n\n### Executive Answer\nPermanent employees are entitled to 14 days of annual leave per calendar year, prorated based on their join date. Contract employees receive prorated annual leave as per their contract terms, with a minimum entitlement as specified by the company offer. Part-time employees are not eligible for annual leave unless stated in their employment terms.\n\n### Evidence Used\n- [DOC:HR_Policy_MY.txt] 6.1 Annual Leave (AL)\n\n### Assumptions/Limits\nThe policy does not specify how prorated leave is calculated, which could vary based on the employee's join date within the year.\n\n### Next Actions\n- Review and update the annual leave policy documentation to ensure clarity on proration methods.\n- Communicate the annual leave entitlements clearly to all employees.",
+      "timestamp": "2026-01-13T22:51:20.008407"
+    }
+  ],
+  "tool_traces": [
+    {
+      "timestamp": "2026-01-13T22:51:20.008407",
+      "trace_html": "<div class=\"tool-trace\">\n<div class=\"trace-row\"><b>Route:</b> rag_docs</div>\n<div class=\"trace-row\"><b>Model:</b> qwen2.5:7b</div>\n<div class=\"trace-row\"><b>Sources:</b> HR_Policy_MY.txt</div>\n<div class=\"trace-row\"><b>Latency:</b> 28778ms</div>\n</div>"
+    }
+  ]
+}

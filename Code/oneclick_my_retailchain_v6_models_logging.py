@@ -91,8 +91,8 @@ print(f"✅ Device: {device}")
 # =========================
 # 2) Load Malaysia RetailChain datasets
 # =========================
-DATA_DIR = os.path.join(BASE_DIR, "data")
-DOCS_DIR = os.path.join(BASE_DIR, "docs")
+DATA_DIR = os.path.join(os.path.dirname(BASE_DIR), "data")
+DOCS_DIR = os.path.join(os.path.dirname(BASE_DIR), "docs")
 
 SALES_CSV = os.path.join(DATA_DIR, "MY_Retail_Sales_2024H1.csv")
 HR_CSV = os.path.join(DATA_DIR, "MY_Retail_HR_Employees.csv")

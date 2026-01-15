@@ -1,0 +1,52 @@
+{
+  "chat_id": "3f5941a2",
+  "title": "What is the annual leave entitlement per...",
+  "created_at": "2026-01-14T23:30:04.303806",
+  "updated_at": "2026-01-14T23:34:08.316544",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the annual leave entitlement per year?",
+      "timestamp": "2026-01-14T23:30:04.303783"
+    },
+    {
+      "role": "assistant",
+      "content": "## 📄 Document Analysis\n\n### Response Structure:\n\n**Executive Summary:**\nThe annual leave entitlement for permanent employees is 14 days per calendar year, prorated based on the join date. Contract employees have a prorated annual leave as per their contract terms (minimum as per company offer), while part-time employees are not eligible unless stated in their employment terms.\n\n**Question Answered:**\nWhat is the annual leave entitlement per year?\n\n**Follow-up Question:**\nIs there any specific information regarding the annual leave entitlement for contract employees that needs to be clarified or updated?\n\n**Evidence:**\n- [DOC:HR_Policy_MY.txt] 6.1 Annual Leave (AL)\n    - Permanent Employees: 14 days per calendar year (prorated based on join date).\n    - Contract Employees: prorated annual leave per contract terms (minimum as per company offer).\n    - Part-Time: not eligible unless stated in employment terms.\n    - Leave approval is subject to business needs and manpower coverage.\n\nIf there are no further clarifications needed, the provided information can be considered accurate.",
+      "timestamp": "2026-01-14T23:30:04.303789"
+    },
+    {
+      "role": "user",
+      "content": "What's the leave approval process?",
+      "timestamp": "2026-01-14T23:32:17.597784"
+    },
+    {
+      "role": "assistant",
+      "content": "## 📄 Document Analysis\n\n### Executive Summary:\nThe leave approval process for annual leave (AL) and other types of leave is subject to business needs and manpower coverage. Approval must be obtained from the supervisor or HR department, depending on the type of leave.\n\n### Response Structure:\n\n**Executive Summary:**\nThe leave approval process for annual leave (AL) and other types of leave is subject to business needs and manpower coverage. Approval must be obtained from the supervisor or HR department, depending on the type of leave.\n\n**Detailed Analysis:**\n\n1. **Annual Leave (AL):**\n   - Permanent Employees are entitled to 14 days per calendar year, prorated based on their join date.\n   - Leave approval is subject to business needs and manpower coverage.\n   - The process involves obtaining approval from a supervisor or the HR department.\n\n2. **Other Types of Leave:**\n   - Emergency Leave: Granted at the discretion of the supervisor for genuine emergencies; employees may be required to submit supporting documents.\n   - Sick Leave (SL): Requires a medical certificate (MC) and must be submitted within 48 hours (or next working day for outlet submission). Abuse of MC may result in investigation.\n   - Maternity, Paternity, and Compassionate Leave: Provided according to Malaysian legal requirements and company guidelines. Employees should consult HR for eligibility and documentation.\n\n**Evidence:**\n- [DOC:HR_Policy_MY.txt] 6.1 Annual Leave (AL): \"Permanent Employees: 14 days per calendar year (prorated based on join date).\"\n- [DOC:HR_Policy_MY.txt] 6.2 Sick Leave (SL): \"Requires medical certificate (MC) for paid sick leave.\"\n- [DOC:HR_Policy_MY.txt] 6.3 Emergency Leave: \"Granted at supervisor discretion for genuine emergencies.\"\n\nIf you need more specific details on the approval process or any other type of leave, please provide further clarification.\n\n**Follow-Up Question:**\nWould you like to know about the specific steps involved in requesting annual leave or any other type of leave?",
+      "timestamp": "2026-01-14T23:32:17.597789"
+    },
+    {
+      "role": "user",
+      "content": "How much leave do employees typically take?",
+      "timestamp": "2026-01-14T23:34:08.316112"
+    },
+    {
+      "role": "assistant",
+      "content": "## 📄 Document Analysis\n\n## 📄 Document Analysis\n\n### Executive Summary:\nBased on the HR Policy document (HR_Policy_MY.txt), permanent employees are entitled to 14 days of annual leave per calendar year, prorated based on their join date. However, the typical amount of leave taken by employees is not explicitly stated in any of the provided documents.\n\n### Analysis:\n\n1. **Annual Leave Entitlement:**\n   - Permanent Employees: 14 days per calendar year (prorated based on join date).\n   - Contract Employees and Part-Time Employees have different entitlements, but specific details are not provided for this analysis.\n   \n2. **Leave Approval Process:**\n   - The leave approval process is subject to business needs and manpower coverage.\n\n### Follow-Up Question:\nTo better understand the typical amount of annual leave taken by employees, could you provide data on the average or median number of days of annual leave utilized by permanent employees over the latest year?\n\n### Evidence:\n- [DOC:HR_Policy_MY.txt] 6.1 Annual Leave (AL): Permanent Employees: 14 days per calendar year (prorated based on join date).",
+      "timestamp": "2026-01-14T23:34:08.316120"
+    }
+  ],
+  "tool_traces": [
+    {
+      "timestamp": "2026-01-14T23:30:04.303791",
+      "trace_html": "<div class=\"tool-trace\">\n<div class=\"trace-row\"><b>Route:</b> rag_docs</div>\n<div class=\"trace-row\"><b>Model:</b> qwen2.5:7b</div>\n<div class=\"trace-row\"><b>Sources:</b> HR_Policy_MY.txt</div>\n<div class=\"trace-row\"><b>Latency:</b> 32031ms</div>\n</div>"
+    },
+    {
+      "timestamp": "2026-01-14T23:32:17.597791",
+      "trace_html": "<div class=\"tool-trace\">\n<div class=\"trace-row\"><b>Route:</b> rag_docs</div>\n<div class=\"trace-row\"><b>Model:</b> qwen2.5:7b</div>\n<div class=\"trace-row\"><b>Sources:</b> HR_Policy_MY.txt</div>\n<div class=\"trace-row\"><b>Latency:</b> 126031ms</div>\n</div>"
+    },
+    {
+      "timestamp": "2026-01-14T23:34:08.316122",
+      "trace_html": "<div class=\"tool-trace\">\n<div class=\"trace-row\"><b>Route:</b> rag_docs</div>\n<div class=\"trace-row\"><b>Model:</b> qwen2.5:7b</div>\n<div class=\"trace-row\"><b>Sources:</b> State_Operations_Selangor.txt, HR_Policy_MY.txt</div>\n<div class=\"trace-row\"><b>Latency:</b> 84260ms</div>\n</div>"
+    }
+  ]
+}

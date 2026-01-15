@@ -1,0 +1,38 @@
+{
+  "chat_id": "87ce91cf",
+  "title": "What is the annual leave entitlement per...",
+  "created_at": "2026-01-14T23:00:36.122236",
+  "updated_at": "2026-01-14T23:14:06.336971",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the annual leave entitlement per year?",
+      "timestamp": "2026-01-14T23:00:36.122214"
+    },
+    {
+      "role": "assistant",
+      "content": "## 📄 Document Analysis\n\n### Response Structure:\n\n**Executive Summary:**\nThe annual leave entitlement varies based on the employment type of an employee.\n\n**Question Answered:**\nWhat is the annual leave entitlement per year?\n\n**Follow-Up Question (if needed):**\nNo follow-up question is needed as the information is available in the provided documents.\n\n**Evidence:**\nAccording to [DOC:HR_Policy_MY.txt], the annual leave policy for permanent employees is 14 days per calendar year, prorated based on their join date. Contract employees have a prorated annual leave entitlement according to their contract terms, with a minimum as per company offer. Part-time employees are not eligible for annual leave unless stated in their employment terms.\n\n**Sources:**\n- [DOC:HR_Policy_MY.txt] 6.1 Annual Leave (AL)\n\nThis information covers the different categories of employees and their respective entitlements to annual leave.",
+      "timestamp": "2026-01-14T23:00:36.122221"
+    },
+    {
+      "role": "user",
+      "content": "Are there any restrictions on leave timing?",
+      "timestamp": "2026-01-14T23:14:06.335788"
+    },
+    {
+      "role": "assistant",
+      "content": "## 📄 Document Analysis\n\n### Executive Summary:\nThe policy regarding restrictions on leave timing is not explicitly detailed within the provided documents. However, it can be inferred that leave approval is subject to business needs and manpower coverage.\n\n### Response Structure:\n\n**Question:** Are there any restrictions on leave timing?\n\n**Answer:**\nBased on the available HR policies, there are no explicit restrictions mentioned on when employees can take their annual leave (AL). The policy states that leave approval is subject to business needs and manpower coverage. This implies that while employees may request leave at any time, final approval will depend on whether it aligns with the company's operational requirements.\n\n**Evidence:**\n- **[DOC:HR_Policy_MY.txt] 6.1 Annual Leave (AL):** \"Leave approval is subject to business needs and manpower coverage.\"\n\nGiven this information, if there are specific restrictions or guidelines regarding leave timing that are not documented in these policies, they may exist elsewhere within the company's HR documentation.\n\n**Follow-Up Question:**\nIs there any additional internal communication or guideline document that outlines specific restrictions on when employees can request annual leave?\n\nThis follow-up question will help clarify any potential unrecorded restrictions.",
+      "timestamp": "2026-01-14T23:14:06.335797"
+    }
+  ],
+  "tool_traces": [
+    {
+      "timestamp": "2026-01-14T23:00:36.122224",
+      "trace_html": "<div class=\"tool-trace\">\n<div class=\"trace-row\"><b>Route:</b> rag_docs</div>\n<div class=\"trace-row\"><b>Model:</b> qwen2.5:7b</div>\n<div class=\"trace-row\"><b>Sources:</b> HR_Policy_MY.txt</div>\n<div class=\"trace-row\"><b>Latency:</b> 61530ms</div>\n</div>"
+    },
+    {
+      "timestamp": "2026-01-14T23:14:06.335799",
+      "trace_html": "<div class=\"tool-trace\">\n<div class=\"trace-row\"><b>Route:</b> rag_docs</div>\n<div class=\"trace-row\"><b>Model:</b> qwen2.5:7b</div>\n<div class=\"trace-row\"><b>Sources:</b> HR_Policy_MY.txt</div>\n<div class=\"trace-row\"><b>Latency:</b> 91390ms</div>\n</div>"
+    }
+  ]
+}

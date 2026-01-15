@@ -1,0 +1,14 @@
+{
+  "total_queries": 7,
+  "total_chats": 0,
+  "route_counts": {
+    "sales_kpi": 2,
+    "rag_docs": 5
+  },
+  "model_counts": {
+    "N/A": 2,
+    "qwen2.5:7b": 5
+  },
+  "avg_latency_ms": 42376.142857142855,
+  "total_latency_ms": 296633
+}

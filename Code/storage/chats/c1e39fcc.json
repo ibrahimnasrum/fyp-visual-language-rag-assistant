@@ -1,0 +1,38 @@
+{
+  "chat_id": "c1e39fcc",
+  "title": "What is the annual leave entitlement per...",
+  "created_at": "2026-01-14T23:50:41.230356",
+  "updated_at": "2026-01-14T23:51:04.861381",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the annual leave entitlement per year?",
+      "timestamp": "2026-01-14T23:50:41.230326"
+    },
+    {
+      "role": "assistant",
+      "content": "## 📄 Document Analysis\n\n### Response Structure:\n\n**Executive Summary:**\nThe annual leave entitlement for permanent employees is",
+      "timestamp": "2026-01-14T23:50:41.230338"
+    },
+    {
+      "role": "user",
+      "content": "How much leave do employees typically take?",
+      "timestamp": "2026-01-14T23:51:04.860661"
+    },
+    {
+      "role": "assistant",
+      "content": "## 📄 Document Analysis",
+      "timestamp": "2026-01-14T23:51:04.860673"
+    }
+  ],
+  "tool_traces": [
+    {
+      "timestamp": "2026-01-14T23:50:41.230340",
+      "trace_html": "<div class=\"tool-trace\">\n<div class=\"trace-row\"><b>Route:</b> rag_docs</div>\n<div class=\"trace-row\"><b>Model:</b> qwen2.5:7b</div>\n<div class=\"trace-row\"><b>Sources:</b> HR_Policy_MY.txt</div>\n<div class=\"trace-row\"><b>Latency:</b> 3378ms</div>\n</div>"
+    },
+    {
+      "timestamp": "2026-01-14T23:51:04.860676",
+      "trace_html": "<div class=\"tool-trace\">\n<div class=\"trace-row\"><b>Route:</b> rag_docs</div>\n<div class=\"trace-row\"><b>Model:</b> qwen2.5:7b</div>\n<div class=\"trace-row\"><b>Sources:</b> HR_Policy_MY.txt, State_Operations_Selangor.txt</div>\n<div class=\"trace-row\"><b>Latency:</b> 3394ms</div>\n</div>"
+    }
+  ]
+}

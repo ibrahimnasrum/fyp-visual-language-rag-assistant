@@ -1,0 +1,38 @@
+{
+  "chat_id": "86880b02",
+  "title": "which age group has highest attrition?",
+  "created_at": "2026-01-14T22:50:12.621649",
+  "updated_at": "2026-01-14T22:51:25.538383",
+  "messages": [
+    {
+      "role": "user",
+      "content": "which age group has highest attrition?",
+      "timestamp": "2026-01-14T22:50:12.621623"
+    },
+    {
+      "role": "assistant",
+      "content": "## 📉 Attrition Analysis by Age Group\n\n### Executive Summary\n**Highest Attrition:** 26-35 (43 employees left)\n\n### Evidence Used\n- Data Source: Structured HR\n- Attrition Records: 128\n- Total Employees: 820\n\n### Next Actions\n- Investigate reasons for age group-specific attrition\n- Develop retention programs\n- Review compensation and benefits",
+      "timestamp": "2026-01-14T22:50:12.621632"
+    },
+    {
+      "role": "user",
+      "content": "What is the annual leave entitlement per year?",
+      "timestamp": "2026-01-14T22:51:25.527055"
+    },
+    {
+      "role": "assistant",
+      "content": "## 📄 Document Analysis\n\n### Annual Leave Entitlement Per Year\n\n#### Executive Summary\nThe annual leave entitlement per year varies based on the employment type of an employee.\n\n#### Evidence Used\n- **[DOC:HR_Policy_MY.txt] 6) LEAVE POLICY, 6.1 Annual Leave (AL):**\n  - **Permanent Employees:** 14 days per calendar year, prorated based on join date.\n  - **Contract Employees:** Prorated annual leave per contract terms (minimum as per company offer).\n  - **Part-Time Employees:** Not eligible unless stated in employment terms.\n\n#### Follow-Up Question\nTo provide a more comprehensive answer, could you specify the type of employee for whom you need the annual leave entitlement?\n\n**Sources:**\n- [DOC:HR_Policy_MY.txt] 6) LEAVE POLICY\n\n---\n\nWould you like to know the specific entitlement for permanent employees, contract employees, or part-time employees?",
+      "timestamp": "2026-01-14T22:51:25.527061"
+    }
+  ],
+  "tool_traces": [
+    {
+      "timestamp": "2026-01-14T22:50:12.621635",
+      "trace_html": "<div class=\"tool-trace\">\n<div class=\"trace-row\"><b>Route:</b> hr_kpi</div>\n<div class=\"trace-row\"><b>Model:</b> N/A</div>\n<div class=\"trace-row\"><b>Filters:</b> metric=attrition_by_age</div>\n<div class=\"trace-row\"><b>Rows Used:</b> 128</div>\n<div class=\"trace-row\"><b>Latency:</b> 11ms</div>\n</div>"
+    },
+    {
+      "timestamp": "2026-01-14T22:51:25.527064",
+      "trace_html": "<div class=\"tool-trace\">\n<div class=\"trace-row\"><b>Route:</b> rag_docs</div>\n<div class=\"trace-row\"><b>Model:</b> qwen2.5:7b</div>\n<div class=\"trace-row\"><b>Sources:</b> HR_Policy_MY.txt</div>\n<div class=\"trace-row\"><b>Latency:</b> 69790ms</div>\n</div>"
+    }
+  ]
+}

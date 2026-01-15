@@ -1,0 +1,24 @@
+{
+  "chat_id": "8dca37a8",
+  "title": "What is the annual leave entitlement per...",
+  "created_at": "2026-01-14T23:20:09.709988",
+  "updated_at": "2026-01-14T23:20:09.709988",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the annual leave entitlement per year?",
+      "timestamp": "2026-01-14T23:20:09.709964"
+    },
+    {
+      "role": "assistant",
+      "content": "## 📄 Document Analysis\n\n### Response Structure:\n\n**Executive Summary:**\nThe annual leave entitlement varies based on the employment type of an employee.\n\n**Question Answered:**\nWhat is the annual leave entitlement per year?\n\n**Follow-Up Question (if needed):**\nNo follow-up question is needed as the information is available in the provided documents.\n\n**Evidence:**\nAccording to [DOC:HR_Policy_MY.txt], the annual leave policy for permanent employees is 14 days per calendar year, prorated based on their join date. Contract employees have a prorated annual leave entitlement according to their contract terms, with a minimum as per company offer. Part-time employees are not eligible for annual leave unless stated in their employment terms.\n\n**Sources:**\n- [DOC:HR_Policy_MY.txt] 6.1 Annual Leave (AL)\n\nThis information covers the different categories of employees and their respective entitlements to annual leave.",
+      "timestamp": "2026-01-14T23:20:09.709972"
+    }
+  ],
+  "tool_traces": [
+    {
+      "timestamp": "2026-01-14T23:20:09.709975",
+      "trace_html": "<div class=\"tool-trace\">\n<div class=\"trace-row\"><b>Route:</b> rag_docs</div>\n<div class=\"trace-row\"><b>Model:</b> qwen2.5:7b</div>\n<div class=\"trace-row\"><b>Sources:</b> HR_Policy_MY.txt</div>\n<div class=\"trace-row\"><b>Latency:</b> 59404ms</div>\n</div>"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chat_id": "f2034c5f",
+  "title": "What is the annual leave entitlement per...",
+  "created_at": "2026-01-14T12:09:10.200676",
+  "updated_at": "2026-01-14T12:09:10.200676",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the annual leave entitlement per year?",
+      "timestamp": "2026-01-14T12:09:10.200644"
+    },
+    {
+      "role": "assistant",
+      "content": "## 📄 Document Analysis\n\n❌ Error: Insufficient system memory for any available model. Please close other applications and try again.",
+      "timestamp": "2026-01-14T12:09:10.200655"
+    }
+  ],
+  "tool_traces": [
+    {
+      "timestamp": "2026-01-14T12:09:10.200658",
+      "trace_html": "<div class=\"tool-trace\">\n<div class=\"trace-row\"><b>Route:</b> rag_docs</div>\n<div class=\"trace-row\"><b>Model:</b> qwen2.5:7b</div>\n<div class=\"trace-row\"><b>Sources:</b> HR_Policy_MY.txt</div>\n<div class=\"trace-row\"><b>Latency:</b> 292ms</div>\n</div>"
+    }
+  ]
+}

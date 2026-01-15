@@ -1,0 +1,107 @@
+{
+  "session_info": {
+    "start_time": "2026-01-15T00:12:36.359763",
+    "end_time": "2026-01-15T00:12:40.146033",
+    "duration_seconds": 3.786272,
+    "gradio_url": "http://127.0.0.1:7866"
+  },
+  "summary": {
+    "total_questions": 7,
+    "passed": 0,
+    "route_mismatch": 0,
+    "errors": 7
+  },
+  "detailed_results": [
+    {
+      "id": "UI01",
+      "question": "sales bulan 2024-06 berapa?",
+      "expected_route": "sales_kpi",
+      "priority": "CRITICAL",
+      "note": "",
+      "timestamp": "2026-01-15T00:12:37.137813",
+      "status": "ERROR",
+      "error": "Cannot find a function with `api_name`: /submit.",
+      "error_type": "ValueError",
+      "actual_route": "error",
+      "route_correct": false
+    },
+    {
+      "id": "UI02",
+      "question": "banding sales bulan ni vs bulan lepas",
+      "expected_route": "sales_kpi",
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-15T00:12:37.639063",
+      "status": "ERROR",
+      "error": "Cannot find a function with `api_name`: /submit.",
+      "error_type": "ValueError",
+      "actual_route": "error",
+      "route_correct": false
+    },
+    {
+      "id": "UI03",
+      "question": "top 3 product bulan 2024-06",
+      "expected_route": "sales_kpi",
+      "priority": "CRITICAL",
+      "note": "",
+      "timestamp": "2026-01-15T00:12:38.140128",
+      "status": "ERROR",
+      "error": "Cannot find a function with `api_name`: /submit.",
+      "error_type": "ValueError",
+      "actual_route": "error",
+      "route_correct": false
+    },
+    {
+      "id": "UI04",
+      "question": "sales ikut state bulan 2024-06",
+      "expected_route": "sales_kpi",
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-15T00:12:38.640864",
+      "status": "ERROR",
+      "error": "Cannot find a function with `api_name`: /submit.",
+      "error_type": "ValueError",
+      "actual_route": "error",
+      "route_correct": false
+    },
+    {
+      "id": "UI05",
+      "question": "headcount ikut state",
+      "expected_route": "hr_kpi",
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-15T00:12:39.141615",
+      "status": "ERROR",
+      "error": "Cannot find a function with `api_name`: /submit.",
+      "error_type": "ValueError",
+      "actual_route": "error",
+      "route_correct": false
+    },
+    {
+      "id": "UI06",
+      "question": "which age group has highest attrition?",
+      "expected_route": "hr_kpi",
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-15T00:12:39.642683",
+      "status": "ERROR",
+      "error": "Cannot find a function with `api_name`: /submit.",
+      "error_type": "ValueError",
+      "actual_route": "error",
+      "route_correct": false
+    },
+    {
+      "id": "UI07",
+      "question": "What is the annual leave entitlement per year?",
+      "expected_route": "rag_docs",
+      "priority": "CRITICAL",
+      "note": "",
+      "timestamp": "2026-01-15T00:12:40.143793",
+      "status": "ERROR",
+      "error": "Cannot find a function with `api_name`: /submit.",
+      "error_type": "ValueError",
+      "actual_route": "error",
+      "route_correct": false
+    }
+  ]
+}

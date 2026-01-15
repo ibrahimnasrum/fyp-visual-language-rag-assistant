@@ -25,12 +25,10 @@ class TimeClassifier:
     
     # Metadata counting patterns (never need time period)
     METADATA_PATTERNS = [
-        r'how many (products?|states?|branches?|channels?|categories?|employees?|staff)',
-        r'how much (employees?|staff)',
-        r'count (of )?(products?|states?|branches?|employees?|staff)',
-        r'number of (products?|states?|branches?|employees?|staff)',
-        r'(products?|states?|branches?|employees?) (in|available)',
-        r'total (employees?|staff|headcount)',
+        r'how many (products?|states?|branches?|channels?|categories?)',
+        r'count (of )?(products?|states?|branches?)',
+        r'number of (products?|states?|branches?)',
+        r'(products?|states?|branches?) (in|available)',
     ]
     
     # Month patterns

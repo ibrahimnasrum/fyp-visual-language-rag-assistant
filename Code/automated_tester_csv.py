@@ -388,12 +388,38 @@ def main():
     parser.add_argument('--category', choices=['ui_examples', 'sales', 'hr', 'rag', 'robustness', 'ceo_strategic'],
                        help='Test specific category')
     parser.add_argument('--output', default='test_results.csv', help='Output CSV filename')
+    parser.add_argument('--router', choices=['keyword', 'semantic', 'llm', 'hybrid'],
+                       default='keyword', help='Routing method to test (FYP Experiment 1)')
     
     args = parser.parse_args()
     
-    # Create output filename with timestamp
+    # Set router method globally (will be used by bot module)
+    if args.router != 'keyword':
+        print(f"\n{'='*80}")
+        print(f"🔬 FYP EXPERIMENT 1: Testing {args.router.upper()} routing")
+        print(f"{'='*80}")
+        print(f"Routing method: {args.router}")
+        print(f"Expected overhead: ~{20 if args.router == 'semantic' else 10 if args.router == 'hybrid' else 3000}ms per query")
+        print()
+        
+        # Import and set router
+        try:
+            from routing_factory import RouterFactory
+            RouterFactory.set_current_router(args.router)
+            router = RouterFactory.get_router(args.router)
+            
+            # Inject router into bot module
+            if router:
+                bot_module.ACTIVE_ROUTER = router
+                print(f"✅ {args.router.capitalize()} router activated\n")
+        except ImportError as e:
+            print(f"⚠️ Could not load {args.router} router: {e}")
+            print("Falling back to keyword routing\n")
+    
+    # Create output filename with timestamp and router method
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = f"test_results_{timestamp}.csv"
+    router_suffix = f"_{args.router}" if args.router != 'keyword' else ""
+    output_file = f"test_results_{timestamp}{router_suffix}.csv"
     
     # Count total questions
     total_questions = sum(len(qs) for qs in TEST_QUESTIONS.values())

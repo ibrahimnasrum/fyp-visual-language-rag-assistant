@@ -32,6 +32,11 @@ from core.simple_cache import SimpleCache
 # =========================
 GLOBAL_STOP_REQUESTED = threading.Event()
 
+# =========================
+# FYP Experiment 1: Pluggable Router (for testing alternative routing methods)
+# =========================
+ACTIVE_ROUTER = None  # Set by automated_tester_csv.py with --router flag
+
 def request_stop():
     """Request cancellation of current query"""
     GLOBAL_STOP_REQUESTED.set()
@@ -70,6 +75,38 @@ def format_num(x: float, decimals: int = 2) -> str:
         return format(float(x), format_spec)
     except (ValueError, TypeError):
         return str(x)
+
+def safe_format_number(value, decimals=0, default="N/A"):
+    """
+    Safely format number with comma separators, handling edge cases.
+    
+    Args:
+        value: Number to format (can be int, float, NaN, None, string)
+        decimals: Number of decimal places (0 for integers)
+        default: Fallback string if value is invalid
+    
+    Returns:
+        Formatted string with comma separators, or default if invalid
+    """
+    try:
+        # Check for NaN or None
+        if pd.isna(value) or value is None:
+            return default
+        
+        # Convert to float first to handle string numbers
+        num_val = float(value)
+        
+        # Check if it's a valid number
+        if not pd.notna(num_val):
+            return default
+        
+        # Format with appropriate decimal places
+        if decimals > 0:
+            return f"{num_val:,.{decimals}f}"
+        else:
+            return f"{int(num_val):,}"
+    except (ValueError, TypeError, OverflowError):
+        return default
 
 def ensure_dir(path: str):
     os.makedirs(path, exist_ok=True)
@@ -1318,9 +1355,9 @@ def execute_comparison_query(intent: QueryIntent, df: pd.DataFrame, trace: 'Tool
 ### Comparison Details
 | Dimension | {metric_label} | Transactions |
 |-----------|----------------|--------------|
-| **{labels[0]}** | RM {values[0]:,.2f} | {row_counts[0]:,} |
-| **{labels[1]}** | RM {values[1]:,.2f} | {row_counts[1]:,} |
-| **Difference** | RM {difference:,.2f} | {row_counts[0] - row_counts[1]:,} |
+| **{labels[0]}** | RM {safe_format_number(values[0], 2)} | {safe_format_number(row_counts[0], 0)} |
+| **{labels[1]}** | RM {safe_format_number(values[1], 2)} | {safe_format_number(row_counts[1], 0)} |
+| **Difference** | RM {safe_format_number(difference, 2)} | {safe_format_number(row_counts[0] - row_counts[1], 0)} |
 | **% Change** | {percentage_change:+.1f}% | - |
 
 ### Evidence Used
@@ -1430,9 +1467,9 @@ def execute_breakdown_query(intent: QueryIntent, df: pd.DataFrame, trace: 'ToolT
     for rank, (name, value) in enumerate(top_data.items(), 1):
         percentage_of_total = (value / total_value * 100) if total_value > 0 else 0
         if intent.metric == 'revenue':
-            formatted_answer += f"- **{name}**: RM {value:,.2f} ({percentage_of_total:.1f}% of total)\n"
+            formatted_answer += f"- **{name}**: RM {safe_format_number(value, 2)} ({percentage_of_total:.1f}% of total)\n"
         else:
-            formatted_answer += f"- **{name}**: {int(value):,} units ({percentage_of_total:.1f}% of total)\n"
+            formatted_answer += f"- **{name}**: {safe_format_number(value, 0)} units ({percentage_of_total:.1f}% of total)\n"
     
     formatted_answer += f"""
 ### Summary Statistics
@@ -2599,6 +2636,10 @@ def answer_sales_ceo_kpi(q: str, trace: ToolTrace = None):
     # =========================
     # Default total (single month)
     # =========================
+    # Validate dataframe before calculation
+    if sub.empty or value_col not in sub.columns:
+        return f"## ❌ No data available\n\n**Answer:** No {metric_label.lower()} data found for {month} with filters: {filter_text}\n\n**Recommendation:** Check filters or try a different time period."
+    
     total_val = float(sub[value_col].sum())
     
     # Build filter description
@@ -2617,24 +2658,28 @@ def answer_sales_ceo_kpi(q: str, trace: ToolTrace = None):
     filter_text = " | ".join(active_filters) if active_filters else "All data"
     
     # FYP-GRADE RESPONSE FORMAT (matching prompt engineering structure)
+    # Use safe_format_number() for all numeric formatting
+    metric_value_str = f"RM {safe_format_number(total_val, decimals)}" if metric == "revenue" else f"{safe_format_number(total_val, 0)} units"
+    evidence_value_str = safe_format_number(total_val, decimals if metric == 'revenue' else 0)
+    
     lines = [
         f"## {metric_label} for {month}",
         "",
         "**Answer:**",
-        f"- **{metric_label}:** RM {format_num(total_val, decimals)}" if metric == "revenue" else f"- **{metric_label}:** {int(total_val):,} units",
+        f"- **{metric_label}:** {metric_value_str}",
         f"- Time period: {month}",
         f"- Scope: {filter_text}",
-        f"- Data completeness: {len(sub):,} transactions analyzed",
+        f"- Data completeness: {safe_format_number(len(sub), 0)} transactions analyzed",
         "",
         "**Evidence/Source:**",
-        f"- KPI Facts: {metric_label} for {month} = {format_num(total_val, decimals) if metric == 'revenue' else int(total_val):,}",
+        f"- KPI Facts: {metric_label} for {month} = {evidence_value_str}",
         f"- Data Source: Sales CSV (MY_Retail_Sales_2024H1.csv)",
         f"- Calculation: SUM({value_col}) WHERE YearMonth = {month}",
         f"- Dataset Coverage: {AVAILABLE_SALES_MONTHS[0]} to {AVAILABLE_SALES_MONTHS[-1]} ({len(AVAILABLE_SALES_MONTHS)} months)",
         "",
         "**Confidence:** High",
         f"- Deterministic calculation from complete dataset",
-        f"- All {len(sub):,} matching transactions included",
+        f"- All {safe_format_number(len(sub), 0)} matching transactions included",
         f"- No estimation or inference required",
         "",
         "**Follow-up:**",
@@ -2676,14 +2721,14 @@ def answer_hr(q: str, trace: ToolTrace = None) -> str:
         return f"""## Employee Headcount Overview
 
 **Answer:**
-- **Total employees:** {total_employees:,}
-- **By state:** {', '.join([f'{state} ({count})' for state, count in state_breakdown.items()])}
+- **Total employees:** {safe_format_number(total_employees, 0)}
+- **By state:** {', '.join([f'{state} ({safe_format_number(count, 0)})' for state, count in state_breakdown.items()])}
 - **Data currency:** Current workforce snapshot
 
 **Evidence/Source:**
 - Data Source: HR CSV (MY_Retail_HR_Employees.csv)
 - Calculation: COUNT(EmpID)
-- Dataset: Complete employee roster ({total_employees:,} records)
+- Dataset: Complete employee roster ({safe_format_number(total_employees, 0)} records)
 
 **Confidence:** High
 - Complete HR database
@@ -3880,7 +3925,9 @@ HR_KEYWORDS = [
     
     # Time-based HR metrics
     "5+ years", "more than", "less than", "over", "under",
-    "veteran", "new hire", "experienced"
+    "veteran", "new hire", "experienced",
+    "with more than", "with less than", "with over", "with under",  # Tenure context
+    "years at company", "years of experience", "working for"  # Seniority phrases
 ]
 
 SALES_KEYWORDS = [
@@ -3900,7 +3947,13 @@ SALES_KEYWORDS = [
 
 DOC_KEYWORDS = [
     "policy", "polisi", "sop", "guideline", "procedure", "refund", "return",
-    "privacy", "complaint", "attendance", "onboarding", "leave", "cuti"
+    "privacy", "complaint", "attendance", "onboarding", "leave", "cuti",
+    # Metadata questions (should not go to sales/hr KPI)
+    "how many branches", "how many products", "what products", "opening hours",
+    "branch manager", "contact", "address", "location",
+    # Process questions (should not trigger sales "performance" keyword)
+    "review process", "performance review", "appraisal process",
+    "hiring process", "onboarding process", "exit process"
 ]
 
 HR_POLICY_KEYWORDS = [
@@ -3954,7 +4007,19 @@ def detect_intent(text: str, has_image: bool, conversation_history: list = None)
     
     FIX v8.2.1: Added word-boundary matching to prevent substring collisions
     (e.g., "age" no longer matches "percentage" or "average")
+    
+    FYP Experiment 1: Supports pluggable routing via ACTIVE_ROUTER global
     """
+    # FYP: Check if alternative router is active
+    if ACTIVE_ROUTER is not None:
+        try:
+            route = ACTIVE_ROUTER.detect_intent(text, has_image, conversation_history)
+            print(f"🔬 ROUTER: '{text[:50]}...' → {route} (using {ACTIVE_ROUTER.__class__.__name__})")
+            return route
+        except Exception as e:
+            print(f"⚠️ Router error: {e}, falling back to keyword routing")
+    
+    # Original keyword-based routing
     s = (text or "").lower().strip()
 
     if has_image:

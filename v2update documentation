@@ -1,0 +1,23 @@
+Perfect! The subagent has completed comprehensive research. Now let me create the implementation plan as requested.
+
+Plan: Hybrid RAG Architecture for Analytical Query Support
+This plan addresses the critical regression where routing improvements decreased accuracy from 87.2% → 86.2%. The root cause: binary routing forces queries to choose between deterministic data OR LLM reasoning, but analytical queries need BOTH.
+
+Implement Query Complexity Detector - Create query/complexity_detector.py with detect_query_complexity() function that classifies queries as 'simple_kpi', 'analytical', 'cross_domain', or 'strategic' using pattern matching on keywords like "growing faster", "compare", "per employee", "vs".
+
+Build Hybrid Query Executor - Create query/hybrid_executor.py with execute_hybrid_query() that orchestrates: (a) fetch deterministic data from sales/HR handlers, (b) pass data + query to LLM for analysis, (c) combine structured data with insights in formatted answer.
+
+Fix Comparison Query Handling - Update oneclick_my_retailchain_v8.2_models_logging.py answer_sales_ceo_kpi() function to detect comparison queries ("Delivery vs Dine-in"), extract BOTH entities, fetch data for each, and return multi-entity results instead of single-filter results.
+
+Integrate Hybrid Execution Pipeline - Modify main query handler in oneclick_my_retailchain_v8.2_models_logging.py lines ~4062-4120 to add complexity detection after routing, route analytical/cross-domain queries through hybrid executor, and remove v8.3 strategic routing override (lines 4388-4393) that caused regression.
+
+Run Regression Fix Validation - Execute automated_tester_csv.py on 94 questions, verify 13 ROUTE_FAIL cases now pass (CEO03, CEO05, CEO07-09, CEO21, CEO35-37, R02-03, R05, H08), confirm pass rate improves from 86.2% → 94%+, and document answer quality improvements for analytical queries.
+
+Conduct FYP Routing Experiments - Compare 4 routing methods (Keyword baseline, LLM-based, Semantic similarity, Hybrid) measuring accuracy, latency, and cost on the test suite; document results in comparison table for thesis Chapter 5; recommend Hybrid Routing as optimal balance.
+
+Further Considerations
+Prompt Engineering for Hybrid Executor - Test zero-shot vs few-shot vs chain-of-thought prompts for data-to-insight generation; measure answer quality on 20 analytical queries; select best template for production; estimated 6-8 hours.
+
+Cross-Domain Query Validation - For queries needing Sales + HR data ("revenue per employee"), verify answer_ceo_strategic() handler exists and works correctly; if missing, implement join logic between sales and HR dataframes; test CEO07-09 specifically.
+
+Latency Optimization - Analytical queries will add 3-5s LLM elaboration time; consider caching common analytical patterns; option to return "Quick Answer" (data only) with "Analyzing..." streaming for insights; user experience tradeoff documented in FYP.

@@ -1,0 +1,16 @@
+id,query,image,expected_route,actual_route,route_match,status,response_time,answer_length,note
+V01,Summarize the table in this image (key metrics + highlights).,sales_state_kpi_2024-06.png,,error,,ERROR,0,97,Table OCR + summarization
+V02,What are the top 3 states by sales shown in the image?,sales_state_mom_2024-05_to_2024-06.png,,error,,ERROR,0,97,Table extraction + ranking
+V03,Summarize this HR attrition chart (highest group + any pattern).,hr_attrition_by_agegroup.png,,error,,ERROR,0,97,Chart interpretation
+V04,"From this chart, what channel has the highest sales?",sales_channel_mix_2024-06.png,,error,,ERROR,0,97,Chart data extraction
+V05,Summarize the HR headcount distribution by state from this image.,hr_headcount_by_state.png,,error,,ERROR,0,97,Chart summarization
+V06,What is the total sales for Selangor shown in this table?,sales_state_kpi_2024-06.png,,error,,ERROR,0,97,Specific value extraction
+V07,Which age group has the highest attrition rate in this chart?,hr_attrition_by_agegroup.png,,error,,ERROR,0,97,Chart analysis
+V08,Compare the sales trend across months from this chart.,chart_total_sales_by_month.png,,error,,ERROR,0,97,Trend analysis
+V09,What are the key insights from this attrition by state chart?,hr_attrition_by_state.png,,error,,ERROR,0,97,Chart interpretation
+V10,Summarize the income distribution by department from this image.,hr_income_by_department.png,,error,,ERROR,0,97,Table/chart reading
+V11,Ringkaskan maklumat utama dalam jadual ini (Bahasa Melayu).,sales_state_kpi_2024-06.png,,error,,ERROR,0,97,Multilingual OCR test (Malay)
+V12,Berapa jumlah jualan untuk Johor berdasarkan imej ini?,sales_state_kpi_2024-06.png,,error,,ERROR,0,97,Malay + specific value
+V13,What is the relationship between overtime and attrition shown here?,hr_overtime_vs_attrition.png,,error,,ERROR,0,97,Correlation analysis
+V14,List all products and their sales values from this image.,sales_product_kpi_2024-06.png,,error,,ERROR,0,97,Complete table extraction
+V15,Provide an executive summary of the sales performance by state.,sales_state_kpi_2024-06.png,,error,,ERROR,0,97,Executive summary generation

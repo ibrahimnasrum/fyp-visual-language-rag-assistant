@@ -1,0 +1,1467 @@
+{
+  "timestamp": "2026-01-18T03:03:42.635414",
+  "gradio_url": "http://127.0.0.1:7860",
+  "evaluation_mode": "two-tier",
+  "total_tests": 50,
+  "perfect": 0,
+  "acceptable": 0,
+  "failed": 50,
+  "errors": 0,
+  "user_satisfaction_rate": 0.0,
+  "results": [
+    {
+      "id": "S01",
+      "query": "sales bulan 2024-06 berapa?",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-18T03:03:42.636589",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 1.1904339790344238,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "S02",
+      "query": "Total sales June 2024",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-18T03:03:44.372452",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.7697939872741699,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "S03",
+      "query": "revenue bulan 2024-05",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:03:45.659683",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.7563443183898926,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "S04",
+      "query": "banding sales bulan 2024-06 vs 2024-05",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-18T03:03:46.934534",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.7780153751373291,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "S05",
+      "query": "Compare June vs May sales",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-18T03:03:48.233409",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.7782151699066162,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "S06",
+      "query": "sales trend dari January hingga June 2024",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:03:49.530438",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.781296968460083,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "S07",
+      "query": "top 3 product bulan 2024-06",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "CRITICAL",
+      "note": "",
+      "timestamp": "2026-01-18T03:03:50.835551",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.772557258605957,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "S08",
+      "query": "Show top 5 products in June",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-18T03:03:52.126835",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.7819380760192871,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "S09",
+      "query": "worst performing product bulan 2024-06",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:03:53.427439",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.7729711532592773,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "S10",
+      "query": "sales state Selangor bulan 2024-06 berapa?",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-18T03:03:54.717783",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.8105900287628174,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "S11",
+      "query": "sales ikut state bulan 2024-06",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-18T03:03:56.049764",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.7770545482635498,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "S12",
+      "query": "Cheese Burger sales in June 2024",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:03:57.348163",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.7758500576019287,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "S13",
+      "query": "breakdown sales by product June",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:03:58.644510",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.7773482799530029,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "S14",
+      "query": "sales performance by state",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:03:59.944952",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.803765058517456,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "S15",
+      "query": "sales bulan July 2024",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Future month - should fail gracefully",
+      "timestamp": "2026-01-18T03:04:01.267839",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.7713239192962646,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "H01",
+      "query": "headcount berapa?",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:02.560529",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.372,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: headcount, employees Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.26,
+      "status": "FAILED",
+      "response_time": 0.789668083190918,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "H02",
+      "query": "total employees",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:03.868756",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.372,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: employees, total Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.26,
+      "status": "FAILED",
+      "response_time": 0.7808365821838379,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "H03",
+      "query": "headcount ikut state",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:05.167018",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.372,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: headcount, state Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.26,
+      "status": "FAILED",
+      "response_time": 0.8595256805419922,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "H04",
+      "query": "How many employees in Selangor?",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:06.547062",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.372,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: Selangor, employees Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.26,
+      "status": "FAILED",
+      "response_time": 0.793353796005249,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "H05",
+      "query": "headcount by department",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:07.863273",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.372,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: department, headcount Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.26,
+      "status": "FAILED",
+      "response_time": 1.0035934448242188,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "H06",
+      "query": "berapa staff kitchen?",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:09.393271",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.372,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: kitchen, staff Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.26,
+      "status": "FAILED",
+      "response_time": 0.9166812896728516,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "H07",
+      "query": "average employee tenure",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi",
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:10.830454",
+      "actual_route": "rag_docs",
+      "route_score": 0.7,
+      "route_status": "ACCEPTABLE",
+      "quality_score": 0.372,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: tenure, employee, average Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.47,
+      "status": "FAILED",
+      "response_time": 0.7730123996734619,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "H08",
+      "query": "staff with more than 5 years",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi",
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:12.123479",
+      "actual_route": "rag_docs",
+      "route_score": 0.7,
+      "route_status": "ACCEPTABLE",
+      "quality_score": 0.372,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: years, staff Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.47,
+      "status": "FAILED",
+      "response_time": 0.7758023738861084,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "H09",
+      "query": "average salary by department",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:13.419141",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.372,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: salary, department Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.26,
+      "status": "FAILED",
+      "response_time": 0.78330397605896,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "H10",
+      "query": "total payroll expense",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:14.722570",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.372,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: payroll, expense Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.26,
+      "status": "FAILED",
+      "response_time": 0.8599934577941895,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D01",
+      "query": "What is the annual leave entitlement per year?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "CRITICAL",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:16.104091",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.7874984741210938,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D02",
+      "query": "refund policy apa?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:17.415135",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.7850034236907959,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D03",
+      "query": "how to request emergency leave",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:18.721587",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.8854014873504639,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D04",
+      "query": "maternity leave duration",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:20.134015",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.9167141914367676,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D05",
+      "query": "company profile",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:21.571597",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.8570911884307861,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D06",
+      "query": "how many branches we have?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:22.948839",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.8003520965576172,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D07",
+      "query": "what products do we sell?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:24.269361",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.7973308563232422,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D08",
+      "query": "what is the SOP for handling customer complaints?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:25.586846",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.8032181262969971,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D09",
+      "query": "opening hours for KL branch",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:26.909782",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.9075706005096436,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D10",
+      "query": "Penang branch manager siapa?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:28.339202",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.8623502254486084,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D11",
+      "query": "how to escalate an incident",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:29.790960",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.7773425579071045,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D12",
+      "query": "performance review process",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:31.088807",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.8196992874145508,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D13",
+      "query": "Why did sales drop in Selangor?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "Requires sales data + insights",
+      "timestamp": "2026-01-18T03:04:32.427521",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.7680008411407471,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D14",
+      "query": "How can we improve Cheese Burger sales?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:33.715013",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.91227126121521,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D15",
+      "query": "What happened on June 15, 2024?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:35.147540",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.8442180156707764,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "D16",
+      "query": "Tell me about competitor pricing",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "May not have data",
+      "timestamp": "2026-01-18T03:04:36.509621",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.7717664241790771,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "R01",
+      "query": "top products",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "CRITICAL",
+      "note": "Should ask for timeframe",
+      "timestamp": "2026-01-18T03:04:37.802073",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.334,
+      "status": "FAILED",
+      "response_time": 0.795379638671875,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "R02",
+      "query": "sales",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi",
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "Too vague - needs clarification",
+      "timestamp": "2026-01-18T03:04:39.113014",
+      "actual_route": "rag_docs",
+      "route_score": 0.7,
+      "route_status": "ACCEPTABLE",
+      "quality_score": 0.491,
+      "quality_breakdown": {
+        "semantic_similarity": 0.355,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.35) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.554,
+      "status": "FAILED",
+      "response_time": 0.7436864376068115,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "R03",
+      "query": "staff",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi",
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "Needs clarification",
+      "timestamp": "2026-01-18T03:04:40.374164",
+      "actual_route": "rag_docs",
+      "route_score": 0.7,
+      "route_status": "ACCEPTABLE",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.544,
+      "status": "FAILED",
+      "response_time": 0.9417667388916016,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "R04",
+      "query": "salse bulan 2024-06",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Typo: salse → sales",
+      "timestamp": "2026-01-18T03:04:41.834289",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.372,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: sales, 2024-06, June Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.26,
+      "status": "FAILED",
+      "response_time": 0.7481248378753662,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "R05",
+      "query": "headcont by stat",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "LOW",
+      "note": "Multiple typos",
+      "timestamp": "2026-01-18T03:04:43.105101",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.372,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: headcount, state Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.26,
+      "status": "FAILED",
+      "response_time": 0.8967342376708984,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "R06",
+      "query": "What's the weather today?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "Out of scope",
+      "timestamp": "2026-01-18T03:04:44.523664",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.907496452331543,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "R07",
+      "query": "Can you book a meeting?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "Not a query function",
+      "timestamp": "2026-01-18T03:04:45.960425",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.477,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.35,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.35) - missing key concepts. Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.634,
+      "status": "FAILED",
+      "response_time": 0.8477833271026611,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "R08",
+      "query": "berapa sales for Cheese Burger in Mei 2024?",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:47.329412",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.372,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: Cheese Burger, May, 2024 Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.26,
+      "status": "FAILED",
+      "response_time": 0.8548650741577148,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    },
+    {
+      "id": "R09",
+      "query": "top 3 produk dengan highest revenue",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-18T03:04:48.703676",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.372,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.48
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: top, product, revenue Presentation issues (0.48) - formatting or hallucinations detected.",
+      "overall_score": 0.26,
+      "status": "FAILED",
+      "response_time": 0.7970433235168457,
+      "answer_length": 0,
+      "answer": "",
+      "answer_preview": ""
+    }
+  ]
+}

@@ -6,6 +6,7 @@ Simplified for academic research (60 lines).
 import pandas as pd
 from typing import Dict, List, Optional
 from datetime import datetime
+from difflib import SequenceMatcher
 
 class DataValidator:
     """Validates data availability for queries."""
@@ -145,3 +146,135 @@ class DataValidator:
     def get_available_months(self) -> List[str]:
         """Get list of available months."""
         return [str(m) for m in self._available_months]
+    
+    # ==================== NEW METHODS (SAFE ADDITIONS) ====================
+    
+    @staticmethod
+    def fuzzy_match(word: str, target: str, threshold: float = 0.7) -> bool:
+        """
+        Fuzzy string matching for typo tolerance.
+        
+        Args:
+            word: Input word (may contain typos)
+            target: Target word to match against
+            threshold: Similarity threshold (0.0 to 1.0)
+        
+        Returns:
+            bool: True if similarity >= threshold
+        
+        Examples:
+            'salse' vs 'sales' → 0.8 (MATCH)
+            'headcont' vs 'headcount' → 0.78 (MATCH)
+            'stat' vs 'state' → 0.75 (MATCH)
+        """
+        similarity = SequenceMatcher(None, word.lower(), target.lower()).ratio()
+        return similarity >= threshold
+    
+    @staticmethod
+    def contains_fuzzy_keyword(query: str, keywords: List[str], threshold: float = 0.7) -> bool:
+        """
+        Check if query contains any keyword (with typo tolerance).
+        
+        Args:
+            query: User query string
+            keywords: List of keywords to match
+            threshold: Fuzzy match threshold
+        
+        Returns:
+            bool: True if any keyword matches
+        """
+        query_words = query.lower().split()
+        for keyword in keywords:
+            # Exact match first
+            if keyword.lower() in query.lower():
+                return True
+            # Fuzzy match
+            for word in query_words:
+                if DataValidator.fuzzy_match(word, keyword, threshold):
+                    return True
+        return False
+    
+    @staticmethod
+    def normalize_query(query: str) -> str:
+        """
+        Normalize query with typo correction and language mapping.
+        
+        Args:
+            query: Raw user query
+        
+        Returns:
+            str: Normalized query
+        
+        Examples:
+            'salse bulan 2024-06' → 'sales month 2024-06'
+            'headcont by stat' → 'headcount by state'
+            'produk terbaik' → 'product best'
+        """
+        # Common typo corrections (English)
+        typo_map = {
+            "salse": "sales",
+            "headcont": "headcount",
+            "stat": "state",
+            "stats": "state",
+            "employe": "employee",
+            "employes": "employees",
+            "reveune": "revenue",
+            "revenu": "revenue",
+            "atrittion": "attrition",
+            "departement": "department",
+            "brach": "branch",
+            "produk": "product",
+            "jualan": "sales",
+            "pekerja": "employee",
+            "kakitangan": "staff",
+        }
+        
+        # Malay-to-English keyword mapping
+        malay_map = {
+            "bulan": "month",
+            "tahun": "year",
+            "negeri": "state",
+            "cawangan": "branch",
+            "jabatan": "department",
+            "gaji": "salary",
+            "pendapatan": "income",
+            "umur": "age",
+            "produk": "product",
+            "jualan": "sales",
+            "hasil": "revenue",
+            "pekerja": "employee",
+            "kakitangan": "staff",
+            "terbaik": "best",
+            "tertinggi": "highest",
+            "terendah": "lowest",
+        }
+        
+        words = query.split()
+        corrected = []
+        
+        for word in words:
+            word_lower = word.lower()
+            original_word = word
+            
+            # Check exact match in typo map
+            if word_lower in typo_map:
+                corrected.append(typo_map[word_lower])
+                continue
+            
+            # Check exact match in Malay map
+            if word_lower in malay_map:
+                corrected.append(malay_map[word_lower])
+                continue
+            
+            # Fuzzy match against typo corrections
+            matched = False
+            for typo, correction in typo_map.items():
+                if DataValidator.fuzzy_match(word_lower, typo, threshold=0.85):
+                    corrected.append(correction)
+                    matched = True
+                    break
+            
+            if not matched:
+                corrected.append(original_word)
+        
+        return " ".join(corrected)

@@ -1,5 +1,142 @@
 # How to Evaluate Answer Quality - Practical Guide
 
+## 📦 Installation Guide
+
+### Prerequisites
+- **Python 3.9+** (Check: `python --version`)
+- **pip** package manager
+- **Git** (for cloning repository)
+
+### Step 1: Clone Repository
+```bash
+git clone <repository-url>
+cd fyp-visual-language-rag-assistant
+```
+
+### Step 2: Create Virtual Environment
+**Windows**:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**macOS/Linux**:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+You should see `(venv)` prefix in your terminal.
+
+### Step 3: Install Dependencies
+```bash
+pip install -r Code/requirements.txt
+```
+
+This installs:
+- `gradio-client` - Gradio API communication
+- `sentence-transformers` - Semantic similarity
+- `scikit-learn` - Classification metrics
+- `scipy` - Statistical tests
+- `numpy` - Numerical operations
+- `pandas` - Data processing
+- `matplotlib` - Visualization
+
+**Verify installation**:
+```bash
+python -c "import sentence_transformers; print('✓ Installed successfully')"
+```
+
+### Step 4: Download Sentence Transformer Model
+First run will download ~80MB model (one-time):
+```bash
+python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
+```
+
+### Step 5: Test Installation
+**Run demo**:
+```bash
+cd Code
+python demo_two_tier_evaluation.py
+```
+
+Should output:
+```
+✅ Answer quality evaluator initialized
+Example 1 (H08): quality=0.816 → ACCEPTABLE
+Example 2 (R03): quality=0.660 → FAILED
+Example 3 (H03): quality=0.785 → ACCEPTABLE
+```
+
+**Run statistical comparison**:
+```bash
+python statistical_comparison_demo.py
+```
+
+Should show t-test results with p-value < 0.05.
+
+**Run evaluation metrics demo**:
+```bash
+python evaluation_metrics.py
+```
+
+Should generate:
+- `demo_confusion_matrix.png`
+- `demo_latency_distribution.png`
+
+### Step 6: Start Gradio App (Required for Full Tests)
+In a separate terminal:
+```bash
+python app.py  # Your main Gradio application
+```
+
+Verify it's running at: http://127.0.0.1:7866
+
+### Step 7: Run Full Test Suite
+```bash
+cd Code
+python automated_test_runner.py
+```
+
+**Optional - Limit tests per category**:
+```bash
+python automated_test_runner.py 5  # Run only 5 tests per category
+```
+
+**Output files**:
+- `test_results_TIMESTAMP.json` - Complete results with advanced metrics
+- `test_results_TIMESTAMP.csv` - Excel-compatible format
+- `confusion_matrix_TIMESTAMP.png` - Routing visualization
+- `latency_distribution_TIMESTAMP.png` - Performance visualization
+
+### Troubleshooting
+
+**Issue**: `ModuleNotFoundError: No module named 'gradio_client'`
+```bash
+pip install gradio-client
+```
+
+**Issue**: `Connection refused` when running tests
+- Make sure Gradio app is running: `python app.py`
+- Check URL matches: `http://127.0.0.1:7866`
+
+**Issue**: Slow first run
+- Normal! Downloading sentence-transformers model (~80MB)
+- Subsequent runs will be fast (model cached)
+
+**Issue**: `ImportError: DLL load failed` on Windows
+```bash
+pip install --upgrade torch --index-url https://download.pytorch.org/whl/cu118
+```
+
+### Deactivate Virtual Environment
+When done:
+```bash
+deactivate
+```
+
+---
+
 ## 🎯 Quick Evaluation Checklist
 
 For EACH question you test, check these 3 things:

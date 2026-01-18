@@ -1,0 +1,51 @@
+id,query,actual_route,preferred_route,acceptable_routes,route_score,route_status,quality_score,semantic_similarity,information_completeness,factual_accuracy,presentation_quality,overall_score,status,response_time,answer_length,note
+S01,sales bulan 2024-06 berapa?,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,1.0856072902679443,0,
+S02,Total sales June 2024,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.7039525508880615,0,
+S03,revenue bulan 2024-05,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.747119665145874,0,
+S04,banding sales bulan 2024-06 vs 2024-05,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.6982772350311279,0,
+S05,Compare June vs May sales,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.7497849464416504,0,
+S06,sales trend dari January hingga June 2024,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.7921719551086426,0,
+S07,top 3 product bulan 2024-06,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.6909983158111572,0,
+S08,Show top 5 products in June,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.7682783603668213,0,
+S09,worst performing product bulan 2024-06,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.7546243667602539,0,
+S10,sales state Selangor bulan 2024-06 berapa?,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.8249132633209229,0,
+S11,sales ikut state bulan 2024-06,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.761012077331543,0,
+S12,Cheese Burger sales in June 2024,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.7726478576660156,0,
+S13,breakdown sales by product June,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.7783384323120117,0,
+S14,sales performance by state,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.7757537364959717,0,
+S15,sales bulan July 2024,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.7801620960235596,0,Future month - should fail gracefully
+H01,headcount berapa?,rag_docs,hr_kpi,hr_kpi,0.0,WRONG,0.372,0.3,0.0,0.75,0.48,0.26,FAILED,0.704594612121582,0,
+H02,total employees,rag_docs,hr_kpi,hr_kpi,0.0,WRONG,0.372,0.3,0.0,0.75,0.48,0.26,FAILED,0.7239177227020264,0,
+H03,headcount ikut state,rag_docs,hr_kpi,hr_kpi,0.0,WRONG,0.372,0.3,0.0,0.75,0.48,0.26,FAILED,0.7046980857849121,0,
+H04,How many employees in Selangor?,rag_docs,hr_kpi,hr_kpi,0.0,WRONG,0.372,0.3,0.0,0.75,0.48,0.26,FAILED,0.688546895980835,0,
+H05,headcount by department,rag_docs,hr_kpi,hr_kpi,0.0,WRONG,0.372,0.3,0.0,0.75,0.48,0.26,FAILED,0.7093040943145752,0,
+H06,berapa staff kitchen?,rag_docs,hr_kpi,hr_kpi,0.0,WRONG,0.372,0.3,0.0,0.75,0.48,0.26,FAILED,0.7061262130737305,0,
+H07,average employee tenure,rag_docs,hr_kpi,"hr_kpi,rag_docs",0.7,ACCEPTABLE,0.372,0.3,0.0,0.75,0.48,0.47,FAILED,0.768815279006958,0,
+H08,staff with more than 5 years,rag_docs,hr_kpi,"hr_kpi,rag_docs",0.7,ACCEPTABLE,0.372,0.3,0.0,0.75,0.48,0.47,FAILED,0.7079088687896729,0,
+H09,average salary by department,rag_docs,hr_kpi,hr_kpi,0.0,WRONG,0.372,0.3,0.0,0.75,0.48,0.26,FAILED,0.7124814987182617,0,
+H10,total payroll expense,rag_docs,hr_kpi,hr_kpi,0.0,WRONG,0.372,0.3,0.0,0.75,0.48,0.26,FAILED,0.7515881061553955,0,
+D01,What is the annual leave entitlement per year?,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.7784426212310791,0,
+D02,refund policy apa?,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.7526936531066895,0,
+D03,how to request emergency leave,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.757889986038208,0,
+D04,maternity leave duration,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.7477231025695801,0,
+D05,company profile,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.6964983940124512,0,
+D06,how many branches we have?,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.7659511566162109,0,
+D07,what products do we sell?,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.7094814777374268,0,
+D08,what is the SOP for handling customer complaints?,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.790327787399292,0,
+D09,opening hours for KL branch,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.7675538063049316,0,
+D10,Penang branch manager siapa?,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.7727565765380859,0,
+D11,how to escalate an incident,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.6978967189788818,0,
+D12,performance review process,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.6905779838562012,0,
+D13,Why did sales drop in Selangor?,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.6865646839141846,0,Requires sales data + insights
+D14,How can we improve Cheese Burger sales?,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.7420501708984375,0,
+D15,"What happened on June 15, 2024?",rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.689842700958252,0,
+D16,Tell me about competitor pricing,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.7430129051208496,0,May not have data
+R01,top products,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.477,0.3,0.35,0.75,0.48,0.334,FAILED,0.7226700782775879,0,Should ask for timeframe
+R02,sales,rag_docs,sales_kpi,"sales_kpi,rag_docs",0.7,ACCEPTABLE,0.491,0.355,0.35,0.75,0.48,0.554,FAILED,0.6939921379089355,0,Too vague - needs clarification
+R03,staff,rag_docs,hr_kpi,"hr_kpi,rag_docs",0.7,ACCEPTABLE,0.477,0.3,0.35,0.75,0.48,0.544,FAILED,0.8078944683074951,0,Needs clarification
+R04,salse bulan 2024-06,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.372,0.3,0.0,0.75,0.48,0.26,FAILED,0.7811501026153564,0,Typo: salse → sales
+R05,headcont by stat,rag_docs,hr_kpi,hr_kpi,0.0,WRONG,0.372,0.3,0.0,0.75,0.48,0.26,FAILED,0.8056039810180664,0,Multiple typos
+R06,What's the weather today?,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.7676243782043457,0,Out of scope
+R07,Can you book a meeting?,rag_docs,rag_docs,rag_docs,1.0,PERFECT,0.477,0.3,0.35,0.75,0.48,0.634,FAILED,0.752216100692749,0,Not a query function
+R08,berapa sales for Cheese Burger in Mei 2024?,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.372,0.3,0.0,0.75,0.48,0.26,FAILED,0.7918822765350342,0,
+R09,top 3 produk dengan highest revenue,rag_docs,sales_kpi,sales_kpi,0.0,WRONG,0.372,0.3,0.0,0.75,0.48,0.26,FAILED,0.7502472400665283,0,

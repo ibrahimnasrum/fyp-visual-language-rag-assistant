@@ -1,0 +1,161 @@
+{
+  "h1_2024": {
+    "total_revenue": 596989.31,
+    "total_transactions": 29635,
+    "avg_transaction": 20.144737978741354
+  },
+  "monthly": {
+    "2024-01": {
+      "total": 100167.83,
+      "count": 5004,
+      "avg": 20.02
+    },
+    "2024-02": {
+      "total": 96442.59,
+      "count": 4768,
+      "avg": 20.23
+    },
+    "2024-03": {
+      "total": 96401.16,
+      "count": 4834,
+      "avg": 19.94
+    },
+    "2024-04": {
+      "total": 97129.79,
+      "count": 4813,
+      "avg": 20.18
+    },
+    "2024-05": {
+      "total": 106995.11,
+      "count": 5235,
+      "avg": 20.44
+    },
+    "2024-06": {
+      "total": 99852.83,
+      "count": 4981,
+      "avg": 20.05
+    }
+  },
+  "june_products": {
+    "Cheese Burger": 20250.99,
+    "Beef Burger": 19705.96,
+    "Chicken Burger": 18916.920000000002,
+    "Spicy Burger": 13892.69,
+    "Fries": 11941.63,
+    "Veggie Burger": 9782.43,
+    "Soft Drink": 5362.21
+  },
+  "h1_products": {
+    "Beef Burger": 120876.44,
+    "Chicken Burger": 115084.95000000001,
+    "Cheese Burger": 114734.72,
+    "Spicy Burger": 88502.16,
+    "Fries": 69232.53,
+    "Veggie Burger": 56330.01,
+    "Soft Drink": 32228.5
+  },
+  "june_states": {
+    "Kuala Lumpur": 17490.11,
+    "Sabah": 17350.47,
+    "Penang": 16961.05,
+    "Johor": 16524.5,
+    "Selangor": 16421.18,
+    "Sarawak": 15105.52
+  },
+  "h1_states": {
+    "Sarawak": 103795.95,
+    "Penang": 102375.37000000001,
+    "Kuala Lumpur": 99084.66,
+    "Sabah": 98935.37000000001,
+    "Selangor": 96832.37000000001,
+    "Johor": 95965.59
+  },
+  "channels": {
+    "Delivery": {
+      "total": 91417.72,
+      "count": 4473,
+      "avg": 20.44,
+      "pct": 15.313125121118166
+    },
+    "Dine-in": {
+      "total": 296276.47,
+      "count": 14685,
+      "avg": 20.18,
+      "pct": 49.62843807035673
+    },
+    "Takeaway": {
+      "total": 209295.12,
+      "count": 10477,
+      "avg": 19.98,
+      "pct": 35.058436808525094
+    }
+  },
+  "payment_methods": {
+    "Card": {
+      "total": 209958.89,
+      "count": 10386,
+      "pct": 35.04639784039143
+    },
+    "Cash": {
+      "total": 120885.38,
+      "count": 5989,
+      "pct": 20.209212080310444
+    },
+    "eWallet": {
+      "total": 266145.04,
+      "count": 13260,
+      "pct": 44.74439007929813
+    }
+  },
+  "unit_prices": {
+    "Spicy Burger": 14.9,
+    "Cheese Burger": 13.9,
+    "Beef Burger": 12.9,
+    "Veggie Burger": 11.9,
+    "Chicken Burger": 10.9,
+    "Fries": 5.9,
+    "Soft Drink": 3.9
+  },
+  "quarterly": {
+    "Q1": 293011.58,
+    "Q2": 303977.73000000004
+  },
+  "may_june_comparison": {
+    "may": {
+      "total": 106995.11000000002,
+      "count": 5235,
+      "avg": 20.43841642788921
+    },
+    "june": {
+      "total": 99852.83000000002,
+      "count": 4981,
+      "avg": 20.04674362577796
+    },
+    "change_amount": -7142.279999999999,
+    "change_pct": -6.675333106344765
+  },
+  "jan_june_comparison": {
+    "jan": 100167.83000000002,
+    "june": 99852.83000000002,
+    "change_pct": -0.31447222127104074
+  },
+  "may_products": {
+    "Beef Burger": 21643.690000000002,
+    "Cheese Burger": 21615.91,
+    "Chicken Burger": 20771.09,
+    "Spicy Burger": 15535.5,
+    "Fries": 12183.19,
+    "Veggie Burger": 9692.51,
+    "Soft Drink": 5553.219999999999
+  },
+  "selangor_vs_penang": {
+    "selangor": {
+      "total": 96832.37000000002,
+      "count": 4819
+    },
+    "penang": {
+      "total": 102375.37000000001,
+      "count": 5114
+    }
+  }
+}

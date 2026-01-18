@@ -1,0 +1,1467 @@
+{
+  "timestamp": "2026-01-17T04:34:08.960993",
+  "gradio_url": "http://127.0.0.1:7860",
+  "evaluation_mode": "two-tier",
+  "total_tests": 50,
+  "perfect": 0,
+  "acceptable": 4,
+  "failed": 46,
+  "errors": 0,
+  "user_satisfaction_rate": 0.08,
+  "results": [
+    {
+      "id": "S01",
+      "query": "sales bulan 2024-06 berapa?",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:08.962350",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.641,
+      "quality_breakdown": {
+        "semantic_similarity": 0.522,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.52) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.749,
+      "status": "FAILED",
+      "response_time": 0.899254322052002,
+      "answer_length": 196,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "S02",
+      "query": "Total sales June 2024",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:10.413167",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.64,
+      "quality_breakdown": {
+        "semantic_similarity": 0.521,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.52) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.748,
+      "status": "FAILED",
+      "response_time": 0.8887851238250732,
+      "answer_length": 196,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "S03",
+      "query": "revenue bulan 2024-05",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:11.831404",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.637,
+      "quality_breakdown": {
+        "semantic_similarity": 0.506,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.51) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.746,
+      "status": "FAILED",
+      "response_time": 0.782447099685669,
+      "answer_length": 197,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-05**\n- Value: **RM 106,995.11**\n- Rows used: 5,235\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-05**\n- Value: **RM 106,995.11**\n- Rows used: 5,235\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "S04",
+      "query": "banding sales bulan 2024-06 vs 2024-05",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:13.145820",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.644,
+      "quality_breakdown": {
+        "semantic_similarity": 0.476,
+        "information_completeness": 0.55,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.48) - answer may not address the query. Incomplete information (0.55) - missing key concepts.",
+      "overall_score": 0.751,
+      "status": "FAILED",
+      "response_time": 0.7858843803405762,
+      "answer_length": 304,
+      "answer": "✅ **Source: structured KPI**\n📊 **Total Sales (RM) (Compare)**\n- 2024-05: **106,995.11**\n- 2024-06: **99,852.83**\n- Change: **7,142.28** (+7.15%)\n- Rows used (current month): 5,235\n- Dataset months available: 2024-01 → 2024-06\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n📊 **Total Sales (RM) (Compare)**\n- 2024-05: **106,995.11**\n- 2024-06: **99,852.83**\n- Change: **7,142.28** (+7.15%)\n- Rows used (current month): 5,235\n- Dataset months ava"
+    },
+    {
+      "id": "S05",
+      "query": "Compare June vs May sales",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:14.471328",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.634,
+      "quality_breakdown": {
+        "semantic_similarity": 0.437,
+        "information_completeness": 0.55,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.44) - answer may not address the query. Incomplete information (0.55) - missing key concepts.",
+      "overall_score": 0.744,
+      "status": "FAILED",
+      "response_time": 0.8106510639190674,
+      "answer_length": 305,
+      "answer": "✅ **Source: structured KPI**\n📊 **Total Sales (RM) (Compare)**\n- 2024-06: **99,852.83**\n- 2024-05: **106,995.11**\n- Change: **-7,142.28** (-6.68%)\n- Rows used (current month): 4,981\n- Dataset months available: 2024-01 → 2024-06\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n📊 **Total Sales (RM) (Compare)**\n- 2024-06: **99,852.83**\n- 2024-05: **106,995.11**\n- Change: **-7,142.28** (-6.68%)\n- Rows used (current month): 4,981\n- Dataset months av"
+    },
+    {
+      "id": "S06",
+      "query": "sales trend dari January hingga June 2024",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:15.824839",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.642,
+      "quality_breakdown": {
+        "semantic_similarity": 0.528,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.53) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.749,
+      "status": "FAILED",
+      "response_time": 0.8959124088287354,
+      "answer_length": 197,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-01**\n- Value: **RM 100,167.83**\n- Rows used: 5,004\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-01**\n- Value: **RM 100,167.83**\n- Rows used: 5,004\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "S07",
+      "query": "top 3 product bulan 2024-06",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "CRITICAL",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:17.256965",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.641,
+      "quality_breakdown": {
+        "semantic_similarity": 0.466,
+        "information_completeness": 0.55,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.47) - answer may not address the query. Incomplete information (0.55) - missing key concepts.",
+      "overall_score": 0.749,
+      "status": "FAILED",
+      "response_time": 0.8543570041656494,
+      "answer_length": 308,
+      "answer": "✅ **Source: structured KPI**\n🏆 **Top 3 Product by Total Sales (RM)**\n- Month: **2024-06**\n\n| Product        | Total Sales (RM)   |\n|:---------------|:-------------------|\n| Cheese Burger  | RM 20,250.99       |\n| Beef Burger    | RM 19,705.96       |\n| Chicken Burger | RM 18,916.92       |\n\nRows used: 4,981",
+      "answer_preview": "✅ **Source: structured KPI**\n🏆 **Top 3 Product by Total Sales (RM)**\n- Month: **2024-06**\n\n| Product        | Total Sales (RM)   |\n|:---------------|:-------------------|\n| Cheese Burger  | RM 20,250."
+    },
+    {
+      "id": "S08",
+      "query": "Show top 5 products in June",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:18.652033",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.651,
+      "quality_breakdown": {
+        "semantic_similarity": 0.506,
+        "information_completeness": 0.55,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.51) - answer may not address the query. Incomplete information (0.55) - missing key concepts.",
+      "overall_score": 0.756,
+      "status": "FAILED",
+      "response_time": 0.8722920417785645,
+      "answer_length": 388,
+      "answer": "✅ **Source: structured KPI**\n🏆 **Top 5 Product by Total Sales (RM)**\n- Month: **2024-06**\n\n| Product        | Total Sales (RM)   |\n|:---------------|:-------------------|\n| Cheese Burger  | RM 20,250.99       |\n| Beef Burger    | RM 19,705.96       |\n| Chicken Burger | RM 18,916.92       |\n| Spicy Burger   | RM 13,892.69       |\n| Fries          | RM 11,941.63       |\n\nRows used: 4,981",
+      "answer_preview": "✅ **Source: structured KPI**\n🏆 **Top 5 Product by Total Sales (RM)**\n- Month: **2024-06**\n\n| Product        | Total Sales (RM)   |\n|:---------------|:-------------------|\n| Cheese Burger  | RM 20,250."
+    },
+    {
+      "id": "S09",
+      "query": "worst performing product bulan 2024-06",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:20.069261",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.603,
+      "quality_breakdown": {
+        "semantic_similarity": 0.37,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.37) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.722,
+      "status": "FAILED",
+      "response_time": 0.9604709148406982,
+      "answer_length": 196,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "S10",
+      "query": "sales state Selangor bulan 2024-06 berapa?",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:21.579583",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.635,
+      "quality_breakdown": {
+        "semantic_similarity": 0.499,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.50) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.744,
+      "status": "FAILED",
+      "response_time": 0.981717586517334,
+      "answer_length": 194,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 16,421.18**\n- Rows used: 805\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 16,421.18**\n- Rows used: 805\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "S11",
+      "query": "sales ikut state bulan 2024-06",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:23.120679",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.645,
+      "quality_breakdown": {
+        "semantic_similarity": 0.541,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.54) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.751,
+      "status": "FAILED",
+      "response_time": 1.0874567031860352,
+      "answer_length": 196,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "S12",
+      "query": "Cheese Burger sales in June 2024",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:24.746150",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.595,
+      "quality_breakdown": {
+        "semantic_similarity": 0.34,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.34) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.716,
+      "status": "FAILED",
+      "response_time": 0.8695564270019531,
+      "answer_length": 194,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 20,250.99**\n- Rows used: 721\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 20,250.99**\n- Rows used: 721\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "S13",
+      "query": "breakdown sales by product June",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:26.148726",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.641,
+      "quality_breakdown": {
+        "semantic_similarity": 0.525,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.53) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.749,
+      "status": "FAILED",
+      "response_time": 0.8684499263763428,
+      "answer_length": 196,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "S14",
+      "query": "sales performance by state",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:27.552963",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.595,
+      "quality_breakdown": {
+        "semantic_similarity": 0.338,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.34) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.716,
+      "status": "FAILED",
+      "response_time": 0.8546597957611084,
+      "answer_length": 196,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "S15",
+      "query": "sales bulan July 2024",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Future month - should fail gracefully",
+      "timestamp": "2026-01-17T04:34:28.943268",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.589,
+      "quality_breakdown": {
+        "semantic_similarity": 0.317,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.32) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.712,
+      "status": "FAILED",
+      "response_time": 0.7863748073577881,
+      "answer_length": 54,
+      "answer": "❗ Tiada rekod untuk 2024-07 dengan filter yang diberi.",
+      "answer_preview": "❗ Tiada rekod untuk 2024-07 dengan filter yang diberi."
+    },
+    {
+      "id": "H01",
+      "query": "headcount berapa?",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:30.256856",
+      "actual_route": "hr_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.585,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.50) - missing key concepts.   Missing: headcount",
+      "overall_score": 0.71,
+      "status": "FAILED",
+      "response_time": 0.8739206790924072,
+      "answer_length": 54,
+      "answer": "✅ **Source: structured HR**\n👥 Total employees: **820**",
+      "answer_preview": "✅ **Source: structured HR**\n👥 Total employees: **820**"
+    },
+    {
+      "id": "H02",
+      "query": "total employees",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:31.658586",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.435,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: employees, total",
+      "overall_score": 0.304,
+      "status": "FAILED",
+      "response_time": 3.6102795600891113,
+      "answer_length": 66,
+      "answer": "📄 **Source: RAG + LLM**\n\nnot available in the provided data (docs)",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\nnot available in the provided data (docs)"
+    },
+    {
+      "id": "H03",
+      "query": "headcount ikut state",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:35.796860",
+      "actual_route": "hr_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.435,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: headcount, state",
+      "overall_score": 0.605,
+      "status": "FAILED",
+      "response_time": 0.8438739776611328,
+      "answer_length": 54,
+      "answer": "✅ **Source: structured HR**\n👥 Total employees: **820**",
+      "answer_preview": "✅ **Source: structured HR**\n👥 Total employees: **820**"
+    },
+    {
+      "id": "H04",
+      "query": "How many employees in Selangor?",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:37.168758",
+      "actual_route": "hr_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.675,
+      "quality_breakdown": {
+        "semantic_similarity": 0.659,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.66) - answer may not address the query. Incomplete information (0.50) - missing key concepts.   Missing: employees",
+      "overall_score": 0.772,
+      "status": "FAILED",
+      "response_time": 1.0221314430236816,
+      "answer_length": 67,
+      "answer": "✅ **Source: structured HR**\n👥 Headcount State **Selangor**: **137**",
+      "answer_preview": "✅ **Source: structured HR**\n👥 Headcount State **Selangor**: **137**"
+    },
+    {
+      "id": "H05",
+      "query": "headcount by department",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:38.721410",
+      "actual_route": "hr_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.449,
+      "quality_breakdown": {
+        "semantic_similarity": 0.357,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.36) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: department, headcount",
+      "overall_score": 0.614,
+      "status": "FAILED",
+      "response_time": 1.0334038734436035,
+      "answer_length": 54,
+      "answer": "✅ **Source: structured HR**\n👥 Total employees: **820**",
+      "answer_preview": "✅ **Source: structured HR**\n👥 Total employees: **820**"
+    },
+    {
+      "id": "H06",
+      "query": "berapa staff kitchen?",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:40.277511",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.435,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: kitchen, staff",
+      "overall_score": 0.304,
+      "status": "FAILED",
+      "response_time": 3.236372947692871,
+      "answer_length": 68,
+      "answer": "📄 **Source: RAG + LLM**\n\n- not available in the provided data (docs)",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- not available in the provided data (docs)"
+    },
+    {
+      "id": "H07",
+      "query": "average employee tenure",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi",
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:44.039833",
+      "actual_route": "rag_docs",
+      "route_score": 0.7,
+      "route_status": "ACCEPTABLE",
+      "quality_score": 0.716,
+      "quality_breakdown": {
+        "semantic_similarity": 0.566,
+        "information_completeness": 0.717,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "✅ Acceptable answer quality. Low semantic relevance (0.57) - answer may not address the query.",
+      "overall_score": 0.711,
+      "status": "ACCEPTABLE",
+      "response_time": 13.514304399490356,
+      "answer_length": 76,
+      "answer": "📄 **Source: RAG + LLM**\n\n- Average tenure: 2.5 years (above company average)",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- Average tenure: 2.5 years (above company average)"
+    },
+    {
+      "id": "H08",
+      "query": "staff with more than 5 years",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi",
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-17T04:34:58.078977",
+      "actual_route": "rag_docs",
+      "route_score": 0.7,
+      "route_status": "ACCEPTABLE",
+      "quality_score": 0.784,
+      "quality_breakdown": {
+        "semantic_similarity": 0.497,
+        "information_completeness": 1.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "✅ Acceptable answer quality. Low semantic relevance (0.50) - answer may not address the query. Comprehensive information coverage.",
+      "overall_score": 0.759,
+      "status": "ACCEPTABLE",
+      "response_time": 6.4715735912323,
+      "answer_length": 202,
+      "answer": "📄 **Source: RAG + LLM**\n\n- Average tenure of employees is 2.5 years, which means there are no staff with more than 5 years of tenure based on the given data.\n- Not available in the provided data (docs).",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- Average tenure of employees is 2.5 years, which means there are no staff with more than 5 years of tenure based on the given data.\n- Not available in the provided data (docs"
+    },
+    {
+      "id": "H09",
+      "query": "average salary by department",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:35:05.107648",
+      "actual_route": "sales_kpi",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.435,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: salary, department",
+      "overall_score": 0.304,
+      "status": "FAILED",
+      "response_time": 0.8703157901763916,
+      "answer_length": 70,
+      "answer": "✅ **Source: structured HR**\n💰 Avg MonthlyIncome (all): **RM 3,016.82**",
+      "answer_preview": "✅ **Source: structured HR**\n💰 Avg MonthlyIncome (all): **RM 3,016.82**"
+    },
+    {
+      "id": "H10",
+      "query": "total payroll expense",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-17T04:35:06.504070",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.435,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: payroll, expense",
+      "overall_score": 0.304,
+      "status": "FAILED",
+      "response_time": 5.246001720428467,
+      "answer_length": 68,
+      "answer": "📄 **Source: RAG + LLM**\n\n- not available in the provided data (docs)",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- not available in the provided data (docs)"
+    },
+    {
+      "id": "D01",
+      "query": "What is the annual leave entitlement per year?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "CRITICAL",
+      "note": "",
+      "timestamp": "2026-01-17T04:35:12.277850",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.653,
+      "quality_breakdown": {
+        "semantic_similarity": 0.51,
+        "information_completeness": 0.55,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.51) - answer may not address the query. Incomplete information (0.55) - missing key concepts.",
+      "overall_score": 0.757,
+      "status": "FAILED",
+      "response_time": 11.34449577331543,
+      "answer_length": 273,
+      "answer": "📄 **Source: RAG + LLM**\n\n- Permanent Employees: 14 days per calendar year (prorated based on join date).\n- Contract Employees: prorated annual leave per contract terms (minimum as per company offer).\n- Part-Time employees are not eligible unless stated in employment terms.",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- Permanent Employees: 14 days per calendar year (prorated based on join date).\n- Contract Employees: prorated annual leave per contract terms (minimum as per company offer).\n"
+    },
+    {
+      "id": "D02",
+      "query": "refund policy apa?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:35:24.156168",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.585,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.71,
+      "status": "FAILED",
+      "response_time": 10.49424958229065,
+      "answer_length": 69,
+      "answer": "📄 **Source: RAG + LLM**\n\n- Not available in the provided data (docs).",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- Not available in the provided data (docs)."
+    },
+    {
+      "id": "D03",
+      "query": "how to request emergency leave",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:35:35.179876",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.669,
+      "quality_breakdown": {
+        "semantic_similarity": 0.635,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.64) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.768,
+      "status": "FAILED",
+      "response_time": 8.363330125808716,
+      "answer_length": 143,
+      "answer": "📄 **Source: RAG + LLM**\n\n- Request emergency leave at supervisor discretion for genuine emergencies.\n- Submit supporting documents if required.",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- Request emergency leave at supervisor discretion for genuine emergencies.\n- Submit supporting documents if required."
+    },
+    {
+      "id": "D04",
+      "query": "maternity leave duration",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:35:44.073615",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.585,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.71,
+      "status": "FAILED",
+      "response_time": 12.427303791046143,
+      "answer_length": 68,
+      "answer": "📄 **Source: RAG + LLM**\n\n- not available in the provided data (docs)",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- not available in the provided data (docs)"
+    },
+    {
+      "id": "D05",
+      "query": "company profile",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:35:57.028273",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.6,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.55,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.55) - missing key concepts.",
+      "overall_score": 0.72,
+      "status": "FAILED",
+      "response_time": 10.10322904586792,
+      "answer_length": 231,
+      "answer": "📄 **Source: RAG + LLM**\n\n- Operates 12 branches across Malaysia in Selangor, Kuala Lumpur, Penang, Johor, Sabah, and Sarawak.\n- Key cities include Shah Alam, Bukit Bintang (KL), George Town, Johor Bahru, Kota Kinabalu, and Kuching.",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- Operates 12 branches across Malaysia in Selangor, Kuala Lumpur, Penang, Johor, Sabah, and Sarawak.\n- Key cities include Shah Alam, Bukit Bintang (KL), George Town, Johor Bah"
+    },
+    {
+      "id": "D06",
+      "query": "how many branches we have?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:36:07.670398",
+      "actual_route": "sales_kpi",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.585,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.409,
+      "status": "FAILED",
+      "response_time": 0.9354610443115234,
+      "answer_length": 196,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "D07",
+      "query": "what products do we sell?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:36:09.142733",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.588,
+      "quality_breakdown": {
+        "semantic_similarity": 0.31,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.31) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.712,
+      "status": "FAILED",
+      "response_time": 10.185221672058105,
+      "answer_length": 158,
+      "answer": "📄 **Source: RAG + LLM**\n\n- Burger Classic\n- Burger Deluxe\n- Premium Set Meals\n- Specialty beverages (Coffee-based drinks)\n- Nasi Lemak Burger\n- Iced Beverages",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- Burger Classic\n- Burger Deluxe\n- Premium Set Meals\n- Specialty beverages (Coffee-based drinks)\n- Nasi Lemak Burger\n- Iced Beverages"
+    },
+    {
+      "id": "D08",
+      "query": "what is the SOP for handling customer complaints?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:36:19.862654",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.585,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.71,
+      "status": "FAILED",
+      "response_time": 11.852020502090454,
+      "answer_length": 67,
+      "answer": "📄 **Source: RAG + LLM**\n\nNot available in the provided data (docs).",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\nNot available in the provided data (docs)."
+    },
+    {
+      "id": "D09",
+      "query": "opening hours for KL branch",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:36:32.243646",
+      "actual_route": "sales_kpi",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.585,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.409,
+      "status": "FAILED",
+      "response_time": 0.9343457221984863,
+      "answer_length": 196,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "D10",
+      "query": "Penang branch manager siapa?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-17T04:36:33.725823",
+      "actual_route": "sales_kpi",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.585,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.409,
+      "status": "FAILED",
+      "response_time": 0.9380395412445068,
+      "answer_length": 194,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 16,961.05**\n- Rows used: 848\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 16,961.05**\n- Rows used: 848\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "D11",
+      "query": "how to escalate an incident",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:36:35.202484",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.609,
+      "quality_breakdown": {
+        "semantic_similarity": 0.338,
+        "information_completeness": 0.55,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.34) - answer may not address the query. Incomplete information (0.55) - missing key concepts.",
+      "overall_score": 0.726,
+      "status": "FAILED",
+      "response_time": 12.426400184631348,
+      "answer_length": 203,
+      "answer": "📄 **Source: RAG + LLM**\n\n- Contact platform support.\n- Activate manual order tracking if necessary.\n- Document all actions taken and communications with employees or stakeholders related to the incident.",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- Contact platform support.\n- Activate manual order tracking if necessary.\n- Document all actions taken and communications with employees or stakeholders related to the incide"
+    },
+    {
+      "id": "D12",
+      "query": "performance review process",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-17T04:36:48.232046",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.636,
+      "quality_breakdown": {
+        "semantic_similarity": 0.443,
+        "information_completeness": 0.55,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.44) - answer may not address the query. Incomplete information (0.55) - missing key concepts.",
+      "overall_score": 0.745,
+      "status": "FAILED",
+      "response_time": 19.536585330963135,
+      "answer_length": 451,
+      "answer": "📄 **Source: RAG + LLM**\n\n- Supervisors conduct performance check-ins at least twice a year.\n- Performance criteria may include: sales discipline, customer service, attendance, teamwork, compliance, and role-specific KPIs.\n- Issued when performance is below expectations.\n- PIP includes clear goals, timeline (typically 30–90 days), and review checkpoints.\n- Failure to improve may lead to further action including termination (subject to due process).",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- Supervisors conduct performance check-ins at least twice a year.\n- Performance criteria may include: sales discipline, customer service, attendance, teamwork, compliance, an"
+    },
+    {
+      "id": "D13",
+      "query": "Why did sales drop in Selangor?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "Requires sales data + insights",
+      "timestamp": "2026-01-17T04:37:08.308043",
+      "actual_route": "sales_kpi",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.612,
+      "quality_breakdown": {
+        "semantic_similarity": 0.41,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.41) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.428,
+      "status": "FAILED",
+      "response_time": 0.8824269771575928,
+      "answer_length": 194,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 16,421.18**\n- Rows used: 805\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 16,421.18**\n- Rows used: 805\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "D14",
+      "query": "How can we improve Cheese Burger sales?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:37:09.726275",
+      "actual_route": "sales_kpi",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.585,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.409,
+      "status": "FAILED",
+      "response_time": 0.8635780811309814,
+      "answer_length": 194,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 20,250.99**\n- Rows used: 721\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 20,250.99**\n- Rows used: 721\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "D15",
+      "query": "What happened on June 15, 2024?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-17T04:37:11.125470",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.585,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.71,
+      "status": "FAILED",
+      "response_time": 4.194770812988281,
+      "answer_length": 69,
+      "answer": "📄 **Source: RAG + LLM**\n\n- Not available in the provided data (docs).",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- Not available in the provided data (docs)."
+    },
+    {
+      "id": "D16",
+      "query": "Tell me about competitor pricing",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "May not have data",
+      "timestamp": "2026-01-17T04:37:15.845960",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.616,
+      "quality_breakdown": {
+        "semantic_similarity": 0.426,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.43) - answer may not address the query. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.731,
+      "status": "FAILED",
+      "response_time": 15.060207605361938,
+      "answer_length": 193,
+      "answer": "📄 **Source: RAG + LLM**\n\n- Price wars: Focus on value-added services instead\n- New entrants: Menu innovation maintains differentiation\n- Market saturation: Strategic location selection critical",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- Price wars: Focus on value-added services instead\n- New entrants: Menu innovation maintains differentiation\n- Market saturation: Strategic location selection critical"
+    },
+    {
+      "id": "R01",
+      "query": "top products",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "CRITICAL",
+      "note": "Should ask for timeframe",
+      "timestamp": "2026-01-17T04:37:31.438651",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.649,
+      "quality_breakdown": {
+        "semantic_similarity": 0.494,
+        "information_completeness": 0.55,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.49) - answer may not address the query. Incomplete information (0.55) - missing key concepts.",
+      "overall_score": 0.754,
+      "status": "FAILED",
+      "response_time": 0.8705577850341797,
+      "answer_length": 308,
+      "answer": "✅ **Source: structured KPI**\n🏆 **Top 3 Product by Total Sales (RM)**\n- Month: **2024-06**\n\n| Product        | Total Sales (RM)   |\n|:---------------|:-------------------|\n| Cheese Burger  | RM 20,250.99       |\n| Beef Burger    | RM 19,705.96       |\n| Chicken Burger | RM 18,916.92       |\n\nRows used: 4,981",
+      "answer_preview": "✅ **Source: structured KPI**\n🏆 **Top 3 Product by Total Sales (RM)**\n- Month: **2024-06**\n\n| Product        | Total Sales (RM)   |\n|:---------------|:-------------------|\n| Cheese Burger  | RM 20,250."
+    },
+    {
+      "id": "R02",
+      "query": "sales",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi",
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "Too vague - needs clarification",
+      "timestamp": "2026-01-17T04:37:32.847868",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.635,
+      "quality_breakdown": {
+        "semantic_similarity": 0.442,
+        "information_completeness": 0.55,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.44) - answer may not address the query. Incomplete information (0.55) - missing key concepts.",
+      "overall_score": 0.744,
+      "status": "FAILED",
+      "response_time": 0.8057436943054199,
+      "answer_length": 196,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "R03",
+      "query": "staff",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi",
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "Needs clarification",
+      "timestamp": "2026-01-17T04:37:34.188289",
+      "actual_route": "rag_docs",
+      "route_score": 0.7,
+      "route_status": "ACCEPTABLE",
+      "quality_score": 0.649,
+      "quality_breakdown": {
+        "semantic_similarity": 0.377,
+        "information_completeness": 0.65,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.38) - answer may not address the query. Incomplete information (0.65) - missing key concepts.",
+      "overall_score": 0.664,
+      "status": "FAILED",
+      "response_time": 9.369099617004395,
+      "answer_length": 260,
+      "answer": "📄 **Source: RAG + LLM**\n\n- Experienced staff: 30% faster service\n- Low turnover: Consistency in quality\n- Training investment: ROI visible in customer satisfaction\n- Incentive programs: Performance-based bonuses\n- Career paths: Internal promotions boost morale",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- Experienced staff: 30% faster service\n- Low turnover: Consistency in quality\n- Training investment: ROI visible in customer satisfaction\n- Incentive programs: Performance-ba"
+    },
+    {
+      "id": "R04",
+      "query": "salse bulan 2024-06",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Typo: salse → sales",
+      "timestamp": "2026-01-17T04:37:44.089864",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.65,
+      "quality_breakdown": {
+        "semantic_similarity": 0.358,
+        "information_completeness": 0.667,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.36) - answer may not address the query. Incomplete information (0.67) - missing key concepts.   Missing: June",
+      "overall_score": 0.755,
+      "status": "FAILED",
+      "response_time": 0.8711211681365967,
+      "answer_length": 196,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-06**\n- Value: **RM 99,852.83**\n- Rows used: 4,981\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "R05",
+      "query": "headcont by stat",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "LOW",
+      "note": "Multiple typos",
+      "timestamp": "2026-01-17T04:37:45.496273",
+      "actual_route": "rag_docs",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "quality_score": 0.435,
+      "quality_breakdown": {
+        "semantic_similarity": 0.3,
+        "information_completeness": 0.0,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "❌ Poor answer quality. Low semantic relevance (0.30) - answer may not address the query. Incomplete information (0.00) - missing key concepts.   Missing: headcount, state",
+      "overall_score": 0.304,
+      "status": "FAILED",
+      "response_time": 7.006353378295898,
+      "answer_length": 68,
+      "answer": "📄 **Source: RAG + LLM**\n\n- not available in the provided data (docs)",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- not available in the provided data (docs)"
+    },
+    {
+      "id": "R06",
+      "query": "What's the weather today?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "Out of scope",
+      "timestamp": "2026-01-17T04:37:53.029374",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.71,
+      "quality_breakdown": {
+        "semantic_similarity": 0.8,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "✅ Acceptable answer quality. Incomplete information (0.50) - missing key concepts.",
+      "overall_score": 0.797,
+      "status": "ACCEPTABLE",
+      "response_time": 5.537959098815918,
+      "answer_length": 67,
+      "answer": "📄 **Source: RAG + LLM**\n\nNot available in the provided data (docs).",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\nNot available in the provided data (docs)."
+    },
+    {
+      "id": "R07",
+      "query": "Can you book a meeting?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "Not a query function",
+      "timestamp": "2026-01-17T04:37:59.069242",
+      "actual_route": "rag_docs",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.725,
+      "quality_breakdown": {
+        "semantic_similarity": 0.8,
+        "information_completeness": 0.55,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "✅ Acceptable answer quality. Incomplete information (0.55) - missing key concepts.",
+      "overall_score": 0.807,
+      "status": "ACCEPTABLE",
+      "response_time": 7.688640356063843,
+      "answer_length": 68,
+      "answer": "📄 **Source: RAG + LLM**\n\n- not available in the provided data (docs)",
+      "answer_preview": "📄 **Source: RAG + LLM**\n\n- not available in the provided data (docs)"
+    },
+    {
+      "id": "R08",
+      "query": "berapa sales for Cheese Burger in Mei 2024?",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:38:07.260020",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.608,
+      "quality_breakdown": {
+        "semantic_similarity": 0.394,
+        "information_completeness": 0.5,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.39) - answer may not address the query. Incomplete information (0.50) - missing key concepts.   Missing: Cheese Burger, May",
+      "overall_score": 0.726,
+      "status": "FAILED",
+      "response_time": 1.0167441368103027,
+      "answer_length": 194,
+      "answer": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-05**\n- Value: **RM 21,615.91**\n- Rows used: 762\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline.",
+      "answer_preview": "✅ **Source: structured KPI**\n✅ **Total Sales (RM)**\n- Month: **2024-05**\n- Value: **RM 21,615.91**\n- Rows used: 762\n- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+    },
+    {
+      "id": "R09",
+      "query": "top 3 produk dengan highest revenue",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:38:08.817644",
+      "actual_route": "sales_kpi",
+      "route_score": 1.0,
+      "route_status": "PERFECT",
+      "quality_score": 0.695,
+      "quality_breakdown": {
+        "semantic_similarity": 0.479,
+        "information_completeness": 0.717,
+        "factual_accuracy": 0.75,
+        "presentation_quality": 0.9
+      },
+      "quality_justification": "⚠️  Marginal answer quality. Low semantic relevance (0.48) - answer may not address the query.",
+      "overall_score": 0.786,
+      "status": "FAILED",
+      "response_time": 0.8966162204742432,
+      "answer_length": 308,
+      "answer": "✅ **Source: structured KPI**\n🏆 **Top 3 Product by Total Sales (RM)**\n- Month: **2024-06**\n\n| Product        | Total Sales (RM)   |\n|:---------------|:-------------------|\n| Cheese Burger  | RM 20,250.99       |\n| Beef Burger    | RM 19,705.96       |\n| Chicken Burger | RM 18,916.92       |\n\nRows used: 4,981",
+      "answer_preview": "✅ **Source: structured KPI**\n🏆 **Top 3 Product by Total Sales (RM)**\n- Month: **2024-06**\n\n| Product        | Total Sales (RM)   |\n|:---------------|:-------------------|\n| Cheese Burger  | RM 20,250."
+    }
+  ]
+}

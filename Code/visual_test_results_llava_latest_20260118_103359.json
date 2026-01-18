@@ -1,0 +1,327 @@
+{
+  "timestamp": "2026-01-18T10:18:37.225431",
+  "gradio_url": "http://127.0.0.1:7860",
+  "model_name": "llava:latest",
+  "evaluation_mode": "routing-only",
+  "total_tests": 15,
+  "passed": 0,
+  "failed": 0,
+  "errors": 15,
+  "results": [
+    {
+      "id": "V01",
+      "query": "Summarize the table in this image (key metrics + highlights).",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Table OCR + summarization",
+      "timestamp": "2026-01-18T10:18:37.227526",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 1432,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 92.4s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    },
+    {
+      "id": "V02",
+      "query": "What are the top 3 states by sales shown in the image?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_mom_2024-05_to_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Table extraction + ranking",
+      "timestamp": "2026-01-18T10:20:11.264397",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 924,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 51.6s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    },
+    {
+      "id": "V03",
+      "query": "Summarize this HR attrition chart (highest group + any pattern).",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_attrition_by_agegroup.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Chart interpretation",
+      "timestamp": "2026-01-18T10:21:04.888107",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 832,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 43.8s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    },
+    {
+      "id": "V04",
+      "query": "From this chart, what channel has the highest sales?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_channel_mix_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Chart data extraction",
+      "timestamp": "2026-01-18T10:21:49.813999",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 1138,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 62.8s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    },
+    {
+      "id": "V05",
+      "query": "Summarize the HR headcount distribution by state from this image.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_headcount_by_state.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Chart summarization",
+      "timestamp": "2026-01-18T10:22:54.122914",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 261,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 30.0s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    },
+    {
+      "id": "V06",
+      "query": "What is the total sales for Selangor shown in this table?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Specific value extraction",
+      "timestamp": "2026-01-18T10:23:25.690432",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 796,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 56.7s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    },
+    {
+      "id": "V07",
+      "query": "Which age group has the highest attrition rate in this chart?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_attrition_by_agegroup.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Chart analysis",
+      "timestamp": "2026-01-18T10:24:24.149770",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 930,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 54.0s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    },
+    {
+      "id": "V08",
+      "query": "Compare the sales trend across months from this chart.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\chart_total_sales_by_month.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Trend analysis",
+      "timestamp": "2026-01-18T10:25:19.662812",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 1209,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 66.1s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    },
+    {
+      "id": "V09",
+      "query": "What are the key insights from this attrition by state chart?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_attrition_by_state.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Chart interpretation",
+      "timestamp": "2026-01-18T10:26:27.624365",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 1660,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 73.8s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    },
+    {
+      "id": "V10",
+      "query": "Summarize the income distribution by department from this image.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_income_by_department.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Table/chart reading",
+      "timestamp": "2026-01-18T10:27:43.290087",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 656,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 45.2s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    },
+    {
+      "id": "V11",
+      "query": "Ringkaskan maklumat utama dalam jadual ini (Bahasa Melayu).",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Multilingual OCR test (Malay)",
+      "timestamp": "2026-01-18T10:28:30.469514",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 1049,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 94.5s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    },
+    {
+      "id": "V12",
+      "query": "Berapa jumlah jualan untuk Johor berdasarkan imej ini?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Malay + specific value",
+      "timestamp": "2026-01-18T10:30:06.550181",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 634,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 61.1s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    },
+    {
+      "id": "V13",
+      "query": "What is the relationship between overtime and attrition shown here?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_overtime_vs_attrition.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Correlation analysis",
+      "timestamp": "2026-01-18T10:31:09.492908",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 623,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 42.8s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    },
+    {
+      "id": "V14",
+      "query": "List all products and their sales values from this image.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_product_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Complete table extraction",
+      "timestamp": "2026-01-18T10:31:53.590494",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 682,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 47.5s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    },
+    {
+      "id": "V15",
+      "query": "Provide an executive summary of the sales performance by state.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Executive summary generation",
+      "timestamp": "2026-01-18T10:32:42.573453",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 1467,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:latest</span><span class=\"badge time\">⏳ 74.8s</span><span class=\"badge note\">Done</span></div>",
+      "route_score": 0.0,
+      "route_status": "WRONG",
+      "status": "ERROR",
+      "error": "AnswerQualityEvaluator.evaluate_answer_quality() got an unexpected keyword argument 'ground_truth'"
+    }
+  ]
+}

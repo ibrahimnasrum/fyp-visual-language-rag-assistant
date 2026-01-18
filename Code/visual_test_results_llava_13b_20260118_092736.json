@@ -1,0 +1,267 @@
+{
+  "timestamp": "2026-01-18T09:27:19.763873",
+  "gradio_url": "http://127.0.0.1:7860",
+  "model_name": "llava:13b",
+  "evaluation_mode": "routing-only",
+  "total_tests": 15,
+  "passed": 0,
+  "failed": 0,
+  "errors": 15,
+  "results": [
+    {
+      "id": "V01",
+      "query": "Summarize the table in this image (key metrics + highlights).",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Table OCR + summarization",
+      "timestamp": "2026-01-18T09:27:19.766861",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv...s_state_kpi_2024-06.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    },
+    {
+      "id": "V02",
+      "query": "What are the top 3 states by sales shown in the image?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_mom_2024-05_to_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Table extraction + ranking",
+      "timestamp": "2026-01-18T09:27:21.143413",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv..._2024-05_to_2024-06.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    },
+    {
+      "id": "V03",
+      "query": "Summarize this HR attrition chart (highest group + any pattern).",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_attrition_by_agegroup.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Chart interpretation",
+      "timestamp": "2026-01-18T09:27:22.431429",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv...trition_by_agegroup.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    },
+    {
+      "id": "V04",
+      "query": "From this chart, what channel has the highest sales?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_channel_mix_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Chart data extraction",
+      "timestamp": "2026-01-18T09:27:23.551987",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv...channel_mix_2024-06.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    },
+    {
+      "id": "V05",
+      "query": "Summarize the HR headcount distribution by state from this image.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_headcount_by_state.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Chart summarization",
+      "timestamp": "2026-01-18T09:27:24.696937",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv..._headcount_by_state.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    },
+    {
+      "id": "V06",
+      "query": "What is the total sales for Selangor shown in this table?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Specific value extraction",
+      "timestamp": "2026-01-18T09:27:25.777718",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv...s_state_kpi_2024-06.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    },
+    {
+      "id": "V07",
+      "query": "Which age group has the highest attrition rate in this chart?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_attrition_by_agegroup.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Chart analysis",
+      "timestamp": "2026-01-18T09:27:26.863321",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv...trition_by_agegroup.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    },
+    {
+      "id": "V08",
+      "query": "Compare the sales trend across months from this chart.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\chart_total_sales_by_month.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Trend analysis",
+      "timestamp": "2026-01-18T09:27:27.980868",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv...otal_sales_by_month.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    },
+    {
+      "id": "V09",
+      "query": "What are the key insights from this attrition by state chart?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_attrition_by_state.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Chart interpretation",
+      "timestamp": "2026-01-18T09:27:29.137581",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv..._attrition_by_state.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    },
+    {
+      "id": "V10",
+      "query": "Summarize the income distribution by department from this image.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_income_by_department.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Table/chart reading",
+      "timestamp": "2026-01-18T09:27:30.283850",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv...ncome_by_department.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    },
+    {
+      "id": "V11",
+      "query": "Ringkaskan maklumat utama dalam jadual ini (Bahasa Melayu).",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Multilingual OCR test (Malay)",
+      "timestamp": "2026-01-18T09:27:31.306348",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv...s_state_kpi_2024-06.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    },
+    {
+      "id": "V12",
+      "query": "Berapa jumlah jualan untuk Johor berdasarkan imej ini?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Malay + specific value",
+      "timestamp": "2026-01-18T09:27:32.219231",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv...s_state_kpi_2024-06.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    },
+    {
+      "id": "V13",
+      "query": "What is the relationship between overtime and attrition shown here?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_overtime_vs_attrition.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Correlation analysis",
+      "timestamp": "2026-01-18T09:27:33.157152",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv...ertime_vs_attrition.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    },
+    {
+      "id": "V14",
+      "query": "List all products and their sales values from this image.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_product_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Complete table extraction",
+      "timestamp": "2026-01-18T09:27:34.217320",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv...product_kpi_2024-06.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    },
+    {
+      "id": "V15",
+      "query": "Provide an executive summary of the sales performance by state.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Executive summary generation",
+      "timestamp": "2026-01-18T09:27:35.397094",
+      "status": "ERROR",
+      "error": "1 validation error for ImageData\n  Input should be a valid dictionary or instance of ImageData [type=model_type, input_value='C:\\\\Users\\\\User\\\\OneDriv...s_state_kpi_2024-06.png', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": ""
+    }
+  ]
+}

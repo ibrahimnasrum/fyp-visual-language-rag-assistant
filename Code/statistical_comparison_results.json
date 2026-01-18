@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "sample_size": 20,
+    "note": "Illustrative demo with N=20. Use full N=94 for final conclusions."
+  },
+  "summary_statistics": {
+    "binary_method": {
+      "mean": 0.55,
+      "std": 0.5104177855340405,
+      "pass_rate": 0.55
+    },
+    "two_tier_method": {
+      "mean": 0.7473500000000001,
+      "std": 0.18115747002916666,
+      "success_rate": 0.75
+    }
+  },
+  "statistical_tests": {
+    "paired_ttest": {
+      "t_statistic": 2.1461356777096987,
+      "p_value": 0.0449906785356508,
+      "df": 19,
+      "mean_diff": 0.19735,
+      "significant": true
+    },
+    "cohens_d": {
+      "cohens_d": 0.4798905264296467,
+      "effect_size_interpretation": "Small"
+    }
+  },
+  "improvement_analysis": {
+    "improved": 9,
+    "degraded": 11,
+    "unchanged": 0,
+    "improvement_rate": 0.45,
+    "false_failures_recovered": 4,
+    "recovery_rate": 0.2
+  },
+  "test_cases": [
+    {
+      "test_id": "H08",
+      "query": "Show me staff with more than 5 years experience",
+      "binary_score": 0.0,
+      "two_tier_score": 0.816,
+      "improvement": 0.816
+    },
+    {
+      "test_id": "H03",
+      "query": "What's our headcount by state?",
+      "binary_score": 0.0,
+      "two_tier_score": 0.785,
+      "improvement": 0.785
+    },
+    {
+      "test_id": "S05",
+      "query": "Revenue trend for 2024",
+      "binary_score": 0.0,
+      "two_tier_score": 0.742,
+      "improvement": 0.742
+    },
+    {
+      "test_id": "R02",
+      "query": "How do we handle employee complaints?",
+      "binary_score": 0.0,
+      "two_tier_score": 0.768,
+      "improvement": 0.768
+    },
+    {
+      "test_id": "R03",
+      "query": "Who are the staff?",
+      "binary_score": 0.0,
+      "two_tier_score": 0.66,
+      "improvement": 0.66
+    },
+    {
+      "test_id": "H09",
+      "query": "Random gibberish query xyz",
+      "binary_score": 0.0,
+      "two_tier_score": 0.32,
+      "improvement": 0.32
+    },
+    {
+      "test_id": "H01",
+      "query": "What's our current headcount?",
+      "binary_score": 1.0,
+      "two_tier_score": 0.95,
+      "improvement": -0.050000000000000044
+    },
+    {
+      "test_id": "S01",
+      "query": "Show me total revenue for this month",
+      "binary_score": 1.0,
+      "two_tier_score": 0.935,
+      "improvement": -0.06499999999999995
+    },
+    {
+      "test_id": "H02",
+      "query": "List all employees in Sales",
+      "binary_score": 1.0,
+      "two_tier_score": 0.912,
+      "improvement": -0.08799999999999997
+    },
+    {
+      "test_id": "S02",
+      "query": "What's our revenue by product line?",
+      "binary_score": 1.0,
+      "two_tier_score": 0.898,
+      "improvement": -0.10199999999999998
+    },
+    {
+      "test_id": "R01",
+      "query": "What's our return policy?",
+      "binary_score": 1.0,
+      "two_tier_score": 0.885,
+      "improvement": -0.11499999999999999
+    },
+    {
+      "test_id": "H04",
+      "query": "Average salary by department",
+      "binary_score": 1.0,
+      "two_tier_score": 0.876,
+      "improvement": -0.124
+    },
+    {
+      "test_id": "S03",
+      "query": "Top 5 customers by revenue",
+      "binary_score": 1.0,
+      "two_tier_score": 0.867,
+      "improvement": -0.133
+    },
+    {
+      "test_id": "H05",
+      "query": "New hires this quarter",
+      "binary_score": 1.0,
+      "two_tier_score": 0.854,
+      "improvement": -0.14600000000000002
+    },
+    {
+      "test_id": "S04",
+      "query": "Sales forecast for next quarter",
+      "binary_score": 1.0,
+      "two_tier_score": 0.765,
+      "improvement": -0.235
+    },
+    {
+      "test_id": "H06",
+      "query": "Turnover rate calculation",
+      "binary_score": 1.0,
+      "two_tier_score": 0.738,
+      "improvement": -0.262
+    },
+    {
+      "test_id": "R04",
+      "query": "Shipping policy details",
+      "binary_score": 1.0,
+      "two_tier_score": 0.721,
+      "improvement": -0.279
+    },
+    {
+      "test_id": "V01",
+      "query": "Describe the floor plan image",
+      "binary_score": 0.0,
+      "two_tier_score": 0.45,
+      "improvement": 0.45
+    },
+    {
+      "test_id": "H10",
+      "query": "Show me... uhh... the thing",
+      "binary_score": 0.0,
+      "two_tier_score": 0.38,
+      "improvement": 0.38
+    },
+    {
+      "test_id": "S06",
+      "query": "Is our revenue good?",
+      "binary_score": 0.0,
+      "two_tier_score": 0.625,
+      "improvement": 0.625
+    }
+  ]
+}

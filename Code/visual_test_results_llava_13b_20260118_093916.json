@@ -1,0 +1,297 @@
+{
+  "timestamp": "2026-01-18T09:38:52.242037",
+  "gradio_url": "http://127.0.0.1:7860",
+  "model_name": "llava:13b",
+  "evaluation_mode": "routing-only",
+  "total_tests": 15,
+  "passed": 0,
+  "failed": 0,
+  "errors": 15,
+  "results": [
+    {
+      "id": "V01",
+      "query": "Summarize the table in this image (key metrics + highlights).",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Table OCR + summarization",
+      "timestamp": "2026-01-18T09:38:52.255058",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.3s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    },
+    {
+      "id": "V02",
+      "query": "What are the top 3 states by sales shown in the image?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_mom_2024-05_to_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Table extraction + ranking",
+      "timestamp": "2026-01-18T09:38:54.605547",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.1s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    },
+    {
+      "id": "V03",
+      "query": "Summarize this HR attrition chart (highest group + any pattern).",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_attrition_by_agegroup.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Chart interpretation",
+      "timestamp": "2026-01-18T09:38:56.014456",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.1s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    },
+    {
+      "id": "V04",
+      "query": "From this chart, what channel has the highest sales?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_channel_mix_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Chart data extraction",
+      "timestamp": "2026-01-18T09:38:57.578150",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.1s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    },
+    {
+      "id": "V05",
+      "query": "Summarize the HR headcount distribution by state from this image.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_headcount_by_state.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Chart summarization",
+      "timestamp": "2026-01-18T09:38:59.087454",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.1s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    },
+    {
+      "id": "V06",
+      "query": "What is the total sales for Selangor shown in this table?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Specific value extraction",
+      "timestamp": "2026-01-18T09:39:00.682950",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.1s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    },
+    {
+      "id": "V07",
+      "query": "Which age group has the highest attrition rate in this chart?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_attrition_by_agegroup.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Chart analysis",
+      "timestamp": "2026-01-18T09:39:02.244496",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.1s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    },
+    {
+      "id": "V08",
+      "query": "Compare the sales trend across months from this chart.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\chart_total_sales_by_month.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Trend analysis",
+      "timestamp": "2026-01-18T09:39:03.782057",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.1s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    },
+    {
+      "id": "V09",
+      "query": "What are the key insights from this attrition by state chart?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_attrition_by_state.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Chart interpretation",
+      "timestamp": "2026-01-18T09:39:05.339459",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.1s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    },
+    {
+      "id": "V10",
+      "query": "Summarize the income distribution by department from this image.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_income_by_department.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Table/chart reading",
+      "timestamp": "2026-01-18T09:39:06.903579",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.1s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    },
+    {
+      "id": "V11",
+      "query": "Ringkaskan maklumat utama dalam jadual ini (Bahasa Melayu).",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Multilingual OCR test (Malay)",
+      "timestamp": "2026-01-18T09:39:08.375482",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.1s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    },
+    {
+      "id": "V12",
+      "query": "Berapa jumlah jualan untuk Johor berdasarkan imej ini?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Malay + specific value",
+      "timestamp": "2026-01-18T09:39:10.098159",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.1s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    },
+    {
+      "id": "V13",
+      "query": "What is the relationship between overtime and attrition shown here?",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\hr_overtime_vs_attrition.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Correlation analysis",
+      "timestamp": "2026-01-18T09:39:11.785144",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.1s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    },
+    {
+      "id": "V14",
+      "query": "List all products and their sales values from this image.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_product_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Complete table extraction",
+      "timestamp": "2026-01-18T09:39:13.119573",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.1s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    },
+    {
+      "id": "V15",
+      "query": "Provide an executive summary of the sales performance by state.",
+      "image_path": "C:\\Users\\User\\OneDrive\\Pictures\\Documents\\GitHub\\fyp-visual-language-rag-assistant\\images\\sales_state_kpi_2024-06.png",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "Executive summary generation",
+      "timestamp": "2026-01-18T09:39:14.640110",
+      "actual_route": "error",
+      "response_time": 0,
+      "answer": "",
+      "answer_length": 97,
+      "status_html": "<div class=\"badges\"><span class=\"badge ocr\">OCR</span><span class=\"badge model\">Model: llava:13b</span><span class=\"badge time\">⏳ 0.1s</span><span class=\"badge note\">Error</span></div>",
+      "status": "ERROR",
+      "error": "evaluate_route_accuracy() takes 2 positional arguments but 3 were given"
+    }
+  ]
+}

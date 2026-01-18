@@ -1,0 +1,24 @@
+{
+  "chat_id": "519e74d9",
+  "title": "top 3 product bulan 2024-06",
+  "created_at": "2026-01-18T02:40:34.261910",
+  "updated_at": "2026-01-18T02:40:34.261910",
+  "messages": [
+    {
+      "role": "user",
+      "content": "top 3 product bulan 2024-06",
+      "timestamp": "2026-01-18T02:40:34.261887"
+    },
+    {
+      "role": "assistant",
+      "content": "Error: name 'complexity' is not defined",
+      "timestamp": "2026-01-18T02:40:34.261894"
+    }
+  ],
+  "tool_traces": [
+    {
+      "timestamp": "2026-01-18T02:40:34.261897",
+      "trace_html": "<div class=\"tool-trace\">\n<div class=\"trace-row\"><b>Route:</b> rag_docs</div>\n<div class=\"trace-row\"><b>Model:</b> phi3:mini</div>\n<div class=\"trace-row\"><b>Latency:</b> 4ms</div>\n</div>"
+    }
+  ]
+}

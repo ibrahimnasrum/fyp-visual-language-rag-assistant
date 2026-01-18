@@ -1,0 +1,815 @@
+{
+  "timestamp": "2026-01-17T04:29:37.126999",
+  "gradio_url": "http://127.0.0.1:7860",
+  "evaluation_mode": "routing-only",
+  "total_tests": 50,
+  "passed": 0,
+  "failed": 0,
+  "errors": 50,
+  "results": [
+    {
+      "id": "S01",
+      "query": "sales bulan 2024-06 berapa?",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:37.128408",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "S02",
+      "query": "Total sales June 2024",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:37.629375",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "S03",
+      "query": "revenue bulan 2024-05",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:38.130748",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "S04",
+      "query": "banding sales bulan 2024-06 vs 2024-05",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:38.631679",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "S05",
+      "query": "Compare June vs May sales",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:39.132825",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "S06",
+      "query": "sales trend dari January hingga June 2024",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:39.634124",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "S07",
+      "query": "top 3 product bulan 2024-06",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "CRITICAL",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:40.135439",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "S08",
+      "query": "Show top 5 products in June",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:40.636613",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "S09",
+      "query": "worst performing product bulan 2024-06",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:41.137801",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "S10",
+      "query": "sales state Selangor bulan 2024-06 berapa?",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:41.639429",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "S11",
+      "query": "sales ikut state bulan 2024-06",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:42.140525",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "S12",
+      "query": "Cheese Burger sales in June 2024",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:42.641282",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "S13",
+      "query": "breakdown sales by product June",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:43.142533",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "S14",
+      "query": "sales performance by state",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:43.643501",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "S15",
+      "query": "sales bulan July 2024",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Future month - should fail gracefully",
+      "timestamp": "2026-01-17T04:29:44.144427",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "H01",
+      "query": "headcount berapa?",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:44.646897",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "H02",
+      "query": "total employees",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:45.147968",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "H03",
+      "query": "headcount ikut state",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:45.649361",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "H04",
+      "query": "How many employees in Selangor?",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:46.150506",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "H05",
+      "query": "headcount by department",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:46.651871",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "H06",
+      "query": "berapa staff kitchen?",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:47.153064",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "H07",
+      "query": "average employee tenure",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi",
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:47.653962",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "H08",
+      "query": "staff with more than 5 years",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi",
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:48.154811",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "H09",
+      "query": "average salary by department",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:48.656216",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "H10",
+      "query": "total payroll expense",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:49.157610",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D01",
+      "query": "What is the annual leave entitlement per year?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "CRITICAL",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:49.659717",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D02",
+      "query": "refund policy apa?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:50.160875",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D03",
+      "query": "how to request emergency leave",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:50.662549",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D04",
+      "query": "maternity leave duration",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:51.163844",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D05",
+      "query": "company profile",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:51.665516",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D06",
+      "query": "how many branches we have?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:52.166570",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D07",
+      "query": "what products do we sell?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:52.667988",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D08",
+      "query": "what is the SOP for handling customer complaints?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:53.169857",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D09",
+      "query": "opening hours for KL branch",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:53.671054",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D10",
+      "query": "Penang branch manager siapa?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:54.172548",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D11",
+      "query": "how to escalate an incident",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:54.674244",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D12",
+      "query": "performance review process",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:55.175846",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D13",
+      "query": "Why did sales drop in Selangor?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "Requires sales data + insights",
+      "timestamp": "2026-01-17T04:29:55.677494",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D14",
+      "query": "How can we improve Cheese Burger sales?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:56.178693",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D15",
+      "query": "What happened on June 15, 2024?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "",
+      "timestamp": "2026-01-17T04:29:56.679759",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "D16",
+      "query": "Tell me about competitor pricing",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "May not have data",
+      "timestamp": "2026-01-17T04:29:57.181348",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "R01",
+      "query": "top products",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "CRITICAL",
+      "note": "Should ask for timeframe",
+      "timestamp": "2026-01-17T04:29:57.685036",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "R02",
+      "query": "sales",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi",
+        "rag_docs"
+      ],
+      "priority": "HIGH",
+      "note": "Too vague - needs clarification",
+      "timestamp": "2026-01-17T04:29:58.186010",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "R03",
+      "query": "staff",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi",
+        "rag_docs"
+      ],
+      "priority": "MEDIUM",
+      "note": "Needs clarification",
+      "timestamp": "2026-01-17T04:29:58.687601",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "R04",
+      "query": "salse bulan 2024-06",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "Typo: salse → sales",
+      "timestamp": "2026-01-17T04:29:59.188752",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "R05",
+      "query": "headcont by stat",
+      "expected_route": "hr_kpi",
+      "preferred_route": "hr_kpi",
+      "acceptable_routes": [
+        "hr_kpi"
+      ],
+      "priority": "LOW",
+      "note": "Multiple typos",
+      "timestamp": "2026-01-17T04:29:59.689758",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "R06",
+      "query": "What's the weather today?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "Out of scope",
+      "timestamp": "2026-01-17T04:30:00.191250",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "R07",
+      "query": "Can you book a meeting?",
+      "expected_route": "rag_docs",
+      "preferred_route": "rag_docs",
+      "acceptable_routes": [
+        "rag_docs"
+      ],
+      "priority": "LOW",
+      "note": "Not a query function",
+      "timestamp": "2026-01-17T04:30:00.692666",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "R08",
+      "query": "berapa sales for Cheese Burger in Mei 2024?",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:30:01.193960",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    },
+    {
+      "id": "R09",
+      "query": "top 3 produk dengan highest revenue",
+      "expected_route": "sales_kpi",
+      "preferred_route": "sales_kpi",
+      "acceptable_routes": [
+        "sales_kpi"
+      ],
+      "priority": "MEDIUM",
+      "note": "",
+      "timestamp": "2026-01-17T04:30:01.695323",
+      "status": "ERROR",
+      "error": "This Gradio app might have multiple endpoints. Please specify an `api_name` or `fn_index`",
+      "actual_route": "error",
+      "route_match": false
+    }
+  ]
+}

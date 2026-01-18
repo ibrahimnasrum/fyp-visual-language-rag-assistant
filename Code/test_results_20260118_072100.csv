@@ -1,0 +1,51 @@
+id,query,expected_route,actual_route,route_match,status,response_time,answer_length,note
+S01,sales bulan 2024-06 berapa?,sales_kpi,error,False,ERROR,,,
+S02,Total sales June 2024,sales_kpi,error,False,ERROR,,,
+S03,revenue bulan 2024-05,sales_kpi,error,False,ERROR,,,
+S04,banding sales bulan 2024-06 vs 2024-05,sales_kpi,error,False,ERROR,,,
+S05,Compare June vs May sales,sales_kpi,error,False,ERROR,,,
+S06,sales trend dari January hingga June 2024,sales_kpi,error,False,ERROR,,,
+S07,top 3 product bulan 2024-06,sales_kpi,error,False,ERROR,,,
+S08,Show top 5 products in June,sales_kpi,error,False,ERROR,,,
+S09,worst performing product bulan 2024-06,sales_kpi,error,False,ERROR,,,
+S10,sales state Selangor bulan 2024-06 berapa?,sales_kpi,error,False,ERROR,,,
+S11,sales ikut state bulan 2024-06,sales_kpi,error,False,ERROR,,,
+S12,Cheese Burger sales in June 2024,sales_kpi,error,False,ERROR,,,
+S13,breakdown sales by product June,sales_kpi,error,False,ERROR,,,
+S14,sales performance by state,sales_kpi,error,False,ERROR,,,
+S15,sales bulan July 2024,sales_kpi,error,False,ERROR,,,Future month - should fail gracefully
+H01,headcount berapa?,hr_kpi,error,False,ERROR,,,
+H02,total employees,hr_kpi,error,False,ERROR,,,
+H03,headcount ikut state,hr_kpi,error,False,ERROR,,,
+H04,How many employees in Selangor?,hr_kpi,error,False,ERROR,,,
+H05,headcount by department,hr_kpi,error,False,ERROR,,,
+H06,berapa staff kitchen?,hr_kpi,error,False,ERROR,,,
+H07,average employee tenure,hr_kpi,error,False,ERROR,,,
+H08,staff with more than 5 years,hr_kpi,error,False,ERROR,,,
+H09,average salary by department,hr_kpi,error,False,ERROR,,,
+H10,total payroll expense,hr_kpi,error,False,ERROR,,,
+D01,What is the annual leave entitlement per year?,rag_docs,error,False,ERROR,,,
+D02,refund policy apa?,rag_docs,error,False,ERROR,,,
+D03,how to request emergency leave,rag_docs,error,False,ERROR,,,
+D04,maternity leave duration,rag_docs,error,False,ERROR,,,
+D05,company profile,rag_docs,error,False,ERROR,,,
+D06,how many branches we have?,rag_docs,error,False,ERROR,,,
+D07,what products do we sell?,rag_docs,error,False,ERROR,,,
+D08,what is the SOP for handling customer complaints?,rag_docs,error,False,ERROR,,,
+D09,opening hours for KL branch,rag_docs,error,False,ERROR,,,
+D10,Penang branch manager siapa?,rag_docs,error,False,ERROR,,,
+D11,how to escalate an incident,rag_docs,error,False,ERROR,,,
+D12,performance review process,rag_docs,error,False,ERROR,,,
+D13,Why did sales drop in Selangor?,rag_docs,error,False,ERROR,,,Requires sales data + insights
+D14,How can we improve Cheese Burger sales?,rag_docs,error,False,ERROR,,,
+D15,"What happened on June 15, 2024?",rag_docs,error,False,ERROR,,,
+D16,Tell me about competitor pricing,rag_docs,error,False,ERROR,,,May not have data
+R01,top products,sales_kpi,error,False,ERROR,,,Should ask for timeframe
+R02,sales,sales_kpi,error,False,ERROR,,,Too vague - needs clarification
+R03,staff,hr_kpi,error,False,ERROR,,,Needs clarification
+R04,salse bulan 2024-06,sales_kpi,error,False,ERROR,,,Typo: salse → sales
+R05,headcont by stat,hr_kpi,error,False,ERROR,,,Multiple typos
+R06,What's the weather today?,rag_docs,error,False,ERROR,,,Out of scope
+R07,Can you book a meeting?,rag_docs,error,False,ERROR,,,Not a query function
+R08,berapa sales for Cheese Burger in Mei 2024?,sales_kpi,error,False,ERROR,,,
+R09,top 3 produk dengan highest revenue,sales_kpi,error,False,ERROR,,,

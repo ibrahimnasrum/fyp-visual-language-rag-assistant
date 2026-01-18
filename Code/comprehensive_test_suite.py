@@ -43,24 +43,36 @@ TEST_QUESTIONS = {
     
     "HR_KPI": [
         # Simple headcount
-        {"id": "H01", "query": "headcount berapa?", "expected_route": "hr_kpi", "priority": "HIGH"},
-        {"id": "H02", "query": "total employees", "expected_route": "hr_kpi", "priority": "HIGH"},
+        {"id": "H01", "query": "headcount berapa?", "expected_route": "hr_kpi", "preferred_route": "hr_kpi", "acceptable_routes": ["hr_kpi"], "priority": "HIGH",
+         "answer_criteria": {"must_contain": ["headcount", "employees"], "min_semantic_similarity": 0.8}},
+        {"id": "H02", "query": "total employees", "expected_route": "hr_kpi", "preferred_route": "hr_kpi", "acceptable_routes": ["hr_kpi"], "priority": "HIGH",
+         "answer_criteria": {"must_contain": ["employees", "total"], "min_semantic_similarity": 0.8}},
         
         # Filtered headcount
-        {"id": "H03", "query": "headcount ikut state", "expected_route": "hr_kpi", "priority": "HIGH"},
-        {"id": "H04", "query": "How many employees in Selangor?", "expected_route": "hr_kpi", "priority": "MEDIUM"},
+        {"id": "H03", "query": "headcount ikut state", "expected_route": "hr_kpi", "preferred_route": "hr_kpi", "acceptable_routes": ["hr_kpi"], "priority": "HIGH",
+         "answer_criteria": {"must_contain": ["headcount", "state"], "min_semantic_similarity": 0.75}},
+        {"id": "H04", "query": "How many employees in Selangor?", "expected_route": "hr_kpi", "preferred_route": "hr_kpi", "acceptable_routes": ["hr_kpi"], "priority": "MEDIUM",
+         "answer_criteria": {"must_contain": ["Selangor", "employees"], "min_semantic_similarity": 0.75}},
         
         # Department queries
-        {"id": "H05", "query": "headcount by department", "expected_route": "hr_kpi", "priority": "MEDIUM"},
-        {"id": "H06", "query": "berapa staff kitchen?", "expected_route": "hr_kpi", "priority": "MEDIUM"},
+        {"id": "H05", "query": "headcount by department", "expected_route": "hr_kpi", "preferred_route": "hr_kpi", "acceptable_routes": ["hr_kpi"], "priority": "MEDIUM",
+         "answer_criteria": {"must_contain": ["department", "headcount"], "min_semantic_similarity": 0.75}},
+        {"id": "H06", "query": "berapa staff kitchen?", "expected_route": "hr_kpi", "preferred_route": "hr_kpi", "acceptable_routes": ["hr_kpi"], "priority": "MEDIUM",
+         "answer_criteria": {"must_contain": ["kitchen", "staff"], "min_semantic_similarity": 0.75}},
         
-        # Seniority/Tenure
-        {"id": "H07", "query": "average employee tenure", "expected_route": "hr_kpi", "priority": "LOW"},
-        {"id": "H08", "query": "staff with more than 5 years", "expected_route": "hr_kpi", "priority": "LOW"},
+        # Seniority/Tenure - Multi-route acceptable (KPI or policy docs)
+        {"id": "H07", "query": "average employee tenure", "expected_route": "hr_kpi", "preferred_route": "hr_kpi", "acceptable_routes": ["hr_kpi", "rag_docs"], "priority": "LOW",
+         "answer_criteria": {"must_contain": ["tenure", "employee", "average"], "acceptable_if_includes": ["years", "retention", "experience"], "min_semantic_similarity": 0.70},
+         "ambiguity_note": "Could be KPI (average numbers) or organizational insights (retention discussion)"},
+        {"id": "H08", "query": "staff with more than 5 years", "expected_route": "hr_kpi", "preferred_route": "hr_kpi", "acceptable_routes": ["hr_kpi", "rag_docs"], "priority": "LOW",
+         "answer_criteria": {"must_contain": ["years", "staff"], "acceptable_if_includes": ["5 years", "tenure", "experienced", "retention", "senior"], "min_semantic_similarity": 0.70},
+         "ambiguity_note": "Could be KPI (count of experienced staff) or HR insights (retention, policy implications)"},
         
         # Salary queries
-        {"id": "H09", "query": "average salary by department", "expected_route": "hr_kpi", "priority": "MEDIUM"},
-        {"id": "H10", "query": "total payroll expense", "expected_route": "hr_kpi", "priority": "LOW"},
+        {"id": "H09", "query": "average salary by department", "expected_route": "hr_kpi", "preferred_route": "hr_kpi", "acceptable_routes": ["hr_kpi"], "priority": "MEDIUM",
+         "answer_criteria": {"must_contain": ["salary", "department"], "min_semantic_similarity": 0.75}},
+        {"id": "H10", "query": "total payroll expense", "expected_route": "hr_kpi", "preferred_route": "hr_kpi", "acceptable_routes": ["hr_kpi"], "priority": "LOW",
+         "answer_criteria": {"must_contain": ["payroll", "expense"], "min_semantic_similarity": 0.75}},
     ],
     
     "RAG_DOCS": [
@@ -103,22 +115,33 @@ TEST_QUESTIONS = {
     ],
     
     "ROBUSTNESS": [
-        # Ambiguous queries
-        {"id": "R01", "query": "top products", "expected_route": "sales_kpi", "priority": "CRITICAL", "note": "Should ask for timeframe"},
-        {"id": "R02", "query": "sales", "expected_route": "sales_kpi", "priority": "HIGH", "note": "Too vague - needs clarification"},
-        {"id": "R03", "query": "staff", "expected_route": "hr_kpi", "priority": "MEDIUM", "note": "Needs clarification"},
+        # Ambiguous queries - Multi-route acceptable
+        {"id": "R01", "query": "top products", "expected_route": "sales_kpi", "preferred_route": "sales_kpi", "acceptable_routes": ["sales_kpi"], "priority": "CRITICAL", "note": "Should ask for timeframe",
+         "answer_criteria": {"must_contain_any": ["timeframe", "which month", "clarify"], "clarification_expected": True}},
+        {"id": "R02", "query": "sales", "expected_route": "sales_kpi", "preferred_route": "sales_kpi", "acceptable_routes": ["sales_kpi", "rag_docs"], "priority": "HIGH", "note": "Too vague - needs clarification",
+         "answer_criteria": {"acceptable_if_includes": ["sales", "revenue", "process", "strategy"], "clarification_expected": True, "min_semantic_similarity": 0.60},
+         "ambiguity_note": "Could mean: KPI (sales numbers), policy (sales process), or strategy (sales improvement)"},
+        {"id": "R03", "query": "staff", "expected_route": "hr_kpi", "preferred_route": "hr_kpi", "acceptable_routes": ["hr_kpi", "rag_docs"], "priority": "MEDIUM", "note": "Needs clarification",
+         "answer_criteria": {"acceptable_if_includes": ["staff", "employees", "headcount", "performance", "policy"], "clarification_expected": True, "min_semantic_similarity": 0.60},
+         "ambiguity_note": "Could mean: KPI (headcount), policy (HR regulations), or performance (staff insights)"},
         
         # Typos / Malformed
-        {"id": "R04", "query": "salse bulan 2024-06", "expected_route": "sales_kpi", "priority": "MEDIUM", "note": "Typo: salse → sales"},
-        {"id": "R05", "query": "headcont by stat", "expected_route": "hr_kpi", "priority": "LOW", "note": "Multiple typos"},
+        {"id": "R04", "query": "salse bulan 2024-06", "expected_route": "sales_kpi", "preferred_route": "sales_kpi", "acceptable_routes": ["sales_kpi"], "priority": "MEDIUM", "note": "Typo: salse → sales",
+         "answer_criteria": {"must_contain": ["sales", "2024-06", "June"], "min_semantic_similarity": 0.70}},
+        {"id": "R05", "query": "headcont by stat", "expected_route": "hr_kpi", "preferred_route": "hr_kpi", "acceptable_routes": ["hr_kpi"], "priority": "LOW", "note": "Multiple typos",
+         "answer_criteria": {"must_contain": ["headcount", "state"], "min_semantic_similarity": 0.65}},
         
         # Out of scope
-        {"id": "R06", "query": "What's the weather today?", "expected_route": "rag_docs", "priority": "LOW", "note": "Out of scope"},
-        {"id": "R07", "query": "Can you book a meeting?", "expected_route": "rag_docs", "priority": "LOW", "note": "Not a query function"},
+        {"id": "R06", "query": "What's the weather today?", "expected_route": "rag_docs", "preferred_route": "rag_docs", "acceptable_routes": ["rag_docs"], "priority": "LOW", "note": "Out of scope",
+         "answer_criteria": {"acceptable_if_includes": ["sorry", "cannot", "out of scope", "don't have"], "out_of_scope": True}},
+        {"id": "R07", "query": "Can you book a meeting?", "expected_route": "rag_docs", "preferred_route": "rag_docs", "acceptable_routes": ["rag_docs"], "priority": "LOW", "note": "Not a query function",
+         "answer_criteria": {"acceptable_if_includes": ["sorry", "cannot", "not available"], "out_of_scope": True}},
         
         # Mixed language
-        {"id": "R08", "query": "berapa sales for Cheese Burger in Mei 2024?", "expected_route": "sales_kpi", "priority": "MEDIUM"},
-        {"id": "R09", "query": "top 3 produk dengan highest revenue", "expected_route": "sales_kpi", "priority": "MEDIUM"},
+        {"id": "R08", "query": "berapa sales for Cheese Burger in Mei 2024?", "expected_route": "sales_kpi", "preferred_route": "sales_kpi", "acceptable_routes": ["sales_kpi"], "priority": "MEDIUM",
+         "answer_criteria": {"must_contain": ["Cheese Burger", "May", "2024", "sales"], "min_semantic_similarity": 0.75}},
+        {"id": "R09", "query": "top 3 produk dengan highest revenue", "expected_route": "sales_kpi", "preferred_route": "sales_kpi", "acceptable_routes": ["sales_kpi"], "priority": "MEDIUM",
+         "answer_criteria": {"must_contain": ["top", "product", "revenue"], "min_semantic_similarity": 0.75}},
     ],
     
     "FOLLOWUP_SCENARIOS": [

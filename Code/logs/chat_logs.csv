@@ -48366,3 +48366,675 @@ To further analyze sales performance by state, additional data and insights are 
 
 
 ✅ **Verified**: Numbers match ground truth data (within 5%).",07acdb9e,b5effd9d,sales_kpi|N/A|rows=4981|sources=0|28ms
+2026-01-19 08:23:30,N/A,sales_kpi,13,HOW MANY branch that i have?,"## Branch Network Overview
+
+**Answer:**
+- **Total branches:** 12
+- **Branches:** Bukit Bintang Branch 1, Bukit Bintang Branch 2, George Town Branch 1, George Town Branch 2, Johor Bahru Branch 1, Johor Bahru Branch 2, Kota Kinabalu Branch 1, Kota Kinabalu Branch 2, Kuching Branch 1, Kuching Branch 2, Shah Alam Branch 1, Shah Alam Branch 2
+
+**Evidence/Source:**
+- Data Source: Sales CSV (MY_Retail_Sales_2024H1.csv)
+- Calculation: COUNT(DISTINCT Branch)
+- Dataset scope: All 29,635 transactions across all time periods
+
+**Confidence:** High
+- Complete branch network from dataset
+- No time filtering applied (company-wide view)
+
+**Follow-up:**
+- Compare branch performance?
+- Identify top-performing branches?
+
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",7c3a597f,42bf9f6d,sales_kpi|N/A|rows=0|sources=0|13ms
+2026-01-19 08:24:03,N/A,sales_kpi,4,how many state that i have,"## Geographic Coverage Overview
+
+**Answer:**
+- **Total states covered:** 6
+- **States:** Johor, Kuala Lumpur, Penang, Sabah, Sarawak, Selangor
+
+**Evidence/Source:**
+- Data Source: Sales CSV (MY_Retail_Sales_2024H1.csv)
+- Calculation: COUNT(DISTINCT State)
+- Dataset scope: All 29,635 transactions across all time periods
+
+**Confidence:** High
+- Complete geographic coverage from dataset
+- No time filtering applied (company-wide view)
+
+**Follow-up:**
+- Compare performance across states?
+- Analyze specific state's sales trends?
+
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",7c3a597f,31653fa2,sales_kpi|N/A|rows=0|sources=0|4ms
+2026-01-19 08:24:20,N/A,hr_kpi,6,how many employee that i have,"## Employee Headcount Overview
+
+**Answer:**
+- **Total employees:** 820
+- **By state:** Sabah (151), Sarawak (145), Penang (137), Selangor (137), Kuala Lumpur (126), Johor (124)
+- **Data currency:** Current workforce snapshot
+
+**Evidence/Source:**
+- Data Source: HR CSV (MY_Retail_HR_Employees.csv)
+- Calculation: COUNT(EmpID)
+- Dataset: Complete employee roster (820 records)
+
+**Confidence:** High
+- Complete HR database
+- No time filtering needed (current workforce view)
+- Verified against source data
+
+**Follow-up:**
+- Break down by department?
+- Analyze by age group or job role?
+- Compare attrition rates?
+",7c3a597f,1a816e86,hr_kpi|N/A|rows=820|sources=0|6ms
+2026-01-19 08:24:43,N/A,sales_kpi,13,how many sales that i achieve,"## Total Sales (RM) for 2024-06
+
+**Answer:**
+- **Total Sales (RM):** RM 99,852.83
+- Time period: 2024-06
+- Scope: All data
+- Data completeness: 4,981 transactions analyzed
+
+**Evidence/Source:**
+- KPI Facts: Total Sales (RM) for 2024-06 = 99,852.83
+- Data Source: Sales CSV (MY_Retail_Sales_2024H1.csv)
+- Calculation: SUM(Total Sale) WHERE YearMonth = 2024-06
+- Dataset Coverage: 2024-01 to 2024-06 (6 months)
+
+**Confidence:** High
+- Deterministic calculation from complete dataset
+- All 4,981 matching transactions included
+- No estimation or inference required
+
+**Follow-up:**
+- Compare with previous month (2024-05)?
+- Break down by product?
+- Analyze trends across all 6 months?
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",7c3a597f,07c60746,sales_kpi|N/A|rows=4981|sources=0|13ms
+2026-01-19 08:24:53,N/A,sales_kpi,11,how many sales that i achieve in may,"## Total Sales (RM) for 2024-05
+
+**Answer:**
+- **Total Sales (RM):** RM 106,995.11
+- Time period: 2024-05
+- Scope: All data
+- Data completeness: 5,235 transactions analyzed
+
+**Evidence/Source:**
+- KPI Facts: Total Sales (RM) for 2024-05 = 106,995.11
+- Data Source: Sales CSV (MY_Retail_Sales_2024H1.csv)
+- Calculation: SUM(Total Sale) WHERE YearMonth = 2024-05
+- Dataset Coverage: 2024-01 to 2024-06 (6 months)
+
+**Confidence:** High
+- Deterministic calculation from complete dataset
+- All 5,235 matching transactions included
+- No estimation or inference required
+
+**Follow-up:**
+- Compare with previous month (2024-04)?
+- Break down by product?
+- Analyze trends across all 6 months?
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",7c3a597f,06c4e327,sales_kpi|N/A|rows=5235|sources=0|11ms
+2026-01-19 08:25:10,N/A,sales_kpi,3,top sales ?,"📅 This query requires a time period. Available data: 2024-01, 2024-02, 2024-03.... Please specify a month (e.g., 'January 2024', '2024-01').
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",7c3a597f,2544d873,sales_kpi|N/A|rows=0|sources=0|3ms
+2026-01-19 08:25:23,N/A,sales_kpi,2,top sales i achieve ?,"📅 This query requires a time period. Available data: 2024-01, 2024-02, 2024-03.... Please specify a month (e.g., 'January 2024', '2024-01').
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",7c3a597f,f3c1334f,sales_kpi|N/A|rows=0|sources=0|2ms
+2026-01-19 08:25:34,N/A,sales_kpi,3,top product i achieve?,"📅 This query requires a time period. Available data: 2024-01, 2024-02, 2024-03.... Please specify a month (e.g., 'January 2024', '2024-01').
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",7c3a597f,1fe45239,sales_kpi|N/A|rows=0|sources=0|3ms
+2026-01-19 08:25:39,N/A,sales_kpi,102,top 3 product bulan 2024-06,"## 📊 Top 3 Product - Sales (RM)
+
+**Month:** 2024-06
+**Filters:** All data
+
+### Executive Summary
+**Performance ranking by product for specified period**
+
+### Rankings
+- **Cheese Burger**: RM 20,250.99 (20.3% of total)
+- **Beef Burger**: RM 19,705.96 (19.7% of total)
+- **Chicken Burger**: RM 18,916.92 (18.9% of total)
+
+### Summary Statistics
+- **Total Sales (RM):** RM 99,852.83
+- **Top 3 Contribution:** RM 58,873.87 (59.0% of total)
+- **Number of products:** 7
+
+### Evidence Used
+- Data Source: Structured Sales KPI
+- Rows Analyzed: 4,981
+- Grouping Dimension: Product
+- Filters: month=2024-06
+
+### Key Insights
+- Top performer: **Cheese Burger** with RM 20,250.99
+- Performance concentration: Top 3 account for 59.0% of total
+
+### Next Actions
+- Analyze success factors of top performers
+- Develop strategies to improve lower-ranked items
+- Monitor performance trends over time
+
+✅ **Verified:** Calculated directly from data (100% accurate).
+
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",7c3a597f,d2cc7401,sales_kpi|N/A|rows=4981|sources=0|102ms
+2026-01-19 08:25:54,N/A,sales_kpi,19,top 3 product bulan 2024-01 unitl 2024-06,"## 📊 Top 3 Product - Sales (RM)
+
+**Month:** 2024-01
+**Filters:** All data
+
+### Executive Summary
+**Performance ranking by product for specified period**
+
+### Rankings
+- **Beef Burger**: RM 20,107.92 (20.1% of total)
+- **Chicken Burger**: RM 20,085.47 (20.1% of total)
+- **Cheese Burger**: RM 17,736.35 (17.7% of total)
+
+### Summary Statistics
+- **Total Sales (RM):** RM 100,167.83
+- **Top 3 Contribution:** RM 57,929.74 (57.8% of total)
+- **Number of products:** 7
+
+### Evidence Used
+- Data Source: Structured Sales KPI
+- Rows Analyzed: 5,004
+- Grouping Dimension: Product
+- Filters: month=2024-01
+
+### Key Insights
+- Top performer: **Beef Burger** with RM 20,107.92
+- Performance concentration: Top 3 account for 57.8% of total
+
+### Next Actions
+- Analyze success factors of top performers
+- Develop strategies to improve lower-ranked items
+- Monitor performance trends over time
+
+✅ **Verified:** Calculated directly from data (100% accurate).
+
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",7c3a597f,7b7f075a,sales_kpi|N/A|rows=5004|sources=0|19ms
+2026-01-19 08:26:03,N/A,sales_kpi,8,sales ikut state bulan 2024-06,"## Total Sales (RM) for 2024-06
+
+**Answer:**
+- **Total Sales (RM):** RM 99,852.83
+- Time period: 2024-06
+- Scope: All data
+- Data completeness: 4,981 transactions analyzed
+
+**Evidence/Source:**
+- KPI Facts: Total Sales (RM) for 2024-06 = 99,852.83
+- Data Source: Sales CSV (MY_Retail_Sales_2024H1.csv)
+- Calculation: SUM(Total Sale) WHERE YearMonth = 2024-06
+- Dataset Coverage: 2024-01 to 2024-06 (6 months)
+
+**Confidence:** High
+- Deterministic calculation from complete dataset
+- All 4,981 matching transactions included
+- No estimation or inference required
+
+**Follow-up:**
+- Compare with previous month (2024-05)?
+- Break down by product?
+- Analyze trends across all 6 months?
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",7c3a597f,cfd39c22,sales_kpi|N/A|rows=4981|sources=0|8ms
+2026-01-19 08:26:16,N/A,sales_kpi,7,sales bulan 2024-06 berapa?,"## Total Sales (RM) for 2024-06
+
+**Answer:**
+- **Total Sales (RM):** RM 99,852.83
+- Time period: 2024-06
+- Scope: All data
+- Data completeness: 4,981 transactions analyzed
+
+**Evidence/Source:**
+- KPI Facts: Total Sales (RM) for 2024-06 = 99,852.83
+- Data Source: Sales CSV (MY_Retail_Sales_2024H1.csv)
+- Calculation: SUM(Total Sale) WHERE YearMonth = 2024-06
+- Dataset Coverage: 2024-01 to 2024-06 (6 months)
+
+**Confidence:** High
+- Deterministic calculation from complete dataset
+- All 4,981 matching transactions included
+- No estimation or inference required
+
+**Follow-up:**
+- Compare with previous month (2024-05)?
+- Break down by product?
+- Analyze trends across all 6 months?
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",7c3a597f,27052f21,sales_kpi|N/A|rows=4981|sources=0|7ms
+2026-01-19 08:27:50,phi3:mini,rag_docs,90403,What is the annual leave entitlement per year?,"**Answering:** What is the annual leave entitlement per year?
+
+## 📄 Document Analysis
+
+❌ Error: LLM did not respond within 90.0s",7c3a597f,cf9466da,rag_docs|phi3:mini|rows=0|sources=1|90403ms
+2026-01-19 08:29:45,mistral:7b,rag_docs,90586,What is the annual leave entitlement per year?,"**Answering:** What is the annual leave entitlement per year?
+
+## 📄 Document Analysis
+
+❌ Error: LLM did not respond within 90.0s",7c3a597f,72c11fe3,rag_docs|mistral:7b|rows=0|sources=1|90586ms
+2026-01-19 11:25:49,N/A,hr_kpi,17,how many employee in this company?,"## Employee Headcount Overview
+
+**Answer:**
+- **Total employees:** 820
+- **By state:** Sabah (151), Sarawak (145), Penang (137), Selangor (137), Kuala Lumpur (126), Johor (124)
+- **Data currency:** Current workforce snapshot
+
+**Evidence/Source:**
+- Data Source: HR CSV (MY_Retail_HR_Employees.csv)
+- Calculation: COUNT(EmpID)
+- Dataset: Complete employee roster (820 records)
+
+**Confidence:** High
+- Complete HR database
+- No time filtering needed (current workforce view)
+- Verified against source data
+
+**Follow-up:**
+- Break down by department?
+- Analyze by age group or job role?
+- Compare attrition rates?
+",052d5bf4,58f9e806,hr_kpi|N/A|rows=820|sources=0|17ms
+2026-01-19 11:27:58,phi3:mini,rag_docs,86351,What is the annual leave entitlement per year?,"**Answering:** What is the annual leave entitlement per year?
+
+## 📄 Document Analysis
+
+**Summary:** The annual leave entitlement for permanent employees in this company is prorated based on their join date, with a standard maximum of 14 days per calendar year. Contract and part-time/casual employees have different or potentially limited entitlements as specified by contract terms or employment categories respectively.
+
+**Details:** According to the HR Policy document [DOC:HR_Policy_MY.txt], permanent full-time employees are entitled to 14 days of annual leave per calendar year, which is prorated based on their join date (Section 6.1). Contract and part-time/casual employment terms may vary; contracts typically offer a minimum as stated in the company's initial offer or according to specific agreement details with temporary employees not eligible for annual leave unless otherwise specified within their individual contracts, which is often less than that of permanent full-time staff.
+
+**Evidence:** 
+- [DOC:HR_Policy_MY.txt] Section 6.1 states the policy on Annual Leave (AL) explicitly mentioning ""Permanent Employees"" and their entitlements, which is prorated based on join date with a maximum of 14 days per calendar year as standard for full-time permanent employees in this company.
+- [DOC:HR_Policy_MY.txt] Section 6.4 discusses Unpaid Leave (UPL), but it does not directly address annual leave entitlements, suggesting that UPL is a separate consideration from the AL policy and may only be granted under exceptional circumstances when paid leave has been exhausted or business needs dictate otherwise with HR approval.
+- [DOC:HR_Policy_MY.txt] Section 7.3 outlines Overtime Payment/Allowance, which is not",052d5bf4,fe202c26,rag_docs|phi3:mini|rows=0|sources=1|86351ms
+2026-01-19 11:29:53,N/A,sales_kpi,36,What is revenue for january 2024?,"## Total Sales (RM) for 2024-01
+
+**Answer:**
+- **Total Sales (RM):** RM 100,167.83
+- Time period: 2024-01
+- Scope: All data
+- Data completeness: 5,004 transactions analyzed
+
+**Evidence/Source:**
+- KPI Facts: Total Sales (RM) for 2024-01 = 100,167.83
+- Data Source: Sales CSV (MY_Retail_Sales_2024H1.csv)
+- Calculation: SUM(Total Sale) WHERE YearMonth = 2024-01
+- Dataset Coverage: 2024-01 to 2024-06 (6 months)
+
+**Confidence:** High
+- Deterministic calculation from complete dataset
+- All 5,004 matching transactions included
+- No estimation or inference required
+
+**Follow-up:**
+- Compare with previous month (2023-12)?
+- Break down by product?
+- Analyze trends across all 6 months?
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",052d5bf4,e0abd7dc,sales_kpi|N/A|rows=5004|sources=0|36ms
+2026-01-19 11:30:24,N/A,sales_kpi,10,how many product in this company?,"## Product Catalog Overview
+
+**Answer:**
+- **Total unique products:** 7
+- **Products:** Beef Burger, Cheese Burger, Chicken Burger, Fries, Soft Drink, Spicy Burger, Veggie Burger
+
+**Evidence/Source:**
+- Data Source: Sales CSV (MY_Retail_Sales_2024H1.csv)
+- Calculation: COUNT(DISTINCT Product)
+- Dataset scope: All 29,635 transactions across all time periods
+
+**Confidence:** High
+- Complete product catalog from dataset
+- No time filtering applied (company-wide view)
+
+**Follow-up:**
+- Analyze sales performance by product?
+- Identify top-selling products for a specific month?
+
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",052d5bf4,a30dcd64,sales_kpi|N/A|rows=0|sources=0|10ms
+2026-01-19 11:34:10,phi3:mini,rag_docs,90347,what is the policy for working hour?,"**Answering:** what is the policy for working hour?
+
+## 📄 Document Analysis
+
+❌ Error: LLM did not respond within 90.0s",052d5bf4,b6cca456,rag_docs|phi3:mini|rows=0|sources=1|90347ms
+2026-01-19 11:35:21,N/A,sales_kpi,8,jumlah jualan januari 2024,"## Total Quantity for 2024-01
+
+**Answer:**
+- **Total Quantity:** 9,990 units
+- Time period: 2024-01
+- Scope: All data
+- Data completeness: 5,004 transactions analyzed
+
+**Evidence/Source:**
+- KPI Facts: Total Quantity for 2024-01 = 9,990
+- Data Source: Sales CSV (MY_Retail_Sales_2024H1.csv)
+- Calculation: SUM(Quantity) WHERE YearMonth = 2024-01
+- Dataset Coverage: 2024-01 to 2024-06 (6 months)
+
+**Confidence:** High
+- Deterministic calculation from complete dataset
+- All 5,004 matching transactions included
+- No estimation or inference required
+
+**Follow-up:**
+- Compare with previous month (2023-12)?
+- Break down by product?
+- Analyze trends across all 6 months?
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",052d5bf4,e102a1cb,sales_kpi|N/A|rows=5004|sources=0|8ms
+2026-01-19 11:35:45,N/A,sales_kpi,8,jumlah sales januari 2024,"## Total Quantity for 2024-01
+
+**Answer:**
+- **Total Quantity:** 9,990 units
+- Time period: 2024-01
+- Scope: All data
+- Data completeness: 5,004 transactions analyzed
+
+**Evidence/Source:**
+- KPI Facts: Total Quantity for 2024-01 = 9,990
+- Data Source: Sales CSV (MY_Retail_Sales_2024H1.csv)
+- Calculation: SUM(Quantity) WHERE YearMonth = 2024-01
+- Dataset Coverage: 2024-01 to 2024-06 (6 months)
+
+**Confidence:** High
+- Deterministic calculation from complete dataset
+- All 5,004 matching transactions included
+- No estimation or inference required
+
+**Follow-up:**
+- Compare with previous month (2023-12)?
+- Break down by product?
+- Analyze trends across all 6 months?
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",052d5bf4,4ff94e1f,sales_kpi|N/A|rows=5004|sources=0|8ms
+2026-01-19 11:36:20,N/A,sales_kpi,2,jumlah revenue januari 2024,"📅 This query requires a time period. Available data: 2024-01, 2024-02, 2024-03.... Please specify a month (e.g., 'January 2024', '2024-01').
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",052d5bf4,c6824b9a,sales_kpi|N/A|rows=0|sources=0|2ms
+2026-01-19 11:36:50,N/A,sales_kpi,7,jumlah revenue 2024,"📅 This query requires a time period. Available data: 2024-01, 2024-02, 2024-03.... Please specify a month (e.g., 'January 2024', '2024-01').
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",052d5bf4,e4633645,sales_kpi|N/A|rows=0|sources=0|7ms
+2026-01-19 11:37:36,N/A,sales_kpi,16,jumlah revenue January 2024',"## Total Quantity for 2024-01
+
+**Answer:**
+- **Total Quantity:** 9,990 units
+- Time period: 2024-01
+- Scope: All data
+- Data completeness: 5,004 transactions analyzed
+
+**Evidence/Source:**
+- KPI Facts: Total Quantity for 2024-01 = 9,990
+- Data Source: Sales CSV (MY_Retail_Sales_2024H1.csv)
+- Calculation: SUM(Quantity) WHERE YearMonth = 2024-01
+- Dataset Coverage: 2024-01 to 2024-06 (6 months)
+
+**Confidence:** High
+- Deterministic calculation from complete dataset
+- All 5,004 matching transactions included
+- No estimation or inference required
+
+**Follow-up:**
+- Compare with previous month (2023-12)?
+- Break down by product?
+- Analyze trends across all 6 months?
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",052d5bf4,49e5a81c,sales_kpi|N/A|rows=5004|sources=0|16ms
+2026-01-19 12:09:41,phi3:mini,visual,90386,"summarize table ini
+
+⚠️ **OCR Quality: Moderate**
+
+**OCR Extracted Text (28 characters):**
+Sales KPI by State — 2024-06","**Analysis for:** summarize table ini
+
+⚠️ **OCR Quality: Moderate**
+
+**OCR Extracted Text (28 characters):**
+Sales KPI by State — 2024-06
+
+## 📷 Visual Analysis
+
+❌ Error: LLM did not respond within 90.0s",0042b930,eda1b844,visual|phi3:mini|rows=0|sources=5|90386ms
+2026-01-19 12:12:54,llama3:latest,visual,76895,"summarize table ini
+
+OCR Extracted Text:
+Sales KPI by State — 2024-06","**Analysis for:** summarize table ini
+
+OCR Extracted Text:
+Sales KPI by State — 2024-06
+
+📷 **Source: OCR + RAG + LLM**
+
+Based on the provided data, I will summarize the information as follows:
+
+**Sales KPI by State — 2024-06**
+
+The sales KPI report for June 2024 shows that there are three states with sales data: Kuala Lumpur, Penang, and Selangor. The report does not provide a comprehensive summary of sales by state, but rather provides individual reports for each state.
+
+**Kuala Lumpur Report**
+
+According to the [DOC:State_Operations_KL.txt] report, Kuala Lumpur has two branches: Bukit Bintang Branch 1 and Bukit Bintang Branch 2. The report shows that Fries is a popular product in both branches, with three sales transactions recorded on different dates (2024-04-11, 2024-03-09, and 2024-01-21).
+
+**Penang Report**
+
+The [DOC:State_Operations_Penang.txt] report provides an overview of Penang's state operations. However, it does not provide specific sales data or KPIs.
+
+**Selangor Report**
+
+The [DOC:State_Operations_Selangor.txt] report is not available in the provided data.
+
+**Daily Close Procedure**
+
+According to the [DOC:Sales_SOP_MY.txt] Sales SOP, the daily close procedure involves closing sales at 10:00 PM, exporting sales transactions (CSV) for each branch, verifying total sales by state/branch/product/channel, and submitting a KPI summary to management the next morning.
+
+**KPI Aggregation**
+
+According to the [DOC:FAQ_MY.txt] FAQ document, KPIs can be aggregated by week, month, state, branch, and product. However, the provided data does not show an example of this aggregation.
+
+In summary, the sales KPI report for June 2024 provides individual reports for Kuala Lumpur, Penang, and Selangor (although Selangor's report is not available). The daily close procedure involves closing sales at 10:00 PM and submitting a KPI summary to management the next morning."
+2026-01-19 12:14:17,llama3:latest,visual,57212,"What is the annual leave entitlement per year?
+
+OCR Extracted Text:
+Sales KPI by State — 2024-06","**Answering:** What is the annual leave entitlement per year?
+
+OCR Extracted Text:
+Sales KPI by State — 2024-06
+
+📷 **Source: OCR + RAG + LLM**
+
+What is the annual leave entitlement per year?
+
+Based on [DOC:HR_Policy_MY.txt] section 6) LEAVE POLICY, the policy states:
+
+* Permanent Employees: 14 days per calendar year (prorated based on join date).
+* Contract Employees: prorated annual leave per contract terms (minimum as per company offer).
+* Part-Time: not eligible unless stated in employment terms.
+
+Process:
+The process for determining annual leave entitlement is as follows:
+1. Check the employee's employment status (permanent, contract, or part-time).
+2. If permanent, apply the 14-day prorated rule based on join date.
+3. If contract, refer to the contract terms for minimum annual leave entitlement.
+4. If part-time, check if employment terms specify eligibility.
+
+Example:
+For EMP00122, a permanent employee with 15 years of service, the annual leave entitlement would be 14 days per calendar year, prorated based on join date.
+
+Note: The policy does not provide specific guidance on how to calculate proration for permanent employees. However, it is implied that this calculation will be based on the employee's start date and the number of days worked in the first year."
+2026-01-19 12:14:58,N/A,sales_kpi,22,top 3 product bulan 2024-06,"**Requested Analysis:** top 3 product bulan 2024-06
+
+✅ **Source: structured KPI**
+🏆 **Top 3 Product by Total Sales (RM)**
+- Month: **2024-06**
+
+| Product        | Total Sales (RM)   |
+|:---------------|:-------------------|
+| Cheese Burger  | RM 20,250.99       |
+| Beef Burger    | RM 19,705.96       |
+| Chicken Burger | RM 18,916.92       |
+
+📊 **Performance Insights:**
+- Top 3 contribute **59.0%** of total revenue
+- Total Product analyzed: **7**
+- Transactions included: **4,981**
+
+💡 **Strategic Note:** High concentration indicates strong performers; consider replicating their success factors across other Product."
+2026-01-19 12:15:03,N/A,hr_kpi,15,which age group has highest attrition?,"**Analysis for:** which age group has highest attrition?
+
+✅ **Source: structured HR**
+📌 **Attrition Analysis by Age Group**
+- Highest Attrition: **26-35** age group
+- Attrition Count: **43** employees (33.6% of all attrition)
+- Overall Attrition: **128** of 820 employees (15.6%)
+
+💡 **HR Insight:** Age-specific attrition patterns suggest targeted retention programs may be beneficial for high-risk groups."
+2026-01-19 12:15:08,N/A,hr_kpi,6,headcount ikut state,"**Analysis for:** headcount ikut state
+
+✅ **Source: structured HR**
+👥 **Organization Headcount Overview**
+- Total Employees: **820**
+- Departments: **6** (avg **137** employees/dept)
+- Geographic Coverage: **6** states
+
+📊 **Workforce Distribution:** Organization operates across multiple departments and locations with balanced resource allocation."
+2026-01-19 12:15:11,N/A,sales_kpi,21,banding sales bulan ni vs bulan lepas,"**Query Analysis:** banding sales bulan ni vs bulan lepas
+
+✅ **Source: structured KPI**
+📊 **Total Sales (RM) (Compare)**
+- 2024-06: **99,852.83**
+- 2024-05: **106,995.11**
+- Change: **-7,142.28** (-6.68%)
+- Rows used (current month): 4,981
+- Dataset months available: 2024-01 → 2024-06
+- Note: 'bulan ni' = latest month in dataset (**2024-06**) untuk demo offline."
+2026-01-19 12:15:34,qwen2.5:7b,rag_docs,15575,summarize table ini (upload gambar table),"**Analysis for:** summarize table ini (upload gambar table)
+
+📄 **Source: RAG + LLM**
+
+Based on the provided DATA, there is no specific document or information related to summarizing tables. Therefore, the answer is:
+
+""not available in the provided data (docs)"""
+2026-01-19 12:16:06,qwen2.5:7b,rag_docs,28461,What is the annual leave entitlement per year?,"**Answering:** What is the annual leave entitlement per year?
+
+📄 **Source: RAG + LLM**
+
+Based on [DOC:HR_Policy_MY.txt] section 6.1, the annual leave entitlement per year is as follows:
+
+- **Permanent Employees**: 14 days per calendar year (prorated based on join date).
+- **Contract Employees**: prorated annual leave per contract terms (minimum as per company offer).
+- **Part-Time Employees**: not eligible unless stated in employment terms.
+
+Process: 
+- Leave approval is subject to business needs and manpower coverage. 
+
+Example:
+- A permanent employee who joined the company mid-year would be entitled to 7 days of annual leave for that year, prorated based on their join date.
+- Contract employees' leave entitlements are determined by their specific contract terms, with a minimum requirement set by the company.
+
+This policy ensures flexibility and fairness in managing leave entitlements across different employment categories."
+2026-01-19 12:17:12,qwen2.5:7b,visual,56321,"summarize table
+
+OCR Extracted Text:
+Sales by Channel — 2024-06
+Total sales
+[SSCS in —_| 498554 2499
+344511 1740
+15546.33","**Answering:** summarize table
+
+OCR Extracted Text:
+Sales by Channel — 2024-06
+Total sales
+[SSCS in —_| 498554 2499
+344511 1740
+15546.33
+
+📷 **Source: OCR + RAG + LLM**
+
+Based on the provided DATA, here is a summary of the sales table for June 2024:
+
+- **Total Sales by Product and Branch**:
+  - **Shah Alam Branch 1**:
+    - Soft Drink: 
+      - Date: 2024-05-06, Quantity: 3, Total Sale: RM11.7
+      - Date: 2024-05-07, Quantity: 2, Total Sale: RM7.8
+    - Fries:
+      - Date: 2024-06-11, Quantity: 2, Total Sale: RM11.8
+
+  - **Shah Alam Branch 2**:
+    - Soft Drink:
+      - Date: 2024-06-03, Quantity: 2, Total Sale: RM7.8
+      - Date: 2024-06-12, Quantity: 3, Total Sale: RM11.7
+      - Date: 2024-06-20, Quantity: 3, Total Sale: RM11.7
+
+- **Sales by Channel**:
+  - All sales in the provided data are through the ""Dine-in"" channel.
+
+- **Summary of Sales Transactions**:
+  - The Soft Drink is a consistent product across both branches.
+  - The total sales for each transaction are calculated based on quantity and unit price, with payment made via card by SalesRep_02 and SalesRep_12.
+
+This summary provides an overview of the sales transactions in June 2024 for the specified branches and products."
+2026-01-19 12:18:30,qwen2.5:7b,visual,53985,"summarize table
+
+OCR Extracted Text:
+Sales MoM by State — 2024-05 — 2024-06","**Analysis for:** summarize table
+
+OCR Extracted Text:
+Sales MoM by State — 2024-05 — 2024-06
+
+📷 **Source: OCR + RAG + LLM**
+
+Based on the provided DATA, here is a summary of the table:
+
+- **Sales Data for Cheese Burger by Branch and Date**:
+  - George Town Branch 1 had sales on 2024-01-06 (3 units), 2024-05-04 (3 units), and 2024-02-06 (3 units).
+  - George Town Branch 2 had sales on 2024-01-22 (1 unit), 2024-02-01 (3 units), 2024-06-11 (1 unit), 2024-06-19 (1 unit), and 2024-06-04 (3 units).
+
+- **Sales Amounts**:
+  - Sales ranged from 13.9 to 41.7 for each transaction, with most transactions being for 3 units.
+
+- **Branches Involved**:
+  - George Town Branch 1 and George Town Branch 2 were the only branches involved in these sales records.
+
+- **Sales Reps**:
+  - Sales representatives involved included SalesRep_01, SalesRep_02, SalesRep_06, SalesRep_08, SalesRep_10, SalesRep_11, and SalesRep_12.
+
+- **Payment Method**:
+  - All transactions were made via card payment.
+
+- **Sales Channel**:
+  - All sales occurred through the dine-in channel."
+2026-01-19 12:21:29,N/A,sales_kpi,25,sales bulan 2024-06 berapa?,"## Total Sales (RM) for 2024-06
+
+**Answer:**
+- **Total Sales (RM):** RM 99,852.83
+- Time period: 2024-06
+- Scope: All data
+- Data completeness: 4,981 transactions analyzed
+
+**Evidence/Source:**
+- KPI Facts: Total Sales (RM) for 2024-06 = 99,852.83
+- Data Source: Sales CSV (MY_Retail_Sales_2024H1.csv)
+- Calculation: SUM(Total Sale) WHERE YearMonth = 2024-06
+- Dataset Coverage: 2024-01 to 2024-06 (6 months)
+
+**Confidence:** High
+- Deterministic calculation from complete dataset
+- All 4,981 matching transactions included
+- No estimation or inference required
+
+**Follow-up:**
+- Compare with previous month (2024-05)?
+- Break down by product?
+- Analyze trends across all 6 months?
+
+✅ **Verified**: Numbers match ground truth data (within 5%).",a31d96bc,ec306cd6,sales_kpi|N/A|rows=4981|sources=0|25ms

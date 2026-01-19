@@ -1,0 +1,24 @@
+{
+  "chat_id": "0042b930",
+  "title": "summarize table ini",
+  "created_at": "2026-01-19T12:09:41.912145",
+  "updated_at": "2026-01-19T12:09:41.912145",
+  "messages": [
+    {
+      "role": "user",
+      "content": "summarize table ini  [image uploaded]",
+      "timestamp": "2026-01-19T12:09:41.912114"
+    },
+    {
+      "role": "assistant",
+      "content": "**Analysis for:** summarize table ini\n\n⚠️ **OCR Quality: Moderate**\n\n**OCR Extracted Text (28 characters):**\nSales KPI by State — 2024-06\n\n## 📷 Visual Analysis\n\n❌ Error: LLM did not respond within 90.0s",
+      "timestamp": "2026-01-19T12:09:41.912125"
+    }
+  ],
+  "tool_traces": [
+    {
+      "timestamp": "2026-01-19T12:09:41.912127",
+      "trace_html": "<div class=\"tool-trace\">\n<div class=\"trace-row\"><b>Route:</b> visual</div>\n<div class=\"trace-row\"><b>Model:</b> phi3:mini</div>\n<div class=\"trace-row\"><b>Sources:</b> Sales_SOP_MY.txt, State_Operations_Selangor.txt, State_Operations_Penang.txt, State_Operations_KL.txt, Performance_Drivers_Analysis.txt</div>\n<div class=\"trace-row\"><b>Latency:</b> 90386ms</div>\n</div>"
+    }
+  ]
+}
